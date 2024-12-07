@@ -1,14 +1,22 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
+- type: website
+  icon: "fa-solid fa-globe"
+  url: https://risnandapascal.github.io
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: key
+  icon: fa-solid fa-key
+  url: https://ricaldocs.github.io/about/#hubungi-saya
+  noblank: true
 
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  noblank: true
+
+- type: discord
+  icon: "fa-brands fa-discord"
+  url: https://discord.gg/nAVZkEwjYJ
+  noblank: true
 
 - type: rss
   icon: "fas fa-rss"
