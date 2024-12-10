@@ -1,0 +1,90 @@
+---
+title: CalDownloader
+description: CalDownloader adalah skrip Python sederhana yang memungkinkan pengguna untuk mengunduh video dari YouTube dan konten dari Instagram, termasuk postingan dan reels
+categories: [Cybersecurity, rical_net]
+tags: [rical_net, python]
+author: rical
+---
+
+CalDownloader menggunakan *library* `yt-dlp` untuk mengunduh video dari YouTube dan `instaloader`untuk mengambil dan menyimpan konten dari profil Instagram publik.
+
+## Fitur 🌟
+
+| Aplikasi | Fitur | Status |
+| --- | --- | --- |
+| YT Downloader | Unduh Video | ✅ |
+| YT DOwnloader | Unduh MP3 | ✅ |
+|  |  |  |
+| InstaBackup | Unduh Profil | ✅ |
+| InstaBackup | Unduh Semua Postingan dari Profil Publik | ✅ |
+| InstaBackup | Unduh Reels | ✅ |
+
+## Prasyarat 📋
+
+- Python 3.x
+- `yt-dlp` dan `instaloader` library
+- [FFmpeg](https://ffmpeg.org/download.html)
+
+```bash
+pip install yt-dlp instaloader
+```
+
+## Penggunaan 🚀
+
+1. Clone repository atau unduh skripnya.
+
+    ```bash
+    git clone https://github.com/risnandapascal/CalDownloader.git
+    ```
+
+2. Jalankan skrip menggunakan Python:
+   ```bash
+   python main.py
+   ```
+
+## Menu Pilihan 💻
+Ikuti instruksi pada layar untuk memilih metode unduhan:
+   - **YT Downloader**: Pilih untuk mengunduh video atau audio dari YouTube.
+   - **InstaBackup**: Pilih untuk mengunduh konten dari Instagram.
+   - **Exit**: Keluar dari aplikasi.
+
+### Contoh
+```
+===============================
+          CalDownloader          
+===============================
+Choose an option:
+1. YouTube Downloader
+2. InstaBackup
+3. Exit
+Enter your choice (1/2/3): 1
+===============================
+          YT Downloader          
+===============================
+Choose a download method:
+1. Download Video
+2. Download MP3
+3. Exit
+Enter your choice (1/2/3): 1
+🔗 Enter the YouTube video link: https://www.youtube.com/watch?v=example
+```
+
+```
+==============================
+          InstaBackup          
+==============================
+Choose a download method:
+1. Download by username (full)
+2. Download by post URL
+3. Download by reel URL
+4. Exit
+Enter your choice (1/2/3/4): 1
+Enter the Instagram username (public account): rical_net
+```
+
+## Lisensi 📄
+
+Proyek ini bersifat *open-source* dan tersedia di bawah [MIT License](https://github.com/risnandapascal/CalDownloader/blob/main/LICENSE.md). 
+
+## Source Code
+[rical_net](https://github.com/risnandapascal/CalDownloader)
