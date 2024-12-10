@@ -2,7 +2,7 @@
 title: Python Virtual Environment
 description: Membuat lingkungan virtual di Python untuk mempermudah proses developments.
 categories: [Linux]
-tags: [linux, python, open source]
+tags: [linux, python, open source, android]
 author: rical
 ---
 
@@ -14,7 +14,7 @@ Masukkan perintah berikut ke terminal untuk melihat versi Python:
 python3 --version
 ```
 
-## Instalasi Virtual Environment
+## Instalasi venv
 Gunakan perintah berikut untuk menginstall paket `venv`:
 
 ```bash
@@ -27,7 +27,7 @@ Buat folder, misalnya:
 mkdir projects
 ```
 
-Buat virtual environment dengan menjalankan perintah:
+Buat `venv` dengan menjalankan perintah:
 
 ```bash
 python3 -m venv projects/
@@ -38,7 +38,7 @@ python3 -m venv projects/
 ```bash
 source projects/bin/activate
 ```
-Setelah diaktfikan, prompt terminal akan menunjukkan nama virtual environment yang menandakan bahwa virtual environment sudah siap digunakan.
+Setelah diaktfikan, prompt terminal akan menunjukkan nama *virtual environment* yang menandakan bahwa `venv` sudah siap digunakan.
 
 ### Mematikan venv
 
@@ -46,6 +46,35 @@ Setelah diaktfikan, prompt terminal akan menunjukkan nama virtual environment ya
 deactivate
 ```
 
+## Android venv
+Unduh aplikasi [Termux](https://f-droid.org/en/packages/com.termux/) dan instal melalui pengelola file seperti biasanya.
+
+Gunakan perintah berikut untuk memperbarui paket:
+```bash
+pkg update && pkg upgrade -y
+```
+
+Gunakan perintah berikut untuk memasang Python:
+```bash
+pkg install python && python --version
+```
+
+Gunakan perintah berikut untuk membuat `venv`:
+```bash
+python3 -m venv venv
+```
+
+Aktifkan `venv`:
+```bash
+source venv/bin/activate
+```
+
+Setelah diaktfikan, prompt terminal akan menunjukkan nama *virtual environment* yang menandakan bahwa `venv` sudah siap digunakan.
+
+Terakhir, pasang modul dengan menggunakan perintah:
+```bash
+pip install nama_modul
+```
 
 ## Referensi
 - <a href="https://risnandapascal.github.io/ricalwiki.html" target="_blank">ricalWiki</a>

@@ -1,8 +1,8 @@
 ---
 title: CalDownloader
 description: CalDownloader adalah skrip Python sederhana yang memungkinkan pengguna untuk mengunduh video dari YouTube dan konten dari Instagram, termasuk postingan dan reels
-categories: [Cybersecurity, rical_net]
-tags: [rical_net, python]
+categories: [Cybersecurity, rical_net, Linux]
+tags: [rical_net, python, android, linux]
 author: rical
 ---
 
@@ -19,11 +19,17 @@ CalDownloader menggunakan *library* `yt-dlp` untuk mengunduh video dari YouTube 
 | InstaBackup | Unduh Semua Postingan dari Profil Publik | ✅ |
 | InstaBackup | Unduh Reels | ✅ |
 
+## Kompatibel 👍
+- Linux
+- Android (via Termux). Silakan merujuk ke panduan [ini](https://ricaldocs.github.io/posts/python-virtual-environment/#android-venv).
+- Windows
+- macOS? Jangan ragu untuk mengujinya sendiri.
+
 ## Prasyarat 📋
 
 - Python 3.x
 - `yt-dlp` dan `instaloader` library
-- [FFmpeg](https://ffmpeg.org/download.html)
+- [FFmpeg](https://ffmpeg.org/download.html) (`sudo apt install -y ffmpeg` untuk linux. `pkg install -y ffmpeg` untuk Termux)
 
 ```bash
 pip install yt-dlp instaloader
