@@ -12,12 +12,12 @@ CalDownloader menggunakan *library* `yt-dlp` untuk mengunduh video dari YouTube 
 
 | Aplikasi | Fitur | Status |
 | --- | --- | --- |
-| YT Downloader | Unduh Video | ✅ |
-| YT DOwnloader | Unduh MP3 | ✅ |
+| YT Downloader | Unduh Video (mendukung unduhan playlist) | ✅ |
+| YT Downloader | Unduh MP3 (mendukung unduhan playlist) | ✅ |
 |  |  |  |
-| InstaBackup | Unduh Profil | ✅ |
-| InstaBackup | Unduh Semua Postingan dari Profil Publik | ✅ |
-| InstaBackup | Unduh Reels | ✅ |
+| InstaBackup | Unduh dengan username (lengkap) | ✅ |
+| InstaBackup | Unduh melalui URL postingan | ✅ |
+| InstaBackup | Unduh melalui URL reel | ✅ |
 
 ## Kompatibel 👍
 - Linux
@@ -67,12 +67,12 @@ Enter your choice (1/2/3): 1
 ===============================
           YT Downloader          
 ===============================
-Choose a download method:
+Choose a download method (supporting playlist downloads):
 1. Download Video
 2. Download MP3
 3. Exit
 Enter your choice (1/2/3): 1
-🔗 Enter the YouTube video link: https://www.youtube.com/watch?v=example
+🔗 Enter the link: https://www.youtube.com/watch?v=example
 ```
 
 ```
