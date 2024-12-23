@@ -79,6 +79,6 @@ Ilmu pengetahuan ini terbuka untuk seluruh masyarakat Indonesia yang ingin menda
 - [Mechatronics Laboratory](https://www.instagram.com/b_mech/)
 - [Microcontroller Laboratory](https://www.instagram.com/mcl_laboratory/)
 - [Communication System Laboratory](https://www.instagram.com/comsys.laboratory/)
-- [Optical Communication System Laboratory]()
+- Optical Communication System Laboratory
 
 
