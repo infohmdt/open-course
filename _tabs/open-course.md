@@ -6,72 +6,73 @@ order: 5
 [#contributetothenation](https://ricaldocs.github.io/open-course). Ilmu pengetahuan ini terbuka untuk seluruh masyarakat Indonesia yang ingin mendalami pemahaman mengenai teknologi telekomunikasi, yang mencakup aspek perangkat keras, perangkat lunak, elektronika, dan jaringan telekomunikasi.
 
 ## Cloud Computing
-1. [Pengenalan Konsep Cloud](/assets/moduls/cloud_computing/modul-praktikum/modul-1.pdf)
-2. [Pengenalan Konsep VPC dan Jaringan Komputer](/assets/moduls/cloud_computing/modul-praktikum/modul-2.pdf)
-3. [Komputasi](/assets/moduls/cloud_computing/modul-praktikum/modul-3.pdf)
-4. [Serverless](/assets/moduls/cloud_computing/modul-praktikum/modul-4.pdf)
-5. [Membangun Server Database dan Berinteraksi dengan Database Menggunakan Aplikasi](/assets/moduls/cloud_computing/modul-praktikum/modul-5.pdf)
-6. [Implementasi Docker Sebagai Container](/assets/moduls/cloud_computing/modul-praktikum/modul-6.pdf)
-7. [Docker Compose](/assets/moduls/cloud_computing/modul-praktikum/modul-7.pdf)
-8. [Migration Data](/assets/moduls/cloud_computing/modul-praktikum/modul-8.pdf)
+
+1. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Konsep Cloud</a><br>
+2. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-2.pdf" target="_blank">Pengenalan Konsep VPC dan Jaringan Komputer</a><br>
+3. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-3.pdf" target="_blank">Komputasi</a><br>
+4. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-4.pdf" target="_blank">Serverless</a><br>
+5. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-5.pdf" target="_blank">Membangun Server Database dan Berinteraksi dengan Database Menggunakan Aplikasi</a><br>
+6. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-6.pdf" target="_blank">Implementasi Docker Sebagai Container</a><br>
+7. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-7.pdf" target="_blank">Docker Compose</a><br>
+8. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-8.pdf" target="_blank">Migration Data</a>
 
 ## Computer Network
-1. [Pengenalan Perangkat Jaringan dan Cabling](/assets/moduls/computer_network/modul-praktikum/modul-1.pdf)
-2. [Data Link](/assets/moduls/computer_network/modul-praktikum/modul-2.pdf)
-3. [IP Address & Subnetting](/assets/moduls/computer_network/modul-praktikum/modul-3.pdf)
-4. [IPv6](/assets/moduls/computer_network/modul-praktikum/modul-4.pdf)
-5. [Routing Static](/assets/moduls/computer_network/modul-praktikum/modul-5.pdf)
-6. [Routing Dynamic](/assets/moduls/computer_network/modul-praktikum/modul-6.pdf)
-7. [Redundansi Network](/assets/moduls/computer_network/modul-praktikum/modul-7.pdf)
-8. [Wireless Security](/assets/moduls/computer_network/modul-praktikum/modul-8.pdf)
-9. [DNS Server](/assets/moduls/computer_network/modul-praktikum/modul-9.pdf)
-10. [QOS (Quality Of Service)](/assets/moduls/computer_network/modul-praktikum/modul-10.pdf)
+1. <a href="/assets/moduls/computer_network/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Perangkat Jaringan dan Cabling</a><br>
+2. <a href="/assets/moduls/computer_network/modul-praktikum/modul-2.pdf" target="_blank">Data Link</a><br>
+3. <a href="/assets/moduls/computer_network/modul-praktikum/modul-3.pdf" target="_blank">IP Address & Subnetting</a><br>
+4. <a href="/assets/moduls/computer_network/modul-praktikum/modul-4.pdf" target="_blank">IPv6</a><br>
+5. <a href="/assets/moduls/computer_network/modul-praktikum/modul-5.pdf" target="_blank">Routing Static</a><br>
+6. <a href="/assets/moduls/computer_network/modul-praktikum/modul-6.pdf" target="_blank">Routing Dynamic</a><br>
+7. <a href="/assets/moduls/computer_network/modul-praktikum/modul-7.pdf" target="_blank">Redundansi Network</a><br>
+8. <a href="/assets/moduls/computer_network/modul-praktikum/modul-8.pdf" target="_blank">Wireless Security</a><br>
+9. <a href="/assets/moduls/computer_network/modul-praktikum/modul-9.pdf" target="_blank">DNS Server</a><br>
+10. <a href="/assets/moduls/computer_network/modul-praktikum/modul-10.pdf" target="_blank">QOS (Quality Of Service)</a>
 
 ## Electronics Workshop
-1. [Instalasi dan Pengenalan EasyEDA](/assets/moduls/electronics_workshop/modul-praktikum/modul-1.pdf)
-2. [Pengenalan Skema Komponen Elektronika di EasyEDA - Skematik](/assets/moduls/electronics_workshop/modul-praktikum/modul-2.pdf)
-3. [Pembuatan Pustaka Skema Komponen Elektronika di EasyEDA (Skematik)](/assets/moduls/electronics_workshop/modul-praktikum/modul-3.pdf)
-4. [Perancangan Skema Rangkaian Elektronika di EasyEDA](/assets/moduls/electronics_workshop/modul-praktikum/modul-4.pdf)
-5. [Pengenalan Footprint Komponen Elektronika di EasyEDA (PCB)](/assets/moduls/electronics_workshop/modul-praktikum/modul-5.pdf)
-6. [Pembuatan Pustaka Footprint Komponen Elektronika di EasyEDA – PCB](/assets/moduls/electronics_workshop/modul-praktikum/modul-6.pdf)
-7. [Perancangan Layout PCB Rangkaian Elektronika di EasyEDA - PCB](/assets/moduls/electronics_workshop/modul-praktikum/modul-7.pdf)
-8. [Teknik Solder Konvensional & Pengukuran (Komponen Jumper) dan Tes Continuity](/assets/moduls/electronics_workshop/modul-praktikum/modul-8.pdf)
-9. [Teknik Solder Uap (Soldering & Desoldering)](/assets/moduls/electronics_workshop/modul-praktikum/modul-9.pdf)
+1. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-1.pdf" target="_blank">Instalasi dan Pengenalan EasyEDA</a><br>
+2. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-2.pdf" target="_blank">Pengenalan Skema Komponen Elektronika di EasyEDA - Skematik</a><br>
+3. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-3.pdf" target="_blank">Pembuatan Pustaka Skema Komponen Elektronika di EasyEDA (Skematik)</a><br>
+4. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-4.pdf" target="_blank">Perancangan Skema Rangkaian Elektronika di EasyEDA</a><br>
+5. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-5.pdf" target="_blank">Pengenalan Footprint Komponen Elektronika di EasyEDA (PCB)</a><br>
+6. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-6.pdf" target="_blank">Pembuatan Pustaka Footprint Komponen Elektronika di EasyEDA – PCB</a><br>
+7. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-7.pdf" target="_blank">Perancangan Layout PCB Rangkaian Elektronika di EasyEDA - PCB</a><br>
+8. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-8.pdf" target="_blank">Teknik Solder Konvensional & Pengukuran (Komponen Jumper) dan Tes Continuity</a><br>
+9. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-9.pdf" target="_blank">Teknik Solder Uap (Soldering & Desoldering)</a>
 
 ## Microcontroller Applications and Interfaces
-1. [Pengenalan Editor dan Diagram Alir Pemrograman (Arduino & Thonny IDE) Mikrokontroler](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-1.pdf)
-2. [Pengenalan Antarmuka Mikrokontroler (IO, ADC, PWM ARDUINO UNO)](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-2.pdf)
-3. [Pengenalan Pemrograman Waktu, Pencacah dan Interupsi (ARDUINO UNO dan ESP32)](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-3.pdf)
-4. [Pengenalan ESP32 dan Pemograman ESP32 ke Saklar dan Serial Monitor dan OTA](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-4.pdf)
-5. [Pemrograman ESP32 dan Antarmuka ESP32 ke Sensor dan Aktuator](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-5.pdf)
-6. [Komunikasi Serial, SPI, dan I2C](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-6.pdf)
-7. [Komunikasi kabel menggunakan Ethernet, CAN & RS485](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-7.pdf)
-8. [Komunikasi Nirkabel untuk Aplikasi Bergerak menggunakan Bluetooth dan Aplikasi Sederhana Berbasis Android (MIT Appinventor)](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-8.pdf)
-9. [Komunikasi Nirkabel dengan protokol ESP-NOW dan ESP-MESH](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-9.pdf)
-10. [Komunikasi Nirkabel dengan Cloud Server sebagai Real Time Database (Google Firebase)](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-10.pdf)
-11. [Komunikasi Nirkabel antar ESP32 menggunakan modul WiFi dan TFT LCD menggunakan LVGL](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-11.pdf)
-12. [Komunikasi Nirkabel dengan Aplikasi Web Server (Blynk)](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-12.pdf)
-13. [Aplikasi Mikrokontroler dengan Kecerdasan Buatan (ESP32-S3-CAM WROOM)](/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-13.pdf)
+1. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Editor dan Diagram Alir Pemrograman (Arduino & Thonny IDE) Mikrokontroler</a><br>
+2. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-2.pdf" target="_blank">Pengenalan Antarmuka Mikrokontroler (IO, ADC, PWM ARDUINO UNO)</a><br>
+3. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-3.pdf" target="_blank">Pengenalan Pemrograman Waktu, Pencacah dan Interupsi (ARDUINO UNO dan ESP32)</a><br>
+4. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-4.pdf" target="_blank">Pengenalan ESP32 dan Pemograman ESP32 ke Saklar dan Serial Monitor dan OTA</a><br>
+5. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-5.pdf" target="_blank">Pemrograman ESP32 dan Antarmuka ESP32 ke Sensor dan Aktuator</a><br>
+6. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-6.pdf" target="_blank">Komunikasi Serial, SPI, dan I2C</a><br>
+7. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-7.pdf" target="_blank">Komunikasi kabel menggunakan Ethernet, CAN & RS485</a><br>
+8. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-8.pdf" target="_blank">Komunikasi Nirkabel untuk Aplikasi Bergerak menggunakan Bluetooth dan Aplikasi Sederhana Berbasis Android (MIT Appinventor)</a><br>
+9. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-9.pdf" target="_blank">Komunikasi Nirkabel dengan protokol ESP-NOW dan ESP-MESH</a><br>
+10. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-10.pdf" target="_blank">Komunikasi Nirkabel dengan Cloud Server sebagai Real Time Database (Google Firebase)</a><br>
+11. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-11.pdf" target="_blank">Komunikasi Nirkabel antar ESP32 menggunakan modul WiFi dan TFT LCD menggunakan LVGL</a><br>
+12. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-12.pdf" target="_blank">Komunikasi Nirkabel dengan Aplikasi Web Server (Blynk)</a><br>
+13. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-13.pdf" target="_blank">Aplikasi Mikrokontroler dengan Kecerdasan Buatan (ESP32-S3-CAM WROOM)</a>
 
 ## Communication System
-1. [Amplitude Modulation (AM)](/assets/moduls/communication_system/modul-praktikum/modul-1.pdf)
-2. [Frequency Modulation (FM)](/assets/moduls/communication_system/modul-praktikum/modul-2.pdf)
-3. [Noise](/assets/moduls/communication_system/modul-praktikum/modul-3.pdf)
-4. [Amplitude Shift Keying (ASK)](/assets/moduls/communication_system/modul-praktikum/modul-4.pdf)
-5. [Frequency Shift Keying (FSK)](/assets/moduls/communication_system/modul-praktikum/modul-5.pdf)
-6. [Binary Phase Shift Keying (BPSK)](/assets/moduls/communication_system/modul-praktikum/modul-6.pdf)
-7. [Quadrature Phase Shift Keying (QPSK)](/assets/moduls/communication_system/modul-praktikum/modul-7.pdf)
+1. <a href="/assets/moduls/communication_system/modul-praktikum/modul-1.pdf" target="_blank">Amplitude Modulation (AM)</a><br>
+2. <a href="/assets/moduls/communication_system/modul-praktikum/modul-2.pdf" target="_blank">Frequency Modulation (FM)</a><br>
+3. <a href="/assets/moduls/communication_system/modul-praktikum/modul-3.pdf" target="_blank">Noise</a><br>
+4. <a href="/assets/moduls/communication_system/modul-praktikum/modul-4.pdf" target="_blank">Amplitude Shift Keying (ASK)</a><br>
+5. <a href="/assets/moduls/communication_system/modul-praktikum/modul-5.pdf" target="_blank">Frequency Shift Keying (FSK)</a><br>
+6. <a href="/assets/moduls/communication_system/modul-praktikum/modul-6.pdf" target="_blank">Binary Phase Shift Keying (BPSK)</a><br>
+7. <a href="/assets/moduls/communication_system/modul-praktikum/modul-7.pdf" target="_blank">Quadrature Phase Shift Keying (QPSK)</a>
 
 ## Optical Communication Systems
-1. [Pengenalan Sistem Komunikasi Optik](/assets/moduls/optical_communication_systems/modul-praktikum/modul-1.pdf)
-2. [Pengenalan Teknologi FTTX](/assets/moduls/optical_communication_systems/modul-praktikum/modul-2.pdf)
-3. [Splicing](/assets/moduls/optical_communication_systems/modul-praktikum/modul-3.pdf)
-4. [Power Link Budget](/assets/moduls/optical_communication_systems/modul-praktikum/modul-4.pdf)
-5. [ODP Closure dan Pengukuran OTDR & OPM](/assets/moduls/optical_communication_systems/modul-praktikum/modul-5.pdf)
-6. [Penyambungan Splice On Connector](/assets/moduls/optical_communication_systems/modul-praktikum/modul-6.pdf)
-7. [Perancangan FTTH Menggunakan OptiSystem](/assets/moduls/optical_communication_systems/modul-praktikum/modul-7.pdf)
-8. [Perancangan FTTH Menggunakan Google Earth](/assets/moduls/optical_communication_systems/modul-praktikum/modul-8.pdf)
-9. [Pengukuran Redaman Perangkat Sistem Komunikasi Optik](/assets/moduls/optical_communication_systems/modul-praktikum/modul-9.pdf)
+1. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Sistem Komunikasi Optik</a><br>
+2. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-2.pdf" target="_blank">Pengenalan Teknologi FTTX</a><br>
+3. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-3.pdf" target="_blank">Splicing</a><br>
+4. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-4.pdf" target="_blank">Power Link Budget</a><br>
+5. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-5.pdf" target="_blank">ODP Closure dan Pengukuran OTDR & OPM</a><br>
+6. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-6.pdf" target="_blank">Penyambungan Splice On Connector</a><br>
+7. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-7.pdf" target="_blank">Perancangan FTTH Menggunakan OptiSystem</a><br>
+8. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-8.pdf" target="_blank">Perancangan FTTH Menggunakan Google Earth</a><br>
+9. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-9.pdf" target="_blank">Pengukuran Redaman Perangkat Sistem Komunikasi Optik</a>
 
 ## Thanks to
 - [[Tel-U] School of Applied Sciences, Telecommunication Technology](https://linktr.ee/d3_tekniktelekomunikasi)
