@@ -1,5 +1,5 @@
 ---
 layout: categories
-icon: fa-solid fa-layer-group
+icon: fa-solid fa-folder-tree
 order: 1
 ---
