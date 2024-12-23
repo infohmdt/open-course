@@ -13,9 +13,9 @@
   icon: "fas fa-envelope"
   noblank: true
 
-- type: discord
-  icon: "fa-brands fa-discord"
-  url: https://discord.gg/nAVZkEwjYJ
+- type: website
+  icon: "fa-solid fa-users"
+  url: https://cobraandwarriors.github.io
   noblank: true
 
 - type: rss

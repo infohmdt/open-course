@@ -4,7 +4,7 @@ icon: fa-solid fa-circle-info
 order: 4
 ---
 
-## Selamat Datang!
+## HELLO FRIEND
 
 👋 Saya [Risnanda Pascal](https://risnandapascal.github.io), seorang `🇮🇩 rakyat Indonesia biasa` yang berkeliaran di labirin dunia maya. Dengan pengalaman di bidang `💻 Komputer dan 🌐 Jaringan`, saya terus mencari peluang untuk belajar dan berkembang dalam industri ini.
 

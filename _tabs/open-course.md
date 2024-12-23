@@ -3,7 +3,7 @@ icon: fa-solid fa-book-open
 order: 5
 ---
 
-Ilmu pengetahuan ini terbuka untuk seluruh masyarakat Indonesia yang ingin mendalami pemahaman mengenai teknologi telekomunikasi, yang mencakup aspek perangkat keras, perangkat lunak, elektronika, dan jaringan telekomunikasi.
+[#contributetothenation](https://ricaldocs.github.io/open-course). Ilmu pengetahuan ini terbuka untuk seluruh masyarakat Indonesia yang ingin mendalami pemahaman mengenai teknologi telekomunikasi, yang mencakup aspek perangkat keras, perangkat lunak, elektronika, dan jaringan telekomunikasi.
 
 ## Cloud Computing
 1. [Pengenalan Konsep Cloud](/assets/moduls/cloud_computing/modul-praktikum/modul-1.pdf)
