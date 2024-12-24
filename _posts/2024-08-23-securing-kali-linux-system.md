@@ -31,7 +31,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt aut
 Selama berselancar di internet dengan mesin Kali Linux, kita dapat menggunakan alat [Prabu Incognito](https://ricaldocs.github.io/posts/prabu-incognito/) untuk menjelajah dengan aman dan anonim.
 
 ## Monitoring Logs
-Menganalisis program *logcheck* bisa menjadi penyelamat nyata. Itu dapat mengirim pesan yang dicatat langsung ke email admin. File log disimpan secara lokal di dalam `/var/log` secara *default*.
+Menganalisis program *logcheck* bisa menjadi penyelamat nyata. Itu dapat mengirim pesan yang dicatat langsung ke email admin. File log disimpan secara lokal di dalam `/var/log`{: .filepath} secara *default*.
 
 Menggunakan alat `htop` :
 ```bash
@@ -56,7 +56,7 @@ sudo chkrootkit
 ```
 
 ## Mengganti Default SSH Keys
-Masuk ke direktori `/etc/ssh` dengan perintah:
+Masuk ke direktori `/etc/ssh`{: .filepath} dengan perintah:
 ```bash
 cd /etc/ssh
 ```
@@ -66,7 +66,7 @@ Buat direktori baru bernama `old_keys` menggunakan perintah:
 sudo mkdir old _keys
 ```
 
-Pindahkan semua kunci SSH lama ke dalam direktori `old_keys` dengan perintah:
+Pindahkan semua kunci SSH lama ke dalam direktori `old_keys`{: .filepath} dengan perintah:
 ```bash
 sudo mv ssh_host_* old_keys
 ```

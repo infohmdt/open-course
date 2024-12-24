@@ -89,12 +89,12 @@ Status di sini belum aktif. Untuk menjalankannya, silakan ketik:
 docker container start nginx
 ```
 
-Silakan ubah data indeks dengan cara keluar dari direktori file. Pertama, buatlah folder bernama `docker`.
+Silakan ubah data indeks dengan cara keluar dari direktori file. Pertama, buatlah folder bernama `docker`{: .filepath}.
 ```bash
 mkdir docker
 ```
 
-Kemudian, buat file `index.html`
+Kemudian, buat file `index.html`{: .filepath}
 ```bash
 cd docker && nano index.html
 ```
@@ -110,7 +110,7 @@ Masukkan kode html berikut:
 
 Klik `ctrl+x` dan ketik `y` untuk keluar dari `nano`. Selanjutnya, cek ip public AWS di browser.
 
-Ketikkan perintah berikut untuk menyalin file HTML ke direktori `/usr/share/nginx/html` pada kontainer Nginx.
+Ketikkan perintah berikut untuk menyalin file HTML ke direktori `/usr/share/nginx/html`{: .filepath} pada kontainer Nginx.
 ```bash
 docker cp index.html nginx:/usr/share/nginx/html
 ```
@@ -136,7 +136,7 @@ docker container create --name nginxx -p 80:80 -v /home/ubuntu/docker/web/:/usr/
 
 Jalankan kontainer dengan mengetik `docker container start nginxx` dan periksa apakah kontainer tersebut sudah berjalan dengan mengetik `docker ps -a`.
 
-Selanjutnya, masuk ke direktori web dan buat file `index.html` dengan mengetik:
+Selanjutnya, masuk ke direktori `web`{: .filepath} dan buat file `index.html`{: .filepath} dengan mengetik:
 ```bash
 cd web && nano index.html
 ```

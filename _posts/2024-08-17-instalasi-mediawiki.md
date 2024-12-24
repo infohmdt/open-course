@@ -34,7 +34,7 @@ sudo apt-get install php-apcu php-intl imagemagick inkscape php-gd php-cli php-c
 
 
 ## Download MediaWiki
-Pindah ke direktori `/var/www/html`
+Pindah ke direktori `/var/www/html`{: .filepath}
 
 ```bash
 cd /var/www/html
@@ -52,7 +52,7 @@ Ekstrak dengan menggunakan perintah:
 tar -xvzf /tmp/mediawiki-*.tar.gz cd /tmp
 ```
 
-Buat folder dengan nama wiki di `/var/www/html`
+Buat folder dengan nama wiki di `/var/www/html`{: .filepath}
 
 ```bash
 mdkir /var/www/html/wiki

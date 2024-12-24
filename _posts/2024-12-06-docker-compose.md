@@ -52,7 +52,7 @@ Klik `ctrl+x` dan ketik `y` untuk keluar dari `nano`.
 - **Container Web**: Di dalam container web, terdapat kode “${NGINX_VERSION}” yang merupakan variabel lingkungan (environment variable). Penggunaan variabel lingkungan ini penting untuk meningkatkan keamanan dalam sebuah container. Hal ini karena Docker Compose terkadang dapat memiliki kerentanan yang berpotensi mengakibatkan kebocoran data pribadi pengguna. Oleh karena itu, menggunakan variabel lingkungan adalah langkah yang lebih aman.
 {: .prompt-info}
 
-Masukkan perintah berikut untuk membuat file `.env`:
+Masukkan perintah berikut untuk membuat file `.env`{: .filepath}:
 ```bash
 nano .env
 ```
@@ -67,7 +67,7 @@ PHP_VERSION=7.2-fpm
 
 Klik `ctrl+x` dan ketik `y` untuk keluar dari `nano`.
 
-File `.env` adalah file tersembunyi secara bawaan. Untuk memeriksa file `.env`, gunakan perintah:
+File `.env`{: .filepath} adalah file tersembunyi secara bawaan. Untuk memeriksa file `.env`{: .filepath}, gunakan perintah:
 
 ```bash
 ls -a
@@ -75,13 +75,13 @@ ls -a
 
 Perintah ini akan menampilkan semua file, termasuk yang tersembunyi, di direktori saat ini.
 
-Untuk membuat file `site.conf`, gunakan perintah berikut:
+Untuk membuat file `site.conf`{: .filepath}, gunakan perintah berikut:
 
 ```
 git clone https://github.com/sendiahmadhidayat8/site-conf.git
 ```
 
-Perintah ini akan mengunduh repositori yang berisi file `site.conf` ke dalam direktori `site-conf`.
+Perintah ini akan mengunduh repositori yang berisi file `site.conf`{: .filepath} ke dalam direktori `site-conf`{: .filepath}.
 
 ## Menjalankan Docker Compose
 Untuk menjalankan Docker Compose, ketik perintah berikut:
@@ -90,19 +90,19 @@ Untuk menjalankan Docker Compose, ketik perintah berikut:
 docker compose up -d
 ```
 
-Setelah itu, masuk ke direktori `html` dengan perintah:
+Setelah itu, masuk ke direktori `html`{: .filepath} dengan perintah:
 
 ```bash
 cd html/
 ```
 
-Kemudian, buat file `index.php`, `about.php`, `contact.php`, dan `style.css`.
+Kemudian, buat file `index.php`{: .filepath}, `about.php`{: .filepath}, `contact.php`{: .filepath}, dan `style.css`{: .filepath}.
 
 ```bash
 touch index.php about.php contact.php style.css
 ```
 
-Masukkan kode berikut ke dalam file `index.php`:
+Masukkan kode berikut ke dalam file `index.php`{: .filepath}:
 
 ```php
 <!DOCTYPE html>
@@ -133,7 +133,7 @@ Masukkan kode berikut ke dalam file `index.php`:
 </html>
 ```
 
-Masukkan kode berikut ke dalam file `about.php`:
+Masukkan kode berikut ke dalam file `about.php`{: .filepath}:
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -163,7 +163,7 @@ Masukkan kode berikut ke dalam file `about.php`:
 </html>
 ```
 
-Masukkan kode berikut ke dalam file `contact.php`:
+Masukkan kode berikut ke dalam file `contact.php`{: .filepath}:
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -204,7 +204,7 @@ Masukkan kode berikut ke dalam file `contact.php`:
 </html>
 ```
 
-Masukkan kode berikut ke dalam file `style.css`:
+Masukkan kode berikut ke dalam file `style.css`{: .filepath}:
 ```css
 body {
   font-family: Arial, sans-serif;

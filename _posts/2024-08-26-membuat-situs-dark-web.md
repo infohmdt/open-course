@@ -31,7 +31,7 @@ sudo systemctl restart tor
 cd ~/Desktop && touch index.html
 ```
 
-> `index.html` di sini merujuk pada konten file website yang akan dihosting.
+> `index.html`{: .filepath} di sini merujuk pada konten file website yang akan dihosting.
 {: .prompt-info }
 
 File ini terletak di Desktop, jadi kita memulai server lokal berbasis PHP di Desktop menggunakan perintah berikut:

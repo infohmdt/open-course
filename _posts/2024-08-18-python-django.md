@@ -36,7 +36,7 @@ Buat aplikasi di dalam proyek. Misalnya, untuk membuat aplikasi bernama `myapp`,
 python3 manage.py startapp myapp
 ```
 
-Buka file `settings.py` yang terletak di dalam folder `myproject` dan tambahkan `myapp` ke dalam daftar `INSTALLED_APPS`:
+Buka file `settings.py` yang terletak di dalam folder `myproject`{: .filepath} dan tambahkan `myapp` ke dalam daftar `INSTALLED_APPS`:
 
 ```python
 INSTALLED_APPS = [
@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-Buka file `views.py` di dalam folder `myapp` dan tambahkan kode berikut:
+Buka file `views.py` di dalam folder `myapp`{: .filepath} dan tambahkan kode berikut:
 
 ```python
 from django.http import HttpResponse
@@ -54,7 +54,7 @@ def home(request):
     return HttpResponse("Hello Friends! This is my first Django app.")
 ```
 
-Buat file baru bernama `urls.py` di dalam folder `myapp` dan tambahkan kode berikut:
+Buat file baru bernama `urls.py` di dalam folder `myapp`{: .filepath} dan tambahkan kode berikut:
 ```python
 from django.urls import path
 from . import views
@@ -64,7 +64,7 @@ urlpatterns = [
 ]
 ```
 
-Kemudian, buka file `urls.py` di dalam folder `myproject` dan tambahkan rute untuk aplikasi Anda:
+Kemudian, buka file `urls.py` di dalam folder `myproject`{: .filepath} dan tambahkan rute untuk aplikasi Anda:
 ```python
 from django.contrib import admin
 from django.urls import path, include

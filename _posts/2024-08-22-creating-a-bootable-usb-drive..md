@@ -20,7 +20,7 @@ Untuk membuat *usb bootable* menggunakan Linux, ikuti langkah-langkah berikut:
    ```bash
    lsblk
    ```
-   Temukan nama perangkat USB (misalnya, `/dev/sdx`). 
+   Temukan nama perangkat USB (misalnya, `/dev/sdx`{: .filepath}). 
    
    > Pastikan tidak salah memilih perangkat, karena semua data di perangkat tersebut akan terhapus.
    {: .prompt-warning}
@@ -29,9 +29,9 @@ Untuk membuat *usb bootable* menggunakan Linux, ikuti langkah-langkah berikut:
    ```bash
    sudo umount /dev/sdx
    ```
-   Gantilah `sdx` dengan nama partisi USB (misalnya, `/dev/sdb1`).
+   Gantilah `sdx` dengan nama partisi USB (misalnya, `/dev/sdb1`{: .filepath}).
 
-4. Gunakan perintah `dd` untuk menulis file ISO ke *usb drive*. Pastikan untuk mengganti `/path/to/linux.iso` dengan path ke file ISO yang telah diunduh dan `/dev/sdx` dengan nama perangkat USB (tanpa angka di belakangnya):
+4. Gunakan perintah `dd` untuk menulis file ISO ke *usb drive*. Pastikan untuk mengganti `/path/to/linux.iso`{: .filepath} dengan path ke file ISO yang telah diunduh dan `/dev/sdx`{: .filepath} dengan nama perangkat USB (tanpa angka di belakangnya):
    ```bash
    sudo dd if=/path/to/kali-linux.iso of=/dev/sdX bs=4M status=progress
    ```
@@ -66,13 +66,13 @@ Setelah selesai, kita dapat menggunakan *usb drive* tersebut untuk *booting* ke 
    ```bash
    lsblk
    ```
-   Temukan nama perangkat USB (misalnya, `/dev/sdx`). Pastikan untuk mencatat nama perangkat yang benar.
+   Temukan nama perangkat USB (misalnya, `/dev/sdx`{: .filepath}). Pastikan untuk mencatat nama perangkat yang benar.
 
 3. Jika *usb drive* terpasang, `unmount` terlebih dahulu dengan perintah:
    ```bash
    sudo umount /dev/sdx
    ```
-   Gantilah `sdx` dengan nama partisi USB (misalnya, `/dev/sdb1`).
+   Gantilah `sdx` dengan nama partisi USB (misalnya, `/dev/sdb1`{: .filepath}).
 
 4. Gunakan perintah `mkfs` untuk memformat *usb drive*. Berikut adalah contoh untuk memformat *usb drive* ke sistem file FAT32:
    ```bash

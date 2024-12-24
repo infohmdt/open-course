@@ -26,7 +26,7 @@ Download Nextcloud dengan menggunakan `wget`.
 wget https://download.nextcloud.com/server/releases/latest.zip
 ```
 
-Ekstrak file yang sudah diunduh dan pindahkan ke `/var/www/html`
+Ekstrak file yang sudah diunduh dan pindahkan ke `/var/www/html`{: .filepath}
 
 ```bash
 sudo unzip latest.zip -d /var/www/html
@@ -115,7 +115,7 @@ sudo a2ensite nextcloud.conf && sudo systemctl restart apache2
 ```
 
 ## Konfigurasi Nextcloud
-Buka browser dan akses `http://localhost/nextcloud`.
+Buka browser dan akses [http://localhost/nextcloud](http://localhost/nextcloud).
 
 > Petunjuk instalasi Nextcloud akan muncul. Selama proses instalasi, atur *database* MariaDB, akun admin, dan direktori penyimpanan data. ikuti instruksi yang diberikan.
 {: .prompt-tip}
@@ -139,7 +139,7 @@ Tambahkan konfigurasi berikut ini ke file crontab:
 Simpan dan keluar dari file setelah selesai.
 
 ## Mengganti IP Address
-Ubah `trusted domain` di `config.php`:
+Ubah `trusted domain` di `config.php`{: .filepath}:
 ```bash
 sudo nano /var/www/html/nextcloud/config/config.php
 ```

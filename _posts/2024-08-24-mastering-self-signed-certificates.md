@@ -35,7 +35,7 @@ sudo mkdir /etc/ssl/nextcloud
 ```bash
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout /etc/ssl/nextcloud/nextcloud.key -out /etc/ssl/nextcloud/nextcloud.crt
 ```
-Perintah di atas akan membuat file `nextcloud.key` dan `nextcloud.crt` ke dalam direktori `/etc/ssl/nextcloud`.
+Perintah di atas akan membuat file `nextcloud.key` dan `nextcloud.crt` ke dalam direktori `/etc/ssl/nextcloud`{: .filepath}.
 >
 - `-x509` mengindikasikan bahwa kita ingin membuat sertifikat self-signed, bukan *Certificate Signing Request* (CSR).
 - `-nodes` menunjukkan bahwa *private key* tidak akan diproteksi dengan *password*.
@@ -43,7 +43,7 @@ Perintah di atas akan membuat file `nextcloud.key` dan `nextcloud.crt` ke dalam 
 - `-newkey rsa:4096` membuat pasangan kunci baru dengan algoritma RSA dan panjang kunci 4096-bit.
 {: .prompt-info }
 
-Kemudian, buat file konfigurasi baru di `/etc/apache2/sites-available/nextcloud-ssl.conf`:
+Kemudian, buat file konfigurasi baru di `/etc/apache2/sites-available/nextcloud-ssl.conf`{: .filepath}:
 ```bash
 sudo nano /etc/apache2/sites-available/nextcloud-ssl.conf
 ```

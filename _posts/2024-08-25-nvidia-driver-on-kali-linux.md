@@ -76,7 +76,7 @@ nvidia-xconfig --query-gpu-info | grep 'BusID : ' | cut -d ' ' -f6
 Output menunjukkan: `PCI:1:0:0` (setiap perangkat mungkin berbeda).
 
 ## 6. Konfigurasi Server Xorg
-Sekarang kita akan membuat file `/etc/X11/xorg.conf` dengan BusID sesuai panduan NVIDIA. Unduh file `xorg.conf` dari [tautan ini](/assets/posts/xorg.zip) dan edit nilai BusID sesuai dengan Bus ID perangkat menggunakan editor teks apa pun. Setelah itu, simpan file `xorg.conf` di direktori `/etc/X11/`, atau kita dapat membuat file `xorg.conf` dengan teks berikut:
+Sekarang kita akan membuat file `/etc/X11/xorg.conf`{: .filepath} dengan BusID sesuai panduan NVIDIA. Unduh file `xorg.conf`{: .filepath} dari [tautan ini](/assets/posts/xorg.zip) dan edit nilai BusID sesuai dengan Bus ID perangkat menggunakan editor teks apa pun. Setelah itu, simpan file `xorg.conf`{: .filepath} di direktori `/etc/X11/`{: .filepath}, atau kita dapat membuat file `xorg.conf`{: .filepath} dengan teks berikut:
 ```
 Section "ServerLayout"
 Identifier "layout"
@@ -107,7 +107,7 @@ Device "intel"
 EndSection
 ```
 
-Sesuaikan nilai BusID dan simpan ke `/etc/X11/xorg.conf`.
+Sesuaikan nilai BusID dan simpan ke `/etc/X11/xorg.conf`{: .filepath}.
 
 ## 7. Menyiapkan Konfigurasi Optimus
 Sekarang, kita perlu membuat beberapa skrip sesuai dengan manajer tampilan yang digunakan. Karena di sini menggunakan **GDM** sebagai manajer tampilan di Kali Linux, buat dua file `optimus.desktop` di direktori berikut dengan konten sebagai berikut:
@@ -120,10 +120,10 @@ NoDisplay=true
 X-GNOME-Autostart-Phase=DisplayServer
 ```
 
-- Direktori 1: `/usr/share/gdm/greeter/autostart/optimus.desktop`
-- Direktori 2: `/etc/xdg/autostart/optimus.desktop`
+- Direktori 1: `/usr/share/gdm/greeter/autostart/optimus.desktop`{: .filepath}
+- Direktori 2: `/etc/xdg/autostart/optimus.desktop`{: .filepath}
 
-Kita juga dapat [mengunduh](/assets/posts/optimus.zip) file `optimus.desktop` untuk GDM dan menyalinnya ke kedua direktori berikut: `/usr/share/gdm/greeter/autostart/` dan `/etc/xdg/autostart/`.
+Kita juga dapat [mengunduh](/assets/posts/optimus.zip) file `optimus.desktop` untuk GDM dan menyalinnya ke kedua direktori berikut: `/usr/share/gdm/greeter/autostart/`{: .filepath} dan `/etc/xdg/autostart/`{: .filepath}.
 
 ## 8. Verifikasi
 Periksa apakah semuanya berfungsi dengan baik dengan menggunakan perintah berikut:

@@ -41,12 +41,12 @@ asterisk -V
 ```bash
 sudo mv /etc/asterisk/sip.conf /etc/asterisk/extensions.conf /etc/asterisk/voicemail.conf ~/Documents
 ```
-Selanjutnya, buka dan hapus isi konfigurasi yang ada di `/etc/asterisk/sip.conf`, `/etc/asterisk/extensions.conf`, dan  `/etc/asterisk/voicemail.conf`. 
+Selanjutnya, buka dan hapus isi konfigurasi yang ada di `/etc/asterisk/sip.conf`{: .filepath}, `/etc/asterisk/extensions.conf`{: .filepath}, dan  `/etc/asterisk/voicemail.conf`{: .filepath}. 
 {: .prompt-tip }
 
-File konfigurasi utama terletak di `/etc/asterisk`. Ubah konfigurasi pada file berikut: 
-- `/etc/asterisk/asterisk.conf`. Ini adalah konfigurasi utama. Untuk saat ini, biarkan saja secara *default*.
-- Masukkan konfigurasi ini ke `/etc/asterisk/sip.conf`:
+File konfigurasi utama terletak di `/etc/asterisk`{: .filepath}. Ubah konfigurasi pada file berikut: 
+- `/etc/asterisk/asterisk.conf`{: .filepath}. Ini adalah konfigurasi utama. Untuk saat ini, biarkan saja secara *default*.
+- Masukkan konfigurasi berikut ke `/etc/asterisk/sip.conf`{: .filepath}:
 
 > SIP (*Session Initiation Protocol*) adalah protokol komunikasi yang digunakan untuk mengelola dan mengatur sesi komunikasi, seperti panggilan suara dan video, di jaringan IP. Dalam konteks Asterisk, sebuah sistem telekomunikasi *open-source* yang sering digunakan sebagai PBX (*Private Branch Exchange*) dan sistem VoIP (*Voice over IP*), SIP memainkan peran penting. Beberapa fitur utama SIP yang ada di Asterisk meliputi:
  - [x] Pendaftaran dan Autentikasi
@@ -85,7 +85,7 @@ secret=7002
 context=internal
 ```
 
-- Selanjutnya, masukkan konfigurasi ini ke `/etc/asterisk/extensions.conf`:
+- Selanjutnya, masukkan konfigurasi ini ke `/etc/asterisk/extensions.conf`{: .filepath}:
 
 ```
 [internal]
@@ -108,7 +108,7 @@ exten => 8002,1,VoicemailMain(7002@main)
 exten => 8002,2,Hangup()
 ```
 
-- Terakhir, masukkan konfigurasi berikut ke `/etc/asterisk/voicemail.conf`:
+- Terakhir, masukkan konfigurasi berikut ke `/etc/asterisk/voicemail.conf`{: .filepath}:
 
 ```
 [main]

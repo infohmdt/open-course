@@ -27,7 +27,7 @@ Sebelum mulai, silakan periksa [persyaratan pembukaan kunci](https://github.com/
 ## Instalasi php
 
 - [Unduh file PHP ini](/assets/posts/php.zip).
-- Ekstrak ke `C:\php`.
+- Ekstrak ke `C:\php`{: .filepath}.
 
 ## Instalasi aplikasi pengaturan
 
@@ -37,7 +37,7 @@ Sebelum mulai, silakan periksa [persyaratan pembukaan kunci](https://github.com/
 ## Eksekusi
 
 - Hubungkan ponsel ke PC melalui kabel.
-- Di `C:\php`, jalankan `Bypass.cmd`.
+- Di `C:\php`{: .filepath}, jalankan `Bypass.cmd`.
 - Di ponsel, centang `always allow USB debugging from this computer` dan ketuk OK.
 - Tunggu dan ikuti petunjuk skrip.
 - Setelah `successful binding`, unduh [Official Unlock Tool](https://en.miui.com/unlock/index.html) dan lakukan proses *unlock bootloader* seperti biasa.
