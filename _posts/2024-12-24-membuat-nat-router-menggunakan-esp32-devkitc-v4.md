@@ -71,5 +71,7 @@ ping 8.8.8.8
 Jika `ping` berhasil, maka ESP32 telah berhasil dikonfigurasi untuk mengakses internet.
 
 ## Uji Coba Keamanan
-Setelah konfigurasi selesai, lakukan uji coba untuk memastikan keamanan dan kinerja NAT *router* yang telah dibuat. Pengujian ini bertujuan untuk memastikan koneksi yang stabil dan aman bagi pengguna.
-Memperbaiki Masalah USB WiFi Adapter Archer T2U V3 di Kali Linux
+Setelah konfigurasi selesai, lakukan uji coba untuk memastikan keamanan dan kinerja NAT router yang telah dibuat. Salah satu cara untuk melakukan pengujian ini adalah dengan menggunakan [Wireshark](https://www.wireshark.org/), sebuah alat analisis jaringan yang memungkinkan pengguna untuk menangkap dan menganalisis paket data yang melintasi jaringan.
+
+## Referensi
+- [YouTube: Build a Hackable Router with a $5 ESP32](https://www.youtube.com/watch?v=41Lymi6rXA8)
