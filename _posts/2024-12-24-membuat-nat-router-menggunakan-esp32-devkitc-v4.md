@@ -60,7 +60,7 @@ Untuk melakukan *flashing* pada *board* ESP32-DevKitC-V4, ikuti langkah-langkah 
 Setelah *flashing* selesai, lakukan konfigurasi sebagai berikut:
 
 1. Sambungkan ke jaringan Wi-Fi yang bernama **ESP32_NAT_Router**.
-2. Akses antarmuka web *router* melalui alamat [192.168.4.1](http://192.168.4.1).
+2. Akses antarmuka web *router* melalui alamat `http://192.168.4.1`.
 3. Pada bagian **STA Settings (uplink Wi-Fi network)**, masukkan informasi jaringan Wi-Fi yang ingin digunakan beserta kata sandinya, kemudian klik **Connect**.
 4. Di bagian **AP Settings**, masukkan nama **SSID** dan biarkan kolom **Password** kosong.
 
