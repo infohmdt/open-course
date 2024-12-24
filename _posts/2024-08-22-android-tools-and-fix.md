@@ -1,128 +1,109 @@
 ---
 title: Android Tools & Fix
-description: Debloat Apps, Disable Apps, dan memperbaiki komponen GMS untuk menghindari masalah pemanasan, dan lain-lain.
+description: Dokumentasi ini mencakup langkah-langkah untuk melakukan debloat aplikasi, menonaktifkan aplikasi, dan memperbaiki komponen Google Mobile Services (GMS) untuk menghindari masalah pemanasan dan masalah lainnya pada perangkat Android.
 categories: [Android, Tools & Fix]
 tags: [android]
 author: rical
 ---
 
-> Harap diperhatikan bahwa seluruh langkah-langkah berikut hanya dapat dilakukan pada perangkat Android yang telah di-root. Pastikan perangkat telah melalui proses *rooting* sebelum melanjutkan. Gunakan [Termux](https://f-droid.org/en/packages/com.termux/) untuk melakukan perbaikan.
-{: .prompt-warning }
+> Seluruh langkah-langkah berikut hanya dapat dilakukan pada perangkat Android yang telah di-*root*. Pastikan perangkat telah melalui proses *rooting* sebelum melanjutkan. Gunakan [Termux](https://f-droid.org/en/packages/com.termux/) untuk melakukan perbaikan.
+{: .prompt-warning}
 
-> Setiap penggunaan dilakukan dengan risiko yang ditanggung oleh pengguna sendiri (*Do What You Own Risk* - DWYOR).
+> Setiap penggunaan dilakukan dengan risiko yang ditanggung oleh pengguna sendiri (*do what you own risk* - DWYOR).
 {: .prompt-danger}
 
-## Fixes
-### DEX (Dalvix Executable)
-Jalankan perintah-perintah ini di Termux atau ADB setelah melakukan *dirtyflash* dan tunggu hingga muncul tulisan *"Success"*. Ini dapat memperbaiki (mikro)lag dan kecepatan pembukaan aplikasi yang lambat.
+## Perbaikan
 
-#### Perintah untuk pengguna root
+### DEX (Dalvik Executable)
+Jalankan perintah-perintah berikut di Termux atau ADB setelah melakukan *dirty flash* dan tunggu hingga muncul tulisan **Success**. Langkah ini dapat memperbaiki (mikro)lag dan meningkatkan kecepatan pembukaan aplikasi.
 
-```
+#### Perintah untuk Pengguna Root
+```bash
 su -c cmd package compile -m speed -f -a
 ```
+```bash
+su -c "cmd package bg-dexopt-job"
+```
 
-```
-su -c "cmd package bg-dexopt-job" 
-```
-
-#### Perintah untuk pengguna non-root
-```
+#### Perintah untuk Pengguna Non-Root
+```bash
 adb shell cmd package compile -m speed -f -a
 ```
-
-```
+```bash
 adb shell cmd package bg-dexopt-job
 ```
 
-### Disable GMS Chimera Component
-
-```
+### Menonaktifkan Komponen GMS Chimera
+```bash
 su -c pm disable com.google.android.gms/.chimera.GmsIntentOperationService
 ```
 
-### Fix Notification Delay
-
-```
+### Memperbaiki Keterlambatan Notifikasi
+```bash
 su
 ```
-
-```
+```bash
 cd /data/data
 ```
-
-```
+```bash
 find . -type f -name '*gms*' -delete
 ```
-
-```
+```bash
 reboot
 ```
 
-### Restart SystemUI
-
-```
+### Mengulang SystemUI
+```bash
 su
 ```
-
-```
+```bash
 pkill -f com.android.systemui
 ```
 
-### Disable Find My Device
-
-```
+### Menonaktifkan Find My Device
+```bash
 su -c pm disable com.google.android.gms/com.google.android.gms.mdm.receivers.MdmDeviceAdminReceiver
 ```
 
 ## Debloat
-### Debloat
 
-```
+### Menghapus Aplikasi
+```bash
 su -c pm uninstall --user 0 NameOfPackage
-
 ```
 
-### Reinstall Exist Package
-
-```
+### Menginstal Ulang Paket yang Ada
+```bash
 su -c pm install-existing --user 0 NameOfPackage
 ```
 
-## Disable
-### Disable Package
+## Menonaktifkan
 
-```
+### Menonaktifkan Paket
+```bash
 su
 ```
-
+```bash
+pm disable-user --user 0 NameOfPackage
 ```
-pm disable-user --user 0 NemOfPackage
-```
 
-### Cek List Package (Disabled)
-
-```
+### Memeriksa Daftar Paket (Dinonaktifkan)
+```bash
 su
 ```
-
-```
+```bash
 pm list packages -d
 ```
-
 > Hapus `-d` untuk melihat seluruh nama paket.
 {: .prompt-tip}
 
-
-### Enable Package
-
-```
+### Mengaktifkan Paket
+```bash
 su
 ```
-
-```
+```bash
 pm enable NameOfPackage
 ```
 
 ## Referensi
-- [ricalWiki](s://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)

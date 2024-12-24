@@ -1,114 +1,133 @@
 ---
 title: MySQL / MariaDB
-description: Membuat database, menghapus database, mengedit database, mengelola database, dll.
+description: Dokumentasi ini mencakup prosedur untuk membuat, menghapus, mengedit, dan mengelola database serta pengguna dalam MySQL dan MariaDB.
 categories: [Cybersecurity, Linux]
 tags: [linux]
 author: rical
 ---
 
 ## Mengelola Pengguna
-### Membuat pengguna baru
-```bash
+
+### Membuat Pengguna Baru
+Untuk membuat pengguna baru, gunakan perintah berikut:
+```sql
 CREATE USER 'nama_pengguna'@'localhost' IDENTIFIED BY 'password';
 ```
 
-### Memberikan izin kepada pengguna
-```bash
+### Memberikan Izin kepada Pengguna
+Untuk memberikan semua hak akses kepada pengguna pada *database* tertentu, gunakan perintah berikut:
+```sql
 GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost' IDENTIFIED BY 'password';
 ```
-
-```bash
+Setelah memberikan izin, jalankan perintah berikut untuk menyegarkan hak akses:
+```sql
 FLUSH PRIVILEGES;
 ```
 
-### Menghapus pengguna
-```bash
+### Menghapus Pengguna
+Untuk menghapus pengguna, gunakan perintah berikut:
+```sql
 DROP USER 'nama_pengguna'@'localhost';
 ```
 
-### Mengubah kata sandi pengguna
-```bash
+### Mengubah Kata Sandi Pengguna
+Untuk mengubah kata sandi pengguna, gunakan perintah berikut:
+```sql
 SET PASSWORD FOR 'nama_pengguna'@'localhost' = PASSWORD('password_baru');
-``` 
+```
 
-### Menampilkan pengguna yang ada
-```bash
+### Menampilkan Pengguna yang Ada
+Untuk menampilkan daftar pengguna yang ada, gunakan perintah berikut:
+```sql
 SELECT user, host FROM mysql.user;
 ```
 
 ## Mengelola Database
-### Membuat database
-```bash
+
+### Membuat Database
+Untuk membuat *database* baru, gunakan perintah berikut:
+```sql
 CREATE DATABASE nama_database;
 ```
 
-### Menggunakan database
-```bash
+### Menggunakan Database
+Untuk menggunakan *database* yang telah dibuat, gunakan perintah berikut:
+```sql
 USE nama_database;
 ```
 
-### Menghapus database
-```bash
+### Menghapus Database
+Untuk menghapus *database*, gunakan perintah berikut:
+```sql
 DROP DATABASE nama_database;
 ```
 
-### Backup database
+### Backup Database
+Untuk melakukan *database backup*, gunakan perintah berikut:
 ```bash
 mysqldump -u username -p nama_database > nama_database_backup.sql
 ```
 
-### Restore database
+### Restore Database
+Untuk melakukan *database restore*, gunakan perintah berikut:
 ```bash
 mysql -u username -p nama_database < nama_database_backup.sql
 ```
 
 ## Mengelola Tabel
-### Membuat tabel
-```
+
+### Membuat Tabel
+Untuk membuat tabel baru, gunakan perintah berikut:
+```sql
 CREATE TABLE mahasiswa (
-id INT AUTO_INCREMENT PRIMARY KEY,
-nama VARCHAR(255),
-umur INT,
-alamat VARCHAR(255)
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(255),
+    umur INT,
+    alamat VARCHAR(255)
 );
 ```
 
-### Menampilkan semua tabel
-```bash
+### Menampilkan Semua Tabel
+Untuk menampilkan semua tabel dalam *database*, gunakan perintah berikut:
+```sql
 SHOW TABLES;
 ```
 
-### Menampilkan struktur tabel
-```bash
+### Menampilkan Struktur Tabel
+Untuk menampilkan struktur tabel tertentu, gunakan perintah berikut:
+```sql
 DESCRIBE nama_tabel;
 ```
 
-### Menambahkan data ke tabel
-```bash
+### Menambahkan Data ke Tabel
+Untuk menambahkan data ke tabel, gunakan perintah berikut:
+```sql
 INSERT INTO mahasiswa (nama, umur, alamat) VALUES ('Budiono', 21, 'Jakarta');
 ```
 
-### Mengambil data dari tabel
-```bash
+### Mengambil Data dari Tabel
+Untuk mengambil data dari tabel berdasarkan kriteria tertentu, gunakan perintah berikut:
+```sql
 SELECT * FROM mahasiswa WHERE umur > 20;
 ```
 
-### Memperbarui data tabel
-```bash
+### Memperbarui Data Tabel
+Untuk memperbarui data dalam tabel, gunakan perintah berikut:
+```sql
 UPDATE mahasiswa SET alamat='Bandung' WHERE id=1;
 ```
 
-### Menghapus data dari tabel
-```bash
+### Menghapus Data dari Tabel
+Untuk menghapus data dari tabel, gunakan perintah berikut:
+```sql
 DELETE FROM mahasiswa WHERE id=1;
 ```
 
-### Menghapus tabel
-```bash
+### Menghapus Tabel
+Untuk menghapus tabel, gunakan perintah berikut:
+```sql
 DROP TABLE nama_tabel;
 ```
 
-## Referensi 
+## Referensi
 - [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)
-
-

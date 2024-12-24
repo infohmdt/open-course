@@ -41,7 +41,7 @@ _Logo [NextCrow](https://risnandapascal.github.io/nextcrow.html), Jakarta, Indon
 
 Jika tertarik untuk berbicara tentang `🛡️ Defensive Security`, atau jika ada peluang kerja sama, jangan ragu untuk menghubungi saya di forum diskusi [Cobra & Warriors](https://discord.gg/nAVZkEwjYJ).
 
-🤐 Untuk alasan keamanan, harap gunakan <a href="/assets/personal/rical_net.asc" download>kunci ini</a> saat menghubungi saya secara pribadi. Untuk informasi lebih lanjut, silakan merujuk ke dokumentasi [GnuPG](https://ricaldocs.github.io/posts/gnu-privacy-guard/#import-key) pada bagian **Import Key** dan **Send Message**.
+🤐 Untuk alasan keamanan, harap gunakan <a href="/assets/personal/rical_net.asc" download>kunci ini</a> saat menghubungi saya secara pribadi. Untuk informasi lebih lanjut, silakan merujuk ke dokumentasi [GnuPG](https://ricaldocs.github.io/posts/gnu-privacy-guard/#impor-kunci) pada bagian **Import Key** dan **Send Message**.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

@@ -6,18 +6,19 @@ tags: [cloud, aws, linux, docker]
 author: rical
 ---
 
-Docker Compose adalah sebuah file dalam [Docker](https://en.wikipedia.org/wiki/Docker_(software)) yang memungkinkan kita untuk menjalankan dan mengonfigurasi beberapa kontainer sekaligus. Intinya, dengan menggunakan Docker Compose, kita dapat mengatur konfigurasi berbagai kontainer serta menentukan urutan kontainer dan image mana yang harus dijalankan terlebih dahulu.
+Docker Compose adalah alat yang digunakan dalam [Docker](https://en.wikipedia.org/wiki/Docker_(software)) untuk menjalankan dan mengonfigurasi beberapa kontainer secara bersamaan. Dengan Docker Compose, pengguna dapat mengatur konfigurasi berbagai kontainer serta menentukan urutan kontainer dan *image* yang harus dijalankan terlebih dahulu.
 
-## Instance & Docker configuration
-- Lihat konfigurasi Instance [di sini](https://ricaldocs.github.io/posts/docker-on-aws/#setup-instance).
-- Lihat konfigurasi Docker [di sini](https://ricaldocs.github.io/posts/docker-on-aws/#konfigurasi-docker).
+## Konfigurasi Instance dan Docker
+- Untuk informasi lebih lanjut mengenai konfigurasi Instance, silakan lihat [di sini](https://ricaldocs.github.io/posts/docker-on-aws/#setup-instance).
+- Untuk informasi lebih lanjut mengenai konfigurasi Docker, silakan lihat [di sini](https://ricaldocs.github.io/posts/docker-on-aws/#konfigurasi-docker).
 
 ## Membuat Folder dan File Docker Compose
-Silakan ketik perintah 
+Untuk membuat folder dan berpindah ke dalamnya, ketik perintah berikut:
 ```bash
 mkdir nama_folder && cd nama_folder
-``` 
+```
 
+Kemudian, buat file `docker-compose.yml` dengan perintah:
 ```bash
 nano docker-compose.yml
 ```
@@ -25,7 +26,7 @@ nano docker-compose.yml
 > Penamaan file ini bersifat sensitif; jika salah penamaan, file tidak akan terbaca. Gunakan huruf kecil dan tanda `-` dalam penamaannya, contohnya seperti `docker-compose.yml`.
 {: .prompt-tip}
 
-Selanjutnya, masukkan kode berikut:
+Selanjutnya, masukkan kode berikut ke dalam file `docker-compose.yml`{: .filepath}:
 ```yml
 version: '3.7'
 services:
@@ -45,65 +46,57 @@ services:
       - ./html:/html
 ```
 
-Klik `ctrl+x` dan ketik `y` untuk keluar dari `nano`.
+Setelah selesai, tekan `ctrl+x` dan ketik `y` untuk menyimpan dan keluar dari `nano`.
 
-> - **Version**: Ini merujuk pada versi Docker Compose yang digunakan, yaitu versi 3.7.
-- **Service**: Ini adalah deklarasi untuk menjalankan container yang diperlukan. Dalam kode ini, terdapat dua container, yaitu container untuk web dan PHP. Container PHP tidak membuka port apa pun karena fungsinya hanya sebagai pendukung agar web dapat menjalankan PHP.
-- **Container Web**: Di dalam container web, terdapat kode “${NGINX_VERSION}” yang merupakan variabel lingkungan (environment variable). Penggunaan variabel lingkungan ini penting untuk meningkatkan keamanan dalam sebuah container. Hal ini karena Docker Compose terkadang dapat memiliki kerentanan yang berpotensi mengakibatkan kebocoran data pribadi pengguna. Oleh karena itu, menggunakan variabel lingkungan adalah langkah yang lebih aman.
+> - **Version:** Menunjukkan versi Docker Compose yang digunakan, yaitu versi 3.7.
+- **Service:** Deklarasi untuk menjalankan kontainer yang diperlukan. Dalam kode ini, terdapat dua kontainer, yaitu kontainer untuk web dan PHP. Kontainer PHP tidak membuka port karena berfungsi sebagai pendukung untuk menjalankan PHP di web.
+- **Container Web:** Dalam kontainer web, terdapat kode **${NGINX_VERSION}** yang merupakan variabel lingkungan. Penggunaan variabel lingkungan ini penting untuk meningkatkan keamanan dalam kontainer, mengingat Docker Compose dapat memiliki kerentanan yang berpotensi mengakibatkan kebocoran data pribadi pengguna.
 {: .prompt-info}
 
-Masukkan perintah berikut untuk membuat file `.env`{: .filepath}:
+Untuk membuat file `.env`, gunakan perintah berikut:
 ```bash
 nano .env
 ```
 
-Kemudian masukkan kode di bawah ini:
-
+Kemudian masukkan kode berikut:
 ```yml
 NGINX_VERSION=latest
 PORT_NGINX=80
 PHP_VERSION=7.2-fpm
 ```
 
-Klik `ctrl+x` dan ketik `y` untuk keluar dari `nano`.
+Setelah selesai, tekan `ctrl+x` dan ketik `y` untuk menyimpan dan keluar dari `nano`.
 
 File `.env`{: .filepath} adalah file tersembunyi secara bawaan. Untuk memeriksa file `.env`{: .filepath}, gunakan perintah:
-
 ```bash
 ls -a
 ```
-
 Perintah ini akan menampilkan semua file, termasuk yang tersembunyi, di direktori saat ini.
 
-Untuk membuat file `site.conf`{: .filepath}, gunakan perintah berikut:
-
-```
+Untuk membuat file `site.conf`, gunakan perintah berikut:
+```bash
 git clone https://github.com/sendiahmadhidayat8/site-conf.git
 ```
-
 Perintah ini akan mengunduh repositori yang berisi file `site.conf`{: .filepath} ke dalam direktori `site-conf`{: .filepath}.
 
 ## Menjalankan Docker Compose
 Untuk menjalankan Docker Compose, ketik perintah berikut:
-
 ```bash
 docker compose up -d
 ```
 
 Setelah itu, masuk ke direktori `html`{: .filepath} dengan perintah:
-
 ```bash
 cd html/
 ```
 
-Kemudian, buat file `index.php`{: .filepath}, `about.php`{: .filepath}, `contact.php`{: .filepath}, dan `style.css`{: .filepath}.
-
+Kemudian, buat file `index.php`, `about.php`, `contact.php`, dan `style.css` dengan perintah:
 ```bash
 touch index.php about.php contact.php style.css
 ```
 
+### Kode untuk File
 Masukkan kode berikut ke dalam file `index.php`{: .filepath}:
-
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -251,7 +244,8 @@ footer {
 }
 ```
 
-Setelah semua selesai, cek *ip public* AWS di browser.
+## Verifikasi
+Setelah semua file selesai dibuat dan disimpan, periksa IP publik AWS di browser untuk memastikan bahwa aplikasi web berjalan dengan baik.
 
-## Referensi 
-[Telecommunication Network Laboratory](https://www.instagram.com/telnetlab)
+## Referensi
+- [Telecommunication Network Laboratory](https://www.instagram.com/telnetlab)

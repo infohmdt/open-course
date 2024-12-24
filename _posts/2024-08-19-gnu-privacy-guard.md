@@ -6,13 +6,13 @@ tags: [cybersecurity, linux, privacy, open source]
 author: rical
 ---
 
-GnuPG, atau GNU Privacy Guard, adalah alat kriptografi *open-source* yang memberikan kekuatan untuk melindungi data dengan <a href= "https://en.wikipedia.org/wiki/Encryption#Encryption_in_cryptography" target="_blank">enkripsi</a> dan tanda tangan digital.
-Dibangun di atas standar OpenPGP, GnuPG memungkinkan untuk menjaga privasi komunikasi dan integritas informasi dengan cara yang sangat aman.
+**GNU Privacy Guard** (GnuPG atau GPG) adalah alat kriptografi sumber terbuka yang dirancang untuk melindungi data melalui [enkripsi](https://en.wikipedia.org/wiki/Encryption#Encryption_in_cryptography) dan tanda tangan digital. GnuPG dibangun berdasarkan standar OpenPGP, yang memungkinkan pengguna untuk menjaga privasi komunikasi dan integritas informasi dengan cara yang aman.
 
-> Saya sering memanfaatkan metode ini untuk mengamankan kata sandi dan berkomunikasi dengan aman. Walaupun berbagai aplikasi *password manager* tersedia, saya pribadi lebih percaya pada penyimpanan lokal yang dienkripsi sebagai opsi yang lebih solid dan terpercaya.
-{: .prompt-tip }
+Dengan GnuPG, pengguna dapat mengamankan pesan dan file dari pengintaian, serta memastikan integritas dan keaslian informasi dalam dunia digital yang penuh ancaman. Meskipun berbagai aplikasi pengelola kata sandi tersedia, banyak pengguna lebih memilih penyimpanan lokal yang dienkripsi sebagai opsi yang lebih solid dan terpercaya.
 
-Fungsi utama yang bisa dilakukan oleh GnuPG:
+## Fungsi Utama
+
+GnuPG memiliki beberapa fungsi utama, antara lain:
 - [x] Enkripsi Data
 - [x] Komunikasi yang Aman
 - [x] Kontrol Akses
@@ -22,41 +22,46 @@ Fungsi utama yang bisa dilakukan oleh GnuPG:
 ## Encryption & Decryption
 
 ### Asymmetric & Symmetric
-- **Asymmetric:** Memanfaatkan dua kunci yang berbeda, yaitu **Public Key** dan **Private Key**. Ini sering digunakan untuk komunikasi.
-- **Symmetric:** Menggunakan kunci yang sama untuk proses enkripsi dan dekripsi, yaitu *passphrase* atau kata sandi. Ini sering digunakan untuk mengenkripsi sebuah file.
 
-## Asymmetric
-### Generate Key
-Gunakan perintah ini untuk membuat sebuah kunci:
+- **Asymmetric:** Menggunakan dua kunci yang berbeda, yaitu **Public Key** dan **Private Key**. Metode ini sering digunakan untuk komunikasi.
+- **Symmetric:** Menggunakan kunci yang sama untuk proses enkripsi dan dekripsi, yaitu *passphrase* atau kata sandi. Metode ini sering digunakan untuk mengenkripsi file.
+
+### Asymmetric
+
+#### Menghasilkan Kunci
+
+Untuk membuat kunci baru, gunakan perintah berikut:
 
 ```bash
-gpg  --full-generate-key
+gpg --full-generate-key
 ```
 
-Konfigurasi kunci dengan mengikuti perintah yang muncul di terminal.
+Ikuti instruksi yang muncul di terminal untuk mengonfigurasi kunci.
 
-### Encrypt
-Buat `file.txt` dan ketikkan perintah berikut untuk mengenkripsi file:
+#### Enkripsi
+
+Untuk mengenkripsi file, buat file bernama `file.txt` dan ketikkan perintah berikut:
 
 ```bash
 gpg -e -r <email> file.txt
 ```
-> 
-- `-e` atau `--encrypt`. Opsi ini menunjukkan untuk mengenkripsi data. 
-- `-r` atau `--recipient`. Opsi ini diikuti oleh identifikasi *public key* penerima. 
-{: .prompt-info }
 
-Setelah melakukan enkripsi, file akan berganti nama menjadi `file.txt.gpg`
+> - `-e` atau `--encrypt`: Menunjukkan bahwa data akan dienkripsi.
+- `-r` atau `--recipient`: Diikuti oleh identifikasi *public key* penerima.
+{: .prompt-info}
 
-### Decrypt
-Gunakan perintah berikut untuk melakukan dekripsi:
+Setelah proses enkripsi, file akan berganti nama menjadi `file.txt.gpg`.
+
+#### Dekripsi
+
+Untuk mendekripsi file, gunakan perintah berikut:
 
 ```bash
 gpg -d file.txt.gpg
 ```
 
-> `-d` atau `--decrypt`. Opsi ini digunakan untuk mendekripsi data.
-{: .prompt-info }
+> `-d` atau `--decrypt`: Menunjukkan bahwa data akan didekripsi.
+{: .prompt-info}
 
 Untuk mendekripsi data ke dalam sebuah file, gunakan perintah berikut:
 
@@ -64,14 +69,15 @@ Untuk mendekripsi data ke dalam sebuah file, gunakan perintah berikut:
 gpg -d file.txt.gpg > file.txt
 ```
 
-Jika menggunakan *passphrase* pada saat pembuatan kunci, gunakan *passphrase* tersebut untuk mendekripsi file dan nantinya format file akan berubah seperti semula menjadi `file.txt`
+Jika menggunakan *passphrase* saat pembuatan kunci, masukkan *passphrase* tersebut untuk mendekripsi file, dan format file akan kembali seperti semula menjadi `file.txt`.
 
+### Ekspor Kunci
 
-### Export Key
-> Jangan sekali-kali membocorkan kunci pribadi; kunci tersebut adalah aset eksklusif yang seharusnya hanya berada di tangan kamu.
-{: .prompt-danger }
+> Jangan pernah membocorkan kunci pribadi; kunci tersebut adalah aset eksklusif yang seharusnya hanya berada di tangan pengguna.
+{: .prompt-danger}
 
-#### Public Key
+#### Kunci Publik
+
 - Melihat daftar kunci publik:
 ```bash
 gpg --list-keys
@@ -87,82 +93,99 @@ gpg --armor --export <key_id>
 gpg --armor --export <key_id> > my_public_key.asc
 ```
 
-#### Private Key
-- Melihat daftar kunci publik:
+#### Kunci Pribadi
+
+- Melihat daftar kunci pribadi:
 ```bash
 gpg --list-secret-keys
 ```
 
-- Menampilkan kunci pribadi dalam format ASCII
+- Menampilkan kunci pribadi dalam format ASCII:
 ```bash
 gpg --armor --export-secret-keys <key_id>
 ```
 
-- Menyimpan kunci pribadi ke sebuah file
+- Menyimpan kunci pribadi ke sebuah file:
 ```bash
 gpg --armor --export-secret-keys <key_id> > my_private_key.asc
 ```
 
-### Import Key
+### Impor Kunci
+
+Untuk mengimpor kunci publik, gunakan perintah berikut:
+
 ```bash
 gpg --import public-key.asc
 ```
 
-Verifikasi kunci dengan menggunakan perintah berikut:
+Verifikasi kunci dengan menggunakan perintah:
+
 ```bash
 gpg --list-keys
 ```
 
-### Send Message
-Kita bisa mengenkripsi pesan yang disimpan dalam file atau yang ditulis langsung di *command line*.
-- Jika memiliki pesan dalam file teks (misalnya `.txt`), gunakan perintah berikut:
+### Mengirim Pesan
+
+Pengguna dapat mengenkripsi pesan yang disimpan dalam file atau yang ditulis langsung di *command line*.
+
+- Untuk mengenkripsi pesan dalam file teks (misalnya `.txt`), gunakan perintah berikut:
 ```bash
 gpg --encrypt --recipient <key_id> pesan.txt
 ```
 
-- Jika ingin mengetikkan pesan langsung, gunakan perintah berikut:
+- Untuk mengetikkan pesan langsung, gunakan perintah berikut:
 ```bash
 echo "Halo, ini adalah pesan rahasia" | gpg --encrypt --armor --recipient <key_id> > pesan.asc
 ```
 
-### Delete Key
-#### Private Key
-Kunci pribadi biasanya akan memiliki ID yang sama dengan kunci publik. Sebelum menghapus kunci publik, hapus terlebih dahulu kunci pribadi dengan menggunakan perintah berikut:
+### Menghapus Kunci
+
+#### Kunci Pribadi
+
+Kunci pribadi biasanya memiliki ID yang sama dengan kunci publik. Sebelum menghapus kunci publik, hapus terlebih dahulu kunci pribadi dengan perintah berikut:
+
 ```bash
 gpg --delete-secret-key <key_id>
 ```
 
-#### Public Key
+#### Kunci Publik
+
 Kemudian, hapus kunci publik jika perlu:
+
 ```bash
 gpg --delete-key <key_id>
 ```
 
 ## Symmetric
-### Encrypt
-Di sini, kita memiliki sebuah folder bernama `data.tar` yang akan dienkripsi menggunakan kunci Symmetric. Gunakan perintah berikut untuk mengenkripsi:
-```bash 
+
+### Enkripsi
+
+Untuk mengenkripsi file menggunakan metode *symmetric*, misalnya dengan folder bernama `data.tar`{: .filepath}, gunakan perintah berikut:
+
+```bash
 gpg -c data.tar
 ```
 
-atau bisa juga menggunakan perintah:
+atau
+
 ```bash
 gpg --symmetric data.tar
 ```
 
-Setelah itu, akan diminta untuk memasukkan *passphrase*. Masukkan *passphrase* atau kata sandi yang kuat, yang akan digunakan untuk proses dekripsi nanti.
+Setelah itu, pengguna akan diminta untuk memasukkan *passphrase*. Masukkan *passphrase* atau kata sandi yang kuat, yang akan digunakan untuk proses dekripsi nanti.
 
-> Ini juga dapat digunakan untuk format `.zip` atau arsip lainnya.
-{: .prompt-info }
+> Metode ini juga dapat digunakan untuk format `.zip` atau arsip lainnya.
+{: .prompt-info}
 
-### Decrypt
-Gunakan perintah ini untuk mendekripsi:
+### Dekripsi
+
+Untuk mendekripsi file yang telah dienkripsi, gunakan perintah berikut:
+
 ```bash
 gpg -d data.tar.gpg > data.tar
 ```
 
 ## Referensi
-- <a href="https://risnandapascal.github.io/ricalwiki.html" target="_blank">ricalWiki</a>
-- <a href="https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key" target="_blank">Generating a new GPG key</a>
 
-
+- [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)
+- [Generating a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)

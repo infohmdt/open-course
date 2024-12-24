@@ -6,80 +6,90 @@ tags: [linux, python, open source, android]
 author: rical
 ---
 
-> Sebelum melanjutkan ke langkah-langkah konfigurasi, pastikan bahwa <a href="https://www.python.org/" target="_blank">Python</a> telah diinstal.
-{: .prompt-info }
+# Python Virtual Environment
 
-Masukkan perintah berikut ke terminal untuk melihat versi Python:
+## Deskripsi
+*python virtual environment* adalah alat yang digunakan untuk membuat lingkungan terisolasi untuk proyek pengembangan Python. Ini mempermudah manajemen dependensi dan versi paket, sehingga menghindari konflik antara proyek yang berbeda.
+
+## Prasyarat
+Sebelum melanjutkan ke langkah-langkah konfigurasi, pastikan bahwa [Python](https://www.python.org/) telah diinstal di sistem.
+
+## Memeriksa Versi Python
+Untuk memeriksa versi Python yang terinstal, masukkan perintah berikut ke terminal:
+
 ```bash
 python3 --version
 ```
 
 ## Instalasi venv
-Gunakan perintah berikut untuk menginstall paket `venv`:
+Untuk menginstal paket `venv`, gunakan perintah berikut:
 
 ```bash
 sudo apt install python3-venv
 ```
 
-Buat folder, misalnya:
+Setelah itu, buat folder untuk proyek, misalnya:
 
 ```bash
 mkdir projects
 ```
 
-Buat `venv` dengan menjalankan perintah:
+Kemudian, buat lingkungan virtual dengan menjalankan perintah:
 
 ```bash
 python3 -m venv projects/
 ```
 
-### Mengaktifkan venv
+### Mengaktifkan Lingkungan Virtual
+Untuk mengaktifkan lingkungan virtual, gunakan perintah berikut:
 
 ```bash
 source projects/bin/activate
 ```
-Setelah diaktfikan, prompt terminal akan menunjukkan nama *virtual environment* yang menandakan bahwa `venv` sudah siap digunakan.
 
-### Mematikan venv
+Setelah diaktifkan, prompt terminal akan menunjukkan nama *virtual environment*, menandakan bahwa `venv` sudah siap digunakan.
 
-``` bash
+### Menonaktifkan Lingkungan Virtual
+Untuk menonaktifkan lingkungan virtual, gunakan perintah:
+
+```bash
 deactivate
 ```
 
-## Android venv
-Unduh aplikasi [Termux](https://f-droid.org/en/packages/com.termux/) dan instal melalui pengelola file seperti biasanya.
+## Lingkungan Virtual di Android
+Untuk pengguna Android, unduh aplikasi [Termux](https://f-droid.org/en/packages/com.termux/) dan instal melalui pengelola file.
 
-Gunakan perintah berikut untuk memperbarui paket:
+Setelah instalasi, gunakan perintah berikut untuk memperbarui paket:
+
 ```bash
 pkg update && pkg upgrade -y
 ```
 
-Gunakan perintah berikut untuk memasang Python:
+Kemudian, pasang Python dengan perintah:
+
 ```bash
 pkg install python && python --version
 ```
 
-Gunakan perintah berikut untuk membuat `venv`:
+Untuk membuat lingkungan virtual, gunakan perintah:
+
 ```bash
 python3 -m venv venv
 ```
 
-Aktifkan `venv`:
+Aktifkan lingkungan virtual dengan perintah:
+
 ```bash
 source venv/bin/activate
 ```
 
-Setelah diaktfikan, prompt terminal akan menunjukkan nama *virtual environment* yang menandakan bahwa `venv` sudah siap digunakan.
+Setelah diaktifkan, prompt terminal akan menunjukkan nama *virtual environment*, menandakan bahwa `venv` sudah siap digunakan.
 
-Terakhir, pasang modul dengan menggunakan perintah:
+Terakhir, untuk memasang modul, gunakan perintah:
+
 ```bash
 pip install nama_modul
 ```
 
 ## Referensi
-- <a href="https://risnandapascal.github.io/ricalwiki.html" target="_blank">ricalWiki</a>
-
-
-
-
-
+- [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)

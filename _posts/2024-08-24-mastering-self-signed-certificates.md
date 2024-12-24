@@ -1,27 +1,26 @@
 ---
 title: Mastering Self-Signed Certificates
-description: Menghasilkan kunci privat dan sertifikat yang aman dengan OpenSSL, ideal untuk penggunaan internal dan pengujian.
+description: Menghasilkan kunci privat dan sertifikat yang aman menggunakan OpenSSL, yang ideal untuk penggunaan internal dan pengujian.
 categories: [Cybersecurity, Linux, Privacy]
 tags: [cybersecurity, linux, privacy]
 author: rical
 ---
 
-## Pendahuluan
-Sertifikat *self-signed* dapat menawarkan enkripsi yang setara dengan sertifikat dari *Certificate Authority* (CA) yang terverifikasi. Namun, karena sertifikat ini tidak dikeluarkan oleh CA yang terpercaya, identitas situs tidak bisa diverifikasi oleh pihak lain.
+Sertifikat *self-signed* dapat menawarkan tingkat enkripsi yang setara dengan sertifikat yang dikeluarkan oleh *Certificate Authority* (CA) yang terverifikasi. Namun, karena sertifikat ini tidak dikeluarkan oleh CA yang terpercaya, identitas situs tidak dapat diverifikasi oleh pihak ketiga.
 
-> Browser akan memperingatkan bahwa sertifikat *self-signed* tidak dapat dipercaya, dan kita akan melihat peringatan keamanan saat mengakses situs. Ini merupakan langkah pencegahan yang wajar karena sertifikat *self-signed* tidak diverifikasi oleh pihak ketiga.
-{: .prompt-info }
+> Browser akan memberikan peringatan bahwa sertifikat *self-signed* tidak dapat dipercaya, dan pengguna akan melihat peringatan keamanan saat mengakses situs. Ini merupakan langkah pencegahan yang wajar karena sertifikat *self-signed* tidak diverifikasi oleh pihak ketiga.
+{: .prompt-info}
 
 > Meskipun sertifikat *self-signed* tidak terdaftar oleh CA yang terpercaya, enkripsi yang disediakannya tetap valid dan efektif. Sertifikat ini memastikan komunikasi antara server dan klien tetap terenkripsi dan tidak mudah disadap.
-{: .prompt-info }
+{: .prompt-info}
 
-Sertifikat *self-signed* umumnya digunakan untuk keperluan *internal*, pengujian, atau dalam lingkungan di mana kepercayaan dan kontrol penuh terhadap sertifikat serta kunci bisa diterapkan. 
+Sertifikat *self-signed* umumnya digunakan untuk keperluan *internal*, pengujian, atau dalam lingkungan di mana kepercayaan dan kontrol penuh terhadap sertifikat serta kunci dapat diterapkan.
 
-> Untuk aplikasi publik atau situs web yang diakses oleh banyak pengguna, menggunakan sertifikat yang diterbitkan oleh CA lebih disarankan karena menawarkan tingkat kepercayaan yang lebih luas dan pengelolaan yang lebih baik.
-{: .prompt-tip }
+> Untuk aplikasi publik atau situs web yang diakses oleh banyak pengguna, disarankan untuk menggunakan sertifikat yang diterbitkan oleh CA, karena menawarkan tingkat kepercayaan yang lebih luas dan pengelolaan yang lebih baik.
+{: .prompt-tip}
 
 ## Membuat Sertifikat Self-Signed
-Aktifkan modul ssl dengan menggunakan perintah:
+Aktifkan modul SSL dengan menggunakan perintah berikut:
 ```bash
 sudo a2enmod ssl
 ```
@@ -31,24 +30,25 @@ Buat direktori untuk sertifikat. Sebagai contoh, kita akan menerapkannya di Next
 sudo mkdir /etc/ssl/nextcloud
 ```
 
-### Generate Sertifikat dan Private Key
+### Menghasilkan Sertifikat dan Kunci Privat
+Gunakan perintah berikut untuk menghasilkan sertifikat dan kunci privat:
 ```bash
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout /etc/ssl/nextcloud/nextcloud.key -out /etc/ssl/nextcloud/nextcloud.crt
 ```
-Perintah di atas akan membuat file `nextcloud.key` dan `nextcloud.crt` ke dalam direktori `/etc/ssl/nextcloud`{: .filepath}.
->
-- `-x509` mengindikasikan bahwa kita ingin membuat sertifikat self-signed, bukan *Certificate Signing Request* (CSR).
+Perintah di atas akan membuat file `nextcloud.key`{: .filepath} dan `nextcloud.crt`{: .filepath} di dalam direktori `/etc/ssl/nextcloud`{: .filepath}.
+
+> - `-x509` menunjukkan bahwa kita ingin membuat sertifikat *self-signed*, bukan *Certificate Signing Request* (CSR).
 - `-nodes` menunjukkan bahwa *private key* tidak akan diproteksi dengan *password*.
-- `days 365` menentukan masa berlaku sertifikat selama 365 hari.
+- `-days 365` menentukan masa berlaku sertifikat selama 365 hari.
 - `-newkey rsa:4096` membuat pasangan kunci baru dengan algoritma RSA dan panjang kunci 4096-bit.
-{: .prompt-info }
+{: .prompt-info}
 
 Kemudian, buat file konfigurasi baru di `/etc/apache2/sites-available/nextcloud-ssl.conf`{: .filepath}:
 ```bash
 sudo nano /etc/apache2/sites-available/nextcloud-ssl.conf
 ```
 
-Isi dengan konfigurasi seperti ini:
+Isi file tersebut dengan konfigurasi berikut:
 ```
 <IfModule mod_ssl.c>
 <VirtualHost *:443>
@@ -82,20 +82,23 @@ CustomLog ${APACHE_LOG_DIR}/access.log combined
 </IfModule>
 ```
 
-Selanjutnya, aktifkan konfigurasi ssl dan mulai ulang apache:
+Selanjutnya, aktifkan konfigurasi SSL dan mulai ulang Apache dengan perintah berikut:
 ```bash
 sudo a2ensite nextcloud-ssl && sudo systemctl restart apache2
 ```
 
 ## Menghapus Sertifikat Self-Signed
+Untuk menghapus sertifikat *self-signed*, gunakan perintah berikut:
 ```bash
 sudo rm -r /etc/ssl/nextcloud/nextcloud.key && sudo rm -r /etc/ssl/nextcloud/nextcloud.crt
 ```
 
+Hapus direktori sertifikat:
 ```bash
 sudo rmdir /etc/ssl/nextcloud
 ```
 
+Hapus file konfigurasi:
 ```bash
 sudo rm -r /etc/apache2/sites-available/nextcloud-ssl.conf
 ```
@@ -104,9 +107,10 @@ sudo rm -r /etc/apache2/sites-available/nextcloud-ssl.conf
 sudo a2dissite nextcloud-ssl
 ```
 
+Mulai ulang Apache untuk menerapkan perubahan:
 ```bash
 sudo systemctl restart apache2
 ```
 
-## Referensi 
+## Referensi
 - [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)
