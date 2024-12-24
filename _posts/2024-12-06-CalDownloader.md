@@ -21,7 +21,7 @@ CalDownloader menggunakan *library* `yt-dlp` untuk mengunduh video dari YouTube 
 
 ## Kompatibel 👍
 - Linux
-- Android (via Termux). Silakan merujuk ke panduan [ini](https://ricaldocs.github.io/posts/python-virtual-environment/#android-venv).
+- Android (via Termux). Silakan merujuk ke panduan [ini](https://ricaldocs.github.io/posts/python-virtual-environment/#lingkungan-virtual-di-android).
 - Windows
 - macOS? Jangan ragu untuk mengujinya sendiri.
 

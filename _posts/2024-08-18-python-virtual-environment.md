@@ -6,9 +6,6 @@ tags: [linux, python, open source, android]
 author: rical
 ---
 
-# Python Virtual Environment
-
-## Deskripsi
 *python virtual environment* adalah alat yang digunakan untuk membuat lingkungan terisolasi untuk proyek pengembangan Python. Ini mempermudah manajemen dependensi dan versi paket, sehingga menghindari konflik antara proyek yang berbeda.
 
 ## Prasyarat
