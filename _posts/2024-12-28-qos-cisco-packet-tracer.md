@@ -6,102 +6,115 @@ tags: [cisco packet tracer]
 author: rical
 ---
 
-- ip pc0: 192.168.1.2, gateway 192.168.1.1
-- ip pc1: 192.168.1.3, gateway 192.168.1.1
-- ip server: 172.16.0.254, gateway 172.16.0.1
+![QoS Configuration in Cisco Packet Tracer](/assets/img/posts/2024-12-28-qos-cisco-packet-tracer/qos-configuration.png)
+
+- IP PC0: 192.168.1.2, gateway 192.168.1.1
+- IP PC1: 192.168.1.3, gateway 192.168.1.1
+- IP Server: 172.16.0.254, gateway 172.16.0.1
+
+## konfigurasi r2
+```
+Router>en
+Router#conf t
+Router(config)#hostname rical
+rical(config)#int g0/0
+rical(config-if)#ip add 11.0.0.1 255.255.255.0
+rical(config-if)#no sh
+rical(config-if)#int g0/1
+rical(config-if)#ip add 192.168.1.1 255.255.255.0
+rical(config-if)#no sh
+rical(config-if)#ex
+rical(config)#router ospf 10
+rical(config-router)#network 11.0.0.0 0.255.255.255 area 0
+rical(config-router)#network 192.168.1.0 0.255.255.255 area 0
+rical(config-router)#^Z
+rical#write
+Building configuration...
+[OK]
+```
 
 ## konfigurasi r3
-
 ```
-en
-conf t
-hostname rical
-int g0/0
-ip add 11.0.0.1 255.255.255.0
-no sh
-int g0/1
-ip add 192.168.1.1 255.255.255.0
-no sh
-router ospf 10
-network 11.0.0.0 0.255.255.255 area 0
-network 192.168.1.0 0.255.255.255 area 0
-write
-```
-
-## konfigurasi r4
-
-```
-en
-conf t
-hostname pascal
-int g0/0
-ip add 11.0.0.2 255.255.255.0
-no sh
-int g0/1
-ip add 172.16.0.1 255.255.255.0
-no sh
-router ospf 10
-network 11.0.0.0 0.255.255.255 area 0
-network 172.16.0.0 0.0.0.255 area 0
-write
+Router>en
+Router#conf t
+Router(config)#hostname pascal
+pascal(config)#int g0/0
+pascal(config-if)#ip add 11.0.0.2 255.255.255.0
+pascal(config-if)#no sh
+pascal(config-if)#int g0/1
+pascal(config-if)#ip add 172.16.0.1 255.255.255.0
+pascal(config-if)#no sh
+pascal(config-if)#ex
+pascal(config)#router ospf 10
+pascal(config-router)#network 11.0.0.0 0.255.255.255 area 0
+pascal(config-router)#network 172.16.0.0 0.0.0.255 area 0
+pascal(config)#^Z
+pascal#write
+Building configuration...
+[OK]
 ```
 
 ## konfigurasi r2
-
 ```
-conf t
-class-map voice
-match protocol rtp
-class
-ex
-class-map httpmatch protocol http
-ex
-class-map icmp
-match protocol icmp
-ex
-policy-map mark
-class voice
-set ip dscp ef
-priority 100
-ex
-ex
-policy-map mark
-class http
-set ip dscp af31
-bandwidth 50
-ex
-class icmp
-set ip dscp af11
-int g0/0
-service-policy output mark
-write
+rical#conf t
+rical(config)#class-map voice
+rical(config-cmap)#match protocol rtp
+rical(config-cmap)#class
+rical(config-cmap)#ex
+rical(config)#class-map http
+rical(config-cmap)#match protocol http
+rical(config-cmap)#ex
+rical(config)#class-map icmp
+rical(config-cmap)#match protocol icmp
+rical(config-cmap)#ex
+rical(config)#policy-map mark
+rical(config-pmap)#class voice
+rical(config-pmap-c)#set ip dscp ef
+rical(config-pmap-c)#priority 100
+rical(config-pmap-c)#ex
+rical(config-pmap)#ex
+rical(config)#policy-map mark
+rical(config-pmap)#class http
+rical(config-pmap-c)#set ip dscp af31
+rical(config-pmap-c)#bandwidth 50
+rical(config-pmap-c)#ex
+rical(config-pmap)#class icmp
+rical(config-pmap-c)#set ip dscp af11
+rical(config-pmap-c)#int g0/0
+rical(config-if)#service-policy output mark
+rical(config)#^Z
+rical#write
+Building configuration...
+[OK]
 ```
 
 ## konfigurasi r3
-
 ```
-en 
-conf t
-class-map voice
-match ip dscp ef
-ex
-class-map http
-match ip dscp af31
-ex
-class-map icmp
-match ip dscp af11
-ex
-policy-map remark
-class voice
-set precedence critical
-ex
-class http
-set precedence 3
-class icmp
-set precedence routine
-int g0/0
-service-policy input remark
-write
+pascal>en
+pascal#conf t
+pascal(config)#class-map voice
+pascal(config-cmap)#match ip dscp ef
+pascal(config-cmap)#ex
+pascal(config)#class-map http
+pascal(config-cmap)#match ip dscp af31
+pascal(config-cmap)#ex
+pascal(config)#class-map icmp
+pascal(config-cmap)#match ip dscp af11
+pascal(config-cmap)#ex
+pascal(config)#policy-map remark
+pascal(config-pmap)#class voice
+pascal(config-pmap-c)#set precedence critical
+pascal(config-pmap-c)#ex
+pascal(config-pmap)#class http
+pascal(config-pmap-c)#set precedence 3
+pascal(config-pmap-c)#class icmp
+pascal(config-pmap-c)#set precedence routine
+pascal(config-pmap-c)#int g0/0
+pascal(config-if)#service-policy input remark
+pascal(config-if)#^Z
+pascal#write
+Building configuration...
+[OK]
 ```
 
 ## pengujian
