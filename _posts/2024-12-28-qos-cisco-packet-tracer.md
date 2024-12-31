@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi QoS di Cisco Packet Tracer
-description: 
+description: Menjelaskan langkah-langkah konfigurasi Quality of Service (QoS) pada perangkat Cisco menggunakan Cisco Packet Tracer. Konfigurasi ini mencakup pengaturan router dan pengujian konektivitas.
 categories: [Telecommunications]
 tags: [cisco packet tracer]
 author: rical
@@ -8,12 +8,13 @@ author: rical
 
 ![QoS Configuration in Cisco Packet Tracer](/assets/img/posts/2024-12-28-qos-cisco-packet-tracer/qos-configuration.png)
 
-- IP PC0: 192.168.1.2, gateway 192.168.1.1
-- IP PC1: 192.168.1.3, gateway 192.168.1.1
-- IP Server: 172.16.0.254, gateway 172.16.0.1
+## Topologi Jaringan
+- **IP PC0**: 192.168.1.2, **Gateway**: 192.168.1.1
+- **IP PC1**: 192.168.1.3, **Gateway**: 192.168.1.1
+- **IP Server**: 172.16.0.254, **Gateway**: 172.16.0.1
 
-## konfigurasi r2
-```
+## Konfigurasi Router R2
+```plaintext
 Router>en
 Router#conf t
 Router(config)#hostname rical
@@ -33,8 +34,8 @@ Building configuration...
 [OK]
 ```
 
-## konfigurasi r3
-```
+## Konfigurasi Router R3
+```plaintext
 Router>en
 Router#conf t
 Router(config)#hostname pascal
@@ -54,8 +55,8 @@ Building configuration...
 [OK]
 ```
 
-## konfigurasi r2
-```
+## Konfigurasi QoS di Router R2
+```plaintext
 rical#conf t
 rical(config)#class-map voice
 rical(config-cmap)#match protocol rtp
@@ -88,8 +89,8 @@ Building configuration...
 [OK]
 ```
 
-## konfigurasi r3
-```
+## Konfigurasi QoS di Router R3
+```plaintext
 pascal>en
 pascal#conf t
 pascal(config)#class-map voice
@@ -117,6 +118,17 @@ Building configuration...
 [OK]
 ```
 
-## pengujian
-- cek pc1, masuk ke web browser dan akses 172.16.0.254 
-- lakukan ping ke 172.16.0.254
+## Pengujian Konektivitas
+Setelah konfigurasi selesai, lakukan pengujian untuk memastikan bahwa QoS berfungsi dengan baik. Berikut adalah langkah-langkah pengujian:
+
+1. **Akses Web Server**:
+   - Pada PC1, buka web browser dan akses alamat IP server: `172.16.0.254`.
+
+2. **Ping ke Server**:
+   - Lakukan ping dari PC1 ke alamat IP server untuk memastikan konektivitas:
+     ```plaintext
+     ping 172.16.0.254
+     ```
+
+## Referensi 
+- [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)
