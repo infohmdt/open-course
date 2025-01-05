@@ -11,7 +11,7 @@ order: 4
 ## Apa yang Saya Kerjakan
 
 1. 🔒 **Analisis Keamanan Informasi**: Memastikan bahwa sistem informasi dan data yang dimiliki oleh [NextCrow](https://risnandapascal.github.io/nextcrow.html) aman dari berbagai ancaman dan risiko.
-2. 🤝 **Cobra & Warriors**: Berkolaborasi dengan komunitas [Cobra & Warriors](https://risnandapascal.github.io/cobra/index.html) untuk meningkatkan kesadaran keamanan digital di kalangan generasi muda.
+2. 🤝 **Cobra & Warriors**: Berkolaborasi dengan komunitas [Cobra & Warriors](https://cobraandwarriors.github.io) untuk meningkatkan kesadaran keamanan digital di kalangan generasi muda.
 3. 🔍 **Security Researcher**: Melakukan uji penetrasi dan memperkuat keamanan perangkat lunak *open source*.
 
 Saya fokus pada bidang pertahanan dan telah terlibat dalam berbagai inisiatif yang mencakup keamanan nasional. Setiap proyek memberi saya kesempatan untuk mengasah keterampilan dan mendapatkan wawasan baru. 🌟 🛡️
@@ -24,7 +24,7 @@ Saya fokus pada bidang pertahanan dan telah terlibat dalam berbagai inisiatif ya
 ![NextCrow](/assets/img/personal/OnionCal.png){: w="150" h="150" }
 _Logo [NextCrow](https://risnandapascal.github.io/nextcrow.html), Jakarta, Indonesia._
 
-- 👨‍💻 **Co-Founder / Chief Technology** di [Cobra & Warriors Community](https://risnandapascal.github.io/cobra/index.html)
+- 👨‍💻 **Co-Founder / Chief Technology** di [Cobra & Warriors Community](https://cobraandwarriors.github.io)
 
 ## Keterampilan Utama
 
