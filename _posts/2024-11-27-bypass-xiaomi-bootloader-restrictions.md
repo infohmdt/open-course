@@ -1,7 +1,7 @@
 ---
 title: Bypass Xiaomi Bootloader Restrictions
 description: Unlock bootloader HyperOS tanpa menggunakan Mi Community.
-categories: [Android, Tools & Fix]
+categories: [OS, Android, Tools & Fix]
 tags: [android]
 author: rical
 ---

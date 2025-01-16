@@ -1,7 +1,7 @@
 ---
 title: Android Tools & Fix
 description: Dokumentasi ini mencakup langkah-langkah untuk melakukan debloat aplikasi, menonaktifkan aplikasi, dan memperbaiki komponen Google Mobile Services (GMS) untuk menghindari masalah pemanasan dan masalah lainnya pada perangkat Android.
-categories: [Android, Tools & Fix]
+categories: [OS, Android, Tools & Fix]
 tags: [android]
 author: rical
 ---
