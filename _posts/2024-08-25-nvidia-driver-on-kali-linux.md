@@ -42,7 +42,7 @@ Perintah ini akan secara otomatis menginstal paket header kernel yang diperlukan
 
 ## 4. Disable Nouveau
 ```bash
-echo -e "blacklist nouveau\noptions nouveau modeset=0\nalias nouveau off" > /etc/modprobe.d/blacklist-nouveau.conf
+echo -e "blacklist nouveau\noptions nouveau modeset=0\nalias nouveau off" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf
 ```
 
 ```bash
