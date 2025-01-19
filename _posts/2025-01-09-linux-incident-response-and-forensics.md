@@ -1,7 +1,7 @@
 ---
 title: Linux Incident Response and Forensics
 description: Proses sistematis untuk mendeteksi, menganalisis, dan mengurangi insiden keamanan pada sistem Linux sambil mempertahankan dan memeriksa bukti digital.
-categories: [Cybersecurity]
+categories: [Cybersecurity, Incident Response]
 tags: [cybersecurity, incident response]
 author: rical
 ---

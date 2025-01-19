@@ -1,7 +1,7 @@
 ---
 title: Konfigurasi VPN Menggunakan Router di Cisco Packet Tracer
 description: Membahas cara mengonfigurasi dan menggunakan Virtual Private Network (VPN) pada router serta membuat tunnel VPN antara router untuk komunikasi yang aman.
-categories: [Cybersecurity]
+categories: [Cisco Packet Tracer]
 tags: [cybersecurity, cisco packet tracer]
 author: rical
 ---
