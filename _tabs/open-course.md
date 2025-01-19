@@ -74,12 +74,21 @@ order: 5
 8. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-8.pdf" target="_blank">Perancangan FTTH Menggunakan Google Earth</a><br>
 9. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-9.pdf" target="_blank">Pengukuran Redaman Perangkat Sistem Komunikasi Optik</a>
 
+## NSA NCCP Course
+Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
+1. <a href="https://drive.google.com/drive/folders/1MkwI4Db1RFzbhcjc3EuFrtn4VefuVKxZ?usp=sharing" target="_blank">Network Penetration Testing</a><br>
+2. <a href="https://drive.google.com/drive/folders/1h_ACZED-0fcNeGwhqSdGzqP3JyKX4FXz?usp=sharing" target="_blank">Digital Forensics</a><br>
+3. <a href="https://drive.google.com/drive/folders/15jTTZDuZ2bqSNrg4mmkkBzl_blX7GG6I?usp=sharing" target="_blank">Computer Security</a><br>
+4. <a href="https://drive.google.com/drive/folders/1P-tDVcGjEsWEaMg9ZCT193V-A8OurLip?usp=sharing" target="_blank">Machine Learning for Cybersecurity</a><br>
+
+
 ## Thanks to
-- [[Tel-U] School of Applied Sciences, Telecommunication Technology](https://linktr.ee/d3_tekniktelekomunikasi)
+- [[Tel-U] School of Applied Science, Telecommunication Technology](https://linktr.ee/d3_tekniktelekomunikasi)
 - [Telecommunication Network Laboratory](https://www.instagram.com/telnetlab/)
 - [Mechatronics Laboratory](https://www.instagram.com/b_mech/)
 - [Microcontroller Laboratory](https://www.instagram.com/mcl_laboratory/)
 - [Communication System Laboratory](https://www.instagram.com/comsys.laboratory/)
 - Optical Communication System Laboratory
+- [NSA NCCP Course by CLARK](https://clark.center/home)
 
 
