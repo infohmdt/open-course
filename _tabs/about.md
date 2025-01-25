@@ -4,52 +4,51 @@ icon: fa-solid fa-circle-info
 order: 4
 ---
 
-## HELLO FRIEND
+## Biografi
 
-👋 Saya [Risnanda Pascal](https://risnandapascal.github.io), seorang `🇮🇩 rakyat Indonesia biasa` yang berkeliaran di labirin dunia maya. Dengan pengalaman di bidang `💻 Komputer dan 🌐 Jaringan`, saya terus mencari peluang untuk belajar dan berkembang dalam industri ini.
+Risnanda, sering dikenal sebagai Pascal adalah seorang kontributor di bidang keamanan informasi dan jaringan, berasal dari Indonesia. Dengan latar belakang pendidikan di bidang [Telekomunikasi](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/) dari Telkom University, ia memiliki cukup pengalaman yang luas dalam analisis keamanan dan privasi data. Risnanda Pascal aktif dalam berbagai komunitas dan inisiatif yang bertujuan untuk meningkatkan kesadaran akan keamanan digital.
 
-## Apa yang Saya Kerjakan
+## Kegiatan
 
-1. 🔒 **Analisis Keamanan Informasi**: Memastikan bahwa sistem informasi dan data yang dimiliki oleh [NextCrow](https://risnandapascal.github.io/NextCrow.html) aman dari berbagai ancaman dan risiko.
-2. 🤝 **Cobra & Warriors**: Berkolaborasi dengan komunitas [Cobra & Warriors](https://cobraandwarriors.github.io) untuk meningkatkan kesadaran keamanan digital di kalangan generasi muda.
+1. **Analisis Keamanan Informasi**: Risnanda Pascal bertanggung jawab untuk memastikan bahwa sistem informasi dan data di [NextCrow](https://risnandapascal.github.io/NextCrow.html) terlindungi dari berbagai ancaman dan risiko.
+   
+2. **Cobra & Warriors**: Ia berkolaborasi dengan komunitas [Cobra & Warriors](https://cobraandwarriors.github.io) untuk meningkatkan kesadaran tentang keamanan digital di kalangan generasi muda.
 
-3. 🔐 **Privacy Researcher**: Menganalisis kebijakan privasi yang komprehensif, serta memastikan bahwa data pengguna dilindungi sesuai dengan regulasi yang berlaku dan praktik terbaik dalam perlindungan data.
+3. **Privacy Researcher**: Risnanda Pascal menganalisis kebijakan privasi dan memastikan bahwa data pengguna dilindungi sesuai dengan regulasi yang berlaku dan praktik terbaik dalam perlindungan data.
 
-4. 🔍 **Security Researcher**: Melakukan uji penetrasi dan memperkuat keamanan perangkat lunak *open source*.
+4. **Security Researcher**: Ia melakukan uji penetrasi dan memperkuat keamanan perangkat lunak *open source*.
 
-Saya fokus pada bidang pertahanan dan telah terlibat dalam berbagai inisiatif yang mencakup keamanan nasional. Setiap proyek memberi saya kesempatan untuk mengasah keterampilan dan mendapatkan wawasan baru. 🌟 🛡️
+Risnanda Pascal memiliki fokus yang kuat pada bidang pertahanan dan telah terlibat dalam berbagai inisiatif yang berkaitan dengan keamanan nasional. Setiap proyek yang diikutinya memberikan kesempatan untuk mengasah keterampilan dan mendapatkan wawasan baru.
 
 ## Pendidikan dan Pengalaman
 
-- 🎓 **Digital Connectivity** di [Telkom University](https://dte.telkomuniversity.ac.id)
-- 🌟 **Vice Chair** di [HMDT](https://www.instagram.com/infohmdt/)
-- 👨‍💻 **Co-Founder / Lead Developer** di [NextCrow](https://risnandapascal.github.io/NextCrow.html)
+- **Digital Connectivity**, [Telkom University](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/)
+- **Wakil Ketua**, [HMDT Tel-U](https://instagram.com/infohmdt)
+- **Co-Founder / CISO**, [Cobra & Warriors Community](https://cobraandwarriors.github.io)
+- **Co-Founder / Lead Developer**, [NextCrow](https://risnandapascal.github.io/NextCrow.html)
 
 ![NextCrow](/assets/img/personal/OnionCal.png){: w="150" h="150" }
 _Logo [NextCrow](https://risnandapascal.github.io/NextCrow.html), Jakarta, Indonesia._
 
-- 👨‍💻 **Co-Founder / Chief Technology** di [Cobra & Warriors Community](https://cobraandwarriors.github.io)
-
 ## Keterampilan Utama
 
-- 🛠️ **Alat dan Teknologi**: Kali Linux atau Debian-based Linux.
-- 🖥️ **Sistem Administrator**: Menjaga dan mengelola sistem komputer dan jaringan.
-- 🕵️‍♂️ **Anonimitas**: Mengimplementasikan berbagai alat dan teknik keamanan, seperti enkripsi, VPN, dan jaringan TOR.
-- 🤝 **Soft Skills**: Team Leadership.
+- **Alat dan Teknologi**: Kali Linux dan distribusi Linux berbasis Debian.
+- **Sistem Administrator**: Pengelolaan dan pemeliharaan sistem komputer dan jaringan.
+- **Anonimitas**: Implementasi berbagai alat dan teknik keamanan, termasuk enkripsi, VPN, dan jaringan TOR.
+- **Soft Skills**: Kepemimpinan tim.
 
 ## Hobi dan Minat
 
-🎮 Di luar pekerjaan, saya suka bermain dengan `📱 Android`. Aktivitas ini membantu saya tetap kreatif dan bersemangat. Saya juga aktif dalam komunitas `🐧 Linux` dan `🤖 Custom Rom Android`. Saya selalu terbuka untuk kolaborasi dengan orang-orang yang memiliki minat serupa. 🤗
+Di luar pekerjaan, Risnanda Pascal menikmati bermain dengan perangkat Android. Aktivitas ini membantunya tetap kreatif dan bersemangat. Ia juga aktif dalam komunitas Linux dan pengembangan Custom ROM Android, serta terbuka untuk kolaborasi dengan individu yang memiliki minat serupa.
 
-## Hubungi Saya
+## Kontak
 
-Jika tertarik untuk berbicara tentang `🛡️ Information Security`, atau jika ada peluang kerja sama, jangan ragu untuk menghubungi saya di forum diskusi [Cobra & Warriors](https://discord.gg/nAVZkEwjYJ).
+Untuk diskusi lebih lanjut mengenai keamanan informasi atau peluang kerja sama, Anda dapat menghubungi Risnanda Pascal melalui forum diskusi [Cobra & Warriors](https://discord.gg/nAVZkEwjYJ).
 
-🤐 Untuk alasan keamanan, harap gunakan <a href="/assets/personal/rical_net.asc" download>kunci ini</a> saat menghubungi saya secara pribadi. Untuk informasi lebih lanjut, silakan merujuk ke dokumentasi [GnuPG](https://ricaldocs.github.io/posts/gnu-privacy-guard/#impor-kunci) pada bagian **Impor Kunci** dan **Mengirim Pesan**.
+Untuk alasan keamanan, harap gunakan [kunci ini](https://ricaldocs.github.io/assets/personal/rical_net.asc) saat menghubunginya secara pribadi. Untuk informasi lebih lanjut, silakan merujuk ke dokumentasi [GnuPG](https://ricaldocs.github.io/posts/gnu-privacy-guard/#impor-kunci) pada bagian **Impor Kunci** dan **Mengirim Pesan**.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
-
 mQINBGbIx54BEADmU5NI7hCRDbBO13Uf/HO742l3AmdLCl2qJLhQSsgURS+rKNPS
 Y66bJ3dspGrtp+5Wp01WyVnAsJjybua7japGeZ9EH6zrthxNX6LzKCRJh0W6cI4s
 6MBhbSUMw4YOCUFa7uXbdqp4Pgph/7ACQOAmTlvHF39mT3qDytNLGlEJYGl1FuO9
@@ -102,11 +101,11 @@ jhdyaYBTk5yHT7hqf9nReEZjFyyX+Q9+pWU4jC3xzqUWgU76jmBSARLDmKo4S1/d
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-## Terima Kasih Telah Mengunjungi!
+## Terima Kasih
 
-Jangan ragu untuk menjelajahi [rical_net](https://risnandapascal.github.io/). Saya berharap kita dapat berkolaborasi  di masa depan! 💫 ✊
+Terima kasih telah mengunjungi profil Risnanda Pascal. Jangan ragu untuk menjelajahi [rical_net](https://risnandapascal.github.io/) dan berharap dapat berkolaborasi di masa depan!
 
 ---
 
 *Risnanda Pascal*  
-*Alamat Email: risnandapascal@duck.com*
+*Rakyat Indonesia Biasa*

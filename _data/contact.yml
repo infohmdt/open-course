@@ -6,7 +6,7 @@
 
 - type: key
   icon: fa-solid fa-key
-  url: https://ricaldocs.github.io/about/#hubungi-saya
+  url: https://ricaldocs.github.io/about/#kontak
   noblank: true
 
 - type: email
