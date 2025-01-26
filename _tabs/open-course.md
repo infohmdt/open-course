@@ -3,7 +3,7 @@ icon: fa-solid fa-book-open
 order: 5
 ---
 
-[#contributetothenation](https://ricaldocs.github.io/open-course). Ilmu pengetahuan ini terbuka untuk seluruh masyarakat Indonesia yang ingin mendalami pemahaman mengenai teknologi telekomunikasi, yang mencakup aspek perangkat keras, perangkat lunak, elektronika, dan jaringan telekomunikasi.
+[#contributetothenation](https://github.com/risnandapascal/D3TT_TelkomUniversity). Ilmu pengetahuan ini terbuka untuk seluruh masyarakat Indonesia yang ingin mendalami pemahaman mengenai teknologi telekomunikasi, yang mencakup aspek perangkat keras, perangkat lunak, elektronika, dan jaringan telekomunikasi.
 
 ## Cloud Computing
 
@@ -90,5 +90,4 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 - [Communication System Laboratory](https://www.instagram.com/comsys.laboratory/)
 - Optical Communication System Laboratory
 - [NSA NCCP Course by CLARK](https://clark.center/home)
-
 
