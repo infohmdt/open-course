@@ -27,7 +27,7 @@ Tim pentester harus terdiri dari individu yang memiliki kompetensi yang sesuai, 
 Pengumpulan informasi dilakukan untuk memperoleh pemahaman yang lebih baik mengenai target. Terdapat dua jenis reconnaissance:
 
 - **Passive Reconnaissance**: Mengumpulkan informasi tanpa interaksi langsung dengan target, menggunakan metode seperti WHOIS, DNS lookup, dan analisis media sosial.
-- **Active Reconnaissance**: Melibatkan penggunaan alat untuk memindai dan mengidentifikasi layanan yang berjalan pada target, contohnya dengan menggunakan Nmap.
+- [**Active Reconnaissance**](https://ricaldocs.github.io/posts/active-reconnaissance): Melibatkan penggunaan alat untuk memindai dan mengidentifikasi layanan yang berjalan pada target, contohnya dengan menggunakan Nmap.
 
 ### 3. Pemindaian
 
