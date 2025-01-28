@@ -1,6 +1,6 @@
 ---
 icon: fa-solid fa-book-open
-order: 5
+order: 6
 ---
 
 [#contributetothenation](https://github.com/risnandapascal/D3TT_TelkomUniversity). Ilmu pengetahuan ini terbuka untuk seluruh masyarakat Indonesia yang ingin mendalami pemahaman mengenai teknologi telekomunikasi, yang mencakup aspek perangkat keras, perangkat lunak, elektronika, dan jaringan telekomunikasi.
