@@ -1,7 +1,9 @@
 ---
 icon: fa-solid fa-handshake-angle
-order: 6
+order: 5
 ---
+
+![Contributors](/assets/img/posts/funny.gif)
 
 [ricalDocs](https://ricaldocs.github.io/about) ditulis dan disunting oleh sejumlah kontributor yang berkomitmen untuk meningkatkan kualitas informasi yang tersedia. Kontributor [ricalDocs](https://ricaldocs.github.io/about) berasal dari berbagai latar belakang dan keahlian, yang bersama-sama berkontribusi dalam pengumpulan, verifikasi, dan penyajian data yang akurat dan terpercaya. 
 
