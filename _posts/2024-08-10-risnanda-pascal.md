@@ -1,9 +1,14 @@
 ---
-title: Biografi Risnanda Pascal
+title: Biography of Risnanda pascal
 author: nata
 ---
 
-Risnanda, sering dikenal sebagai Pascal adalah seorang kontributor di bidang keamanan informasi dan jaringan, berasal dari Indonesia. Dengan latar belakang pendidikan di bidang [Telekomunikasi](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/) dari Telkom University, ia memiliki cukup pengalaman yang luas dalam analisis keamanan dan privasi data. Risnanda Pascal aktif dalam berbagai komunitas dan inisiatif yang bertujuan untuk meningkatkan kesadaran akan keamanan digital.
+Risnanda, sering dikenal sebagai Pascal adalah seorang kontributor di bidang keamanan informasi dan jaringan, berasal dari Indonesia. 
+
+![Risnanda Pascal](/assets/img/personal/rical.jpg){: w="150" h="150" }
+_foto paling keren, [Risnanda Pascal](https://risnandapascal.github.io), Los Angeles, CA._
+
+Dengan latar belakang pendidikan di bidang [Telekomunikasi](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/) dari Telkom University, ia memiliki cukup pengalaman yang luas dalam analisis keamanan dan privasi data. Risnanda Pascal aktif dalam berbagai komunitas dan inisiatif yang bertujuan untuk meningkatkan kesadaran akan keamanan digital.
 
 ## Kegiatan
 

@@ -166,5 +166,7 @@ Simpan berkas dan aktifkan konfigurasi:
 sudo a2ensite nextcloud.conf && sudo systemctl restart apache2
 ```
 
-## Referensi
+## Pranala Menarik
 - [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)
+- [Perjalanan ke Dunia Open Source](https://ricaldocs.github.io/posts/perjalanan-ke-dunia-open-source-copy/)
+- [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/)

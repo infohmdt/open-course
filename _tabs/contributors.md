@@ -16,6 +16,7 @@ order: 5
 - **s1reeen** - Peninjauan dan penyuntingan konten, memastikan bahwa semua informasi memenuhi standar kualitas dan konsistensi yang tinggi.
 - **ByteBandit** - Peninjauan dan penyuntingan konten, memastikan bahwa semua informasi memenuhi standar kualitas dan konsistensi yang tinggi.
 - **Sleuth** - Memperbaiki tautan yang rusak dalam konten. Ia melakukan pemantauan secara berkala untuk memastikan semua tautan berfungsi dengan baik dan memperbarui referensi yang tidak lagi aktif, sehingga meningkatkan pengalaman pengguna dan integritas informasi.
+- **inibim** - Melakukan analisis dan pemecahan masalah terkait dokumentasi [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/).
 
 [ricalDocs](https://ricaldocs.github.io/about) mendorong partisipasi lebih lanjut dari kontributor untuk terus memperkaya dan memperbaiki konten yang ada. Jika Anda tertarik untuk berkontribusi, silakan <a href="mailto:risnandapascal@duck.com">kirim pesan</a> untuk informasi lebih lanjut.
 
