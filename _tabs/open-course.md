@@ -74,6 +74,18 @@ order: 6
 8. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-8.pdf" target="_blank">Perancangan FTTH Menggunakan Google Earth</a><br>
 9. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-9.pdf" target="_blank">Pengukuran Redaman Perangkat Sistem Komunikasi Optik</a>
 
+## Web Design
+1. <a href="/assets/moduls/web_design/modul-1.pdf" target="_blank">Pengenalan Aplikasi Berbasis Web dan Teks Editor</a><br>
+2. <a href="/assets/moduls/web_design/modul-2.pdf" target="_blank">HTML (Hyper Text Markup Language)</a><br>
+3. <a href="/assets/moduls/web_design/modul-3.pdf" target="_blank">CSS (Cascading Style Sheets)</a><br>
+4. <a href="/assets/moduls/web_design/modul-4.pdf" target="_blank">PHP</a><br>
+5. <a href="/assets/moduls/web_design/modul-5.pdf" target="_blank">Database</a><br>
+6. <a href="/assets/moduls/web_design/modul-6.pdf" target="_blank">RELASI MYSQL & KONEKSI MYSQL DENGAN PHP</a><br>
+7. <a href="/assets/moduls/web_design/modul-7.pdf" target="_blank">Pengenalan JavaScript</a><br>
+8. <a href="/assets/moduls/web_design/modul-8.pdf" target="_blank">Visualisasi Database Dalam Bentuk Grafik</a><br>
+9. <a href="/assets/moduls/web_design/modul-9.pdf" target="_blank">Web Hosting dan GitHub</a><br>
+10. <a href="/assets/moduls/web_design/modul-10.pdf" target="_blank">Laravel</a><br>
+
 ## NSA NCCP Course
 Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 1. <a href="https://drive.google.com/drive/folders/1MkwI4Db1RFzbhcjc3EuFrtn4VefuVKxZ?usp=sharing" target="_blank">Network Penetration Testing</a><br>
@@ -90,4 +102,7 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 - [Communication System Laboratory](https://www.instagram.com/comsys.laboratory/)
 - Optical Communication System Laboratory
 - [NSA NCCP Course by CLARK](https://clark.center/home)
+
+## Pranala Menarik
+- [File Praktikum](https://github.com/risnandapascal/D3TT_TelkomUniversity/tree/main/file_praktikum/)
 
