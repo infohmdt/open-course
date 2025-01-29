@@ -103,6 +103,3 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 - Optical Communication System Laboratory
 - [NSA NCCP Course by CLARK](https://clark.center/home)
 
-## Pranala Menarik
-- [File Praktikum](https://github.com/risnandapascal/D3TT_TelkomUniversity/tree/main/file_praktikum/)
-
