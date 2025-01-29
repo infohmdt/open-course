@@ -15,7 +15,7 @@ order: 4
 Topik ini mencakup berbagai aspek yang berkaitan dengan perlindungan data dan informasi pribadi. [ricalDocs](https://ricaldocs.github.io/) membahas praktik terbaik dan tantangan yang dihadapi dalam menjaga keamanan dan privasi di dunia digital.
 
 ### Pengembangan Teknis
-Dalam bagian ini, ricalDocs menyajikan artikel, dokumentasi dan panduan yang berfokus pada pengembangan teknis. Konten ini mencakup teknologi terbaru, alat, dan metodologi yang dapat digunakan oleh pengembang dan profesional IT untuk meningkatkan keterampilan dan efisiensi.
+Dalam bagian ini, [ricalDocs](https://ricaldocs.github.io/) menyajikan artikel, dokumentasi dan panduan yang berfokus pada pengembangan teknis. Konten ini mencakup teknologi terbaru, alat, dan metodologi yang dapat digunakan oleh pengembang dan profesional IT untuk meningkatkan keterampilan dan efisiensi.
 
 ### Pengujian Keamanan
 [ricalDocs](https://ricaldocs.github.io/) juga membahas pentingnya pengujian keamanan dalam konteks pengembangan perangkat lunak dan sistem informasi. Topik ini mencakup teknik, alat, dan strategi yang dapat digunakan untuk mengidentifikasi dan mengatasi kerentanan yang ada dalam sistem dan aplikasi.
