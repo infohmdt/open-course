@@ -7,8 +7,11 @@ author: rical
 ---
 
 ## Mengaktifkan Monitor Mode
+---
 
 ### Langkah-langkah
+---
+
 1. Akses terminal di Kali Linux.
    
 2. Periksa nama *interface* WLAN dengan perintah:
@@ -42,8 +45,11 @@ author: rical
 {: .prompt-warning}
 
 ## Mematikan Monitor Mode
+---
 
 ### Langkah-langkah
+---
+
 1. Pastikan terminal di Kali Linux terbuka.
 
 2. Matikan *interface* WLAN yang sedang dalam mode monitor dengan perintah:
@@ -67,5 +73,13 @@ author: rical
    ```
    Pastikan wlan1 terdaftar sebagai `Mode:Managed`.
 
+## Pranala Menarik
+---
+
+- [Securing Kali Linux System](https://ricaldocs.github.io/posts/securing-kali-linux-system/)
+- [Memperbaiki Masalah USB WiFi Adapter Archer T2U V3 di Kali Linux](https://ricaldocs.github.io/posts/memperbaiki-masalah-usb-wifi-adapter-archer-t2u-v3-di-kali-linux/)
+
 ## Referensi
-- [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)
+---
+
+- [ricalWiki: Enabling and Disabling Monitor Mode in Kali Linux](https://risnandapascal.github.io/ricalwiki.html)

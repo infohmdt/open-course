@@ -6,11 +6,16 @@ tags: [cloud, aws, linux, docker]
 author: rical
 ---
 
+## Pendahuluan
+---
+
 [Docker](https://en.wikipedia.org/wiki/Docker_(software)) adalah platform yang memungkinkan pengembang untuk membuat, mengirim, dan menjalankan aplikasi dalam bentuk kontainer. Kontainer ini merupakan unit standar perangkat lunak yang mengemas kode beserta semua dependensinya, sehingga aplikasi dapat berjalan dengan konsisten di berbagai lingkungan, baik itu di komputer pengembang, server, maupun cloud.
 
 Docker mempermudah pengelolaan aplikasi dengan memberikan isolasi yang lebih baik, efisiensi sumber daya, serta kemudahan dalam pengujian dan penyebaran. Dengan menggunakan Docker, tim pengembang dapat bekerja lebih cepat dan efisien, sekaligus mengurangi masalah yang sering muncul akibat perbedaan lingkungan.
 
 ## Setup Instance
+---
+
 Di halaman dashboard AWS, cari **EC2** dan buat instance dengan memilih opsi **Instances** di panel kiri, kemudian klik **Launch Instance**.
 
 Pada bagian **Application and OS Images**, pilih **Ubuntu**.
@@ -36,7 +41,11 @@ Pada bagian **Network settings**, silakan pilih **Create security group** dan ce
 {: .prompt-info}
 
 ## Konfigurasi Docker
+---
+
 ### Setup Docker's repository
+---
+
 Dalam OpenSSH atau PuTTY, silakan masukkan perintah berikut:
 
 ```bash
@@ -54,6 +63,8 @@ echo \
 sudo apt-get update
 ```
 ### Instalasi Docker
+---
+
 Masukkan perintah berikut ke terminal untuk memasang versi terakhir dari Docker:
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
@@ -84,6 +95,8 @@ docker ps -a
 ```
 
 ## Menggunakan NGINX
+---
+
 Status di sini belum aktif. Untuk menjalankannya, silakan ketik:
 ```bash
 docker container start nginx
@@ -116,6 +129,8 @@ docker cp index.html nginx:/usr/share/nginx/html
 ```
 
 ## Skenario 2: Membuat kontainer dan mengimpor data web melalui volume.
+---
+
 Hapus container yang telah dibuat sebelumnya. Namun, sebelum itu, pastikan untuk menghentikan container yang masih berjalan dengan perintah: 
 ```bash
 docker container stop nginx 
@@ -153,6 +168,8 @@ Kemudian, masukkan kode berikut:
 Klik `ctrl+x` dan ketik `y` untuk keluar dari `nano`. Selanjutnya, cek ip public AWS di browser.
 
 ## Skenario 3: Dockerfile
+---
+
 ```bash
 nano Dockerfile
 ```
@@ -208,5 +225,12 @@ Terakhir, gunakan perintah berikut:
 docker container start nginx && cat Dockerfile
 ```
 
+## Pranala Menarik
+---
+
+- [Docker Compose](https://ricaldocs.github.io/posts/docker-compose/)
+
 ## Referensi 
-[Telecommunication Network Laboratory](https://www.instagram.com/telnetlab)
+---
+
+[Telecommunication Network Laboratory: Cloud Computing](https://www.instagram.com/telnetlab)

@@ -7,11 +7,15 @@ author: rical
 ---
 
 ## VPC
+---
+
 Silakan cari VPC dan buat VPC baru dengan menggunakan opsi **Create VPC** di halaman AWS.
 
 ![img](/assets/img/posts/cloud/2024-11-20-tugas-cloud-computing/vpc-settings.png)
 
 ## Subnet
+---
+
 Silakan buat empat subnet, terdiri dari dua subnet publik dan dua subnet privat. Untuk **VPC ID**, silakan pilih VPC yang telah dibuat sebelumnya. 
 - `public_subnet_1` dan `private_subnet_1`, pilih `us-east-1a`.
 - `public_subnet_2` dan `private_subnet_2`, pilih `us-east-1b`.
@@ -55,6 +59,7 @@ Pilih VPC yang telah dibuat sebelumnya, kemudian **Attach internet gateway**.
 ![img](/assets/img/posts/cloud/2024-11-20-tugas-cloud-computing/attach-to-vpc-2.png)
 
 ## Route Tables
+---
 
 Untuk konfigurasi **Route Tables** buka **VPC dashboard** dan cari bagian **Route Tables**. Kemudian, ``Create route table``.
 
@@ -83,6 +88,8 @@ Pilih public subnet 1 dan 2.
 {: .prompt-tip}
 
 ## Security Group
+---
+
 Pergi ke panel kiri di **VPC dashboard** dan pilih **Security groups**. Klik **Create security group**.
 
 ![img](/assets/img/posts/cloud/2024-11-20-tugas-cloud-computing/create-sg.png)
@@ -92,7 +99,11 @@ Di bagian `Inbound rules`, atur ke SSH. Setelah itu, gulir ke bawah dan klik **C
 ![img](/assets/img/posts/cloud/2024-11-20-tugas-cloud-computing/inbound-rules.png)
 
 ## EC2
+---
+
 ### `my-host` instance
+---
+
 Buka halaman Amazon EC2, lihat di panel kiri, klik **Instances**, lalu pilih **Launch instances**.
 
 ![img](/assets/img/posts/cloud/2024-11-20-tugas-cloud-computing/setup-instance.png)
@@ -119,6 +130,8 @@ neofetch
 ![img](/assets/img/posts/cloud/2024-11-20-tugas-cloud-computing/neofetch.png)
 
 ## Bastion Host
+---
+
 Di sini, kita akan membuat instance privat yang terhubung dengan `my-host` yang telah dibuat sebelumnya.
 
 Buka **Instances** di dashboard EC2, pilih **Launch instances**, dan beri nama `private_instances`. Pilih Ubuntu. Untuk `Key pair (login)`, pilih **create new key pair**. Isi nama kunci privat dan simpan dalam format `.pem`.
@@ -130,6 +143,8 @@ Buka **Instances** di dashboard EC2, pilih **Launch instances**, dan beri nama `
 Ini akan mengunduh sebuah kunci privat dengan nama `private_key` dalam format `.pem`.
 
 ### Network Settings
+---
+
 Di bagian **Network settings**, silakan sesuaikan konfigurasinya seperti berikut:
 
 ![img](/assets/img/posts/cloud/2024-11-20-tugas-cloud-computing/private-network-settings.png)
@@ -177,4 +192,6 @@ Gambar berikut menunjukkan bahwa kita berhasil masuk ke **private_instance**. Di
 ![img](/assets/img/posts/cloud/2024-11-20-tugas-cloud-computing/ping-private-instance.png)
 
 ## Referensi 
-- [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)
+---
+
+- [ricalWiki: Membangun Keamanan Jaringan di Cloud](https://risnandapascal.github.io/ricalwiki.html)

@@ -9,11 +9,15 @@ author: rical
 ![QoS Configuration in Cisco Packet Tracer](/assets/img/posts/2024-12-28-qos-cisco-packet-tracer/qos-configuration.png)
 
 ## Topologi Jaringan
+---
+
 - **IP PC0**: 192.168.1.2, **Gateway**: 192.168.1.1
 - **IP PC1**: 192.168.1.3, **Gateway**: 192.168.1.1
 - **IP Server**: 172.16.0.254, **Gateway**: 172.16.0.1
 
 ## Konfigurasi Router R2
+---
+
 ```plaintext
 Router>en
 Router#conf t
@@ -35,6 +39,8 @@ Building configuration...
 ```
 
 ## Konfigurasi Router R3
+---
+
 ```plaintext
 Router>en
 Router#conf t
@@ -56,6 +62,8 @@ Building configuration...
 ```
 
 ## Konfigurasi QoS di Router R2
+---
+
 ```plaintext
 rical#conf t
 rical(config)#class-map voice
@@ -90,6 +98,8 @@ Building configuration...
 ```
 
 ## Konfigurasi QoS di Router R3
+---
+
 ```plaintext
 pascal>en
 pascal#conf t
@@ -119,6 +129,8 @@ Building configuration...
 ```
 
 ## Pengujian Konektivitas
+---
+
 Setelah konfigurasi selesai, lakukan pengujian untuk memastikan bahwa QoS berfungsi dengan baik. Berikut adalah langkah-langkah pengujian:
 
 1. **Akses Web Server**:
@@ -130,5 +142,14 @@ Setelah konfigurasi selesai, lakukan pengujian untuk memastikan bahwa QoS berfun
      ping 172.16.0.254
      ```
 
+## Pranala Menarik
+---
+
+- [Kesalahan dalam Instalasi Cisco Packet Tracer di Kali Linux](https://ricaldocs.github.io/posts/kesalahan-dalam-instalasi-cisco-packet-tracer-di-kali-linux/)
+- [Konfigurasi VPN Menggunakan Router di Cisco Packet Tracer](https://ricaldocs.github.io/posts/konfigurasi-vpn-menggunakan-router-di-cisco-packet-tracer/)
+- [Perencanaan Jaringan DWDM Menggunakan Cisco Packet Tracer](https://ricaldocs.github.io/posts/qos-cisco-packet-tracer/)
+
 ## Referensi 
-- [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)
+---
+
+- [ricalWiki: Konfigurasi QoS di Cisco Packet Tracer](https://risnandapascal.github.io/ricalwiki.html)

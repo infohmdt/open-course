@@ -6,6 +6,8 @@ tags: [android]
 author: rical
 ---
 
+---
+
 > Seluruh langkah-langkah berikut hanya dapat dilakukan pada perangkat Android yang telah di-*root*. Pastikan perangkat telah melalui proses *rooting* sebelum melanjutkan. Gunakan [Termux](https://f-droid.org/en/packages/com.termux/) untuk melakukan perbaikan.
 {: .prompt-warning}
 
@@ -13,11 +15,16 @@ author: rical
 {: .prompt-danger}
 
 ## Perbaikan
+---
 
 ### DEX (Dalvik Executable)
+---
+
 Jalankan perintah-perintah berikut di Termux atau ADB setelah melakukan *dirty flash* dan tunggu hingga muncul tulisan **Success**. Langkah ini dapat memperbaiki (mikro)lag dan meningkatkan kecepatan pembukaan aplikasi.
 
 #### Perintah untuk Pengguna Root
+---
+
 ```bash
 su -c cmd package compile -m speed -f -a
 ```
@@ -26,6 +33,8 @@ su -c "cmd package bg-dexopt-job"
 ```
 
 #### Perintah untuk Pengguna Non-Root
+---
+
 ```bash
 adb shell cmd package compile -m speed -f -a
 ```
@@ -34,11 +43,15 @@ adb shell cmd package bg-dexopt-job
 ```
 
 ### Menonaktifkan Komponen GMS Chimera
+---
+
 ```bash
 su -c pm disable com.google.android.gms/.chimera.GmsIntentOperationService
 ```
 
 ### Memperbaiki Keterlambatan Notifikasi
+---
+
 ```bash
 su
 ```
@@ -53,6 +66,8 @@ reboot
 ```
 
 ### Mengulang SystemUI
+---
+
 ```bash
 su
 ```
@@ -61,25 +76,35 @@ pkill -f com.android.systemui
 ```
 
 ### Menonaktifkan Find My Device
+---
+
 ```bash
 su -c pm disable com.google.android.gms/com.google.android.gms.mdm.receivers.MdmDeviceAdminReceiver
 ```
 
 ## Debloat
+---
 
 ### Menghapus Aplikasi
+---
+
 ```bash
 su -c pm uninstall --user 0 NameOfPackage
 ```
 
 ### Menginstal Ulang Paket yang Ada
+---
+
 ```bash
 su -c pm install-existing --user 0 NameOfPackage
 ```
 
 ## Menonaktifkan
+---
 
 ### Menonaktifkan Paket
+---
+
 ```bash
 su
 ```
@@ -88,6 +113,8 @@ pm disable-user --user 0 NameOfPackage
 ```
 
 ### Memeriksa Daftar Paket (Dinonaktifkan)
+---
+
 ```bash
 su
 ```
@@ -98,6 +125,8 @@ pm list packages -d
 {: .prompt-tip}
 
 ### Mengaktifkan Paket
+---
+
 ```bash
 su
 ```
@@ -106,4 +135,6 @@ pm enable NameOfPackage
 ```
 
 ## Referensi
-- [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)
+---
+
+- [ricalWiki: Android Tools & Fix](https://risnandapascal.github.io/ricalwiki.html)

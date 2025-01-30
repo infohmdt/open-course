@@ -6,13 +6,20 @@ tags: [cloud, aws, linux, docker]
 author: rical
 ---
 
+## Pendahuluan 
+---
+
 Docker Compose adalah alat yang digunakan dalam [Docker](https://en.wikipedia.org/wiki/Docker_(software)) untuk menjalankan dan mengonfigurasi beberapa kontainer secara bersamaan. Dengan Docker Compose, pengguna dapat mengatur konfigurasi berbagai kontainer serta menentukan urutan kontainer dan *image* yang harus dijalankan terlebih dahulu.
 
 ## Konfigurasi Instance dan Docker
+---
+
 - Untuk informasi lebih lanjut mengenai konfigurasi Instance, silakan lihat [di sini](https://ricaldocs.github.io/posts/docker-on-aws/#setup-instance).
 - Untuk informasi lebih lanjut mengenai konfigurasi Docker, silakan lihat [di sini](https://ricaldocs.github.io/posts/docker-on-aws/#konfigurasi-docker).
 
 ## Membuat Folder dan File Docker Compose
+---
+
 Untuk membuat folder dan berpindah ke dalamnya, ketik perintah berikut:
 ```bash
 mkdir nama_folder && cd nama_folder
@@ -80,6 +87,8 @@ git clone https://github.com/sendiahmadhidayat8/site-conf.git
 Perintah ini akan mengunduh repositori yang berisi file `site.conf`{: .filepath} ke dalam direktori `site-conf`{: .filepath}.
 
 ## Menjalankan Docker Compose
+---
+
 Untuk menjalankan Docker Compose, ketik perintah berikut:
 ```bash
 docker compose up -d
@@ -96,6 +105,8 @@ touch index.php about.php contact.php style.css
 ```
 
 ### Kode untuk File
+---
+
 Masukkan kode berikut ke dalam file `index.php`{: .filepath}:
 ```php
 <!DOCTYPE html>
@@ -245,7 +256,16 @@ footer {
 ```
 
 ## Verifikasi
+---
+
 Setelah semua file selesai dibuat dan disimpan, periksa IP publik AWS di browser untuk memastikan bahwa aplikasi web berjalan dengan baik.
 
-## Referensi
-- [Telecommunication Network Laboratory](https://www.instagram.com/telnetlab)
+## Pranala Menarik
+---
+
+- [Docker on AWS](https://ricaldocs.github.io/posts/docker-on-aws/)
+
+## Referensi 
+---
+
+[Telecommunication Network Laboratory: Cloud Computing](https://www.instagram.com/telnetlab)

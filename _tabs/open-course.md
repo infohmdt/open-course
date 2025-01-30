@@ -3,9 +3,12 @@ icon: fa-solid fa-book-open
 order: 6
 ---
 
+---
+
 [#contributetothenation](https://github.com/risnandapascal/D3TT_TelkomUniversity). Ilmu pengetahuan ini terbuka untuk seluruh masyarakat Indonesia yang ingin mendalami pemahaman mengenai teknologi telekomunikasi, yang mencakup aspek perangkat keras, perangkat lunak, elektronika, dan jaringan telekomunikasi.
 
 ## Cloud Computing
+---
 
 1. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Konsep Cloud</a><br>
 2. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-2.pdf" target="_blank">Pengenalan Konsep VPC dan Jaringan Komputer</a><br>
@@ -17,6 +20,8 @@ order: 6
 8. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-8.pdf" target="_blank">Migration Data</a>
 
 ## Computer Network
+---
+
 1. <a href="/assets/moduls/computer_network/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Perangkat Jaringan dan Cabling</a><br>
 2. <a href="/assets/moduls/computer_network/modul-praktikum/modul-2.pdf" target="_blank">Data Link</a><br>
 3. <a href="/assets/moduls/computer_network/modul-praktikum/modul-3.pdf" target="_blank">IP Address & Subnetting</a><br>
@@ -29,6 +34,8 @@ order: 6
 10. <a href="/assets/moduls/computer_network/modul-praktikum/modul-10.pdf" target="_blank">QOS (Quality Of Service)</a>
 
 ## Electronics Workshop
+---
+
 1. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-1.pdf" target="_blank">Instalasi dan Pengenalan EasyEDA</a><br>
 2. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-2.pdf" target="_blank">Pengenalan Skema Komponen Elektronika di EasyEDA - Skematik</a><br>
 3. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-3.pdf" target="_blank">Pembuatan Pustaka Skema Komponen Elektronika di EasyEDA (Skematik)</a><br>
@@ -40,6 +47,8 @@ order: 6
 9. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-9.pdf" target="_blank">Teknik Solder Uap (Soldering & Desoldering)</a>
 
 ## Microcontroller Applications and Interfaces
+---
+
 1. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Editor dan Diagram Alir Pemrograman (Arduino & Thonny IDE) Mikrokontroler</a><br>
 2. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-2.pdf" target="_blank">Pengenalan Antarmuka Mikrokontroler (IO, ADC, PWM ARDUINO UNO)</a><br>
 3. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-3.pdf" target="_blank">Pengenalan Pemrograman Waktu, Pencacah dan Interupsi (ARDUINO UNO dan ESP32)</a><br>
@@ -55,6 +64,8 @@ order: 6
 13. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-13.pdf" target="_blank">Aplikasi Mikrokontroler dengan Kecerdasan Buatan (ESP32-S3-CAM WROOM)</a>
 
 ## Communication System
+---
+
 1. <a href="/assets/moduls/communication_system/modul-praktikum/modul-1.pdf" target="_blank">Amplitude Modulation (AM)</a><br>
 2. <a href="/assets/moduls/communication_system/modul-praktikum/modul-2.pdf" target="_blank">Frequency Modulation (FM)</a><br>
 3. <a href="/assets/moduls/communication_system/modul-praktikum/modul-3.pdf" target="_blank">Noise</a><br>
@@ -64,6 +75,8 @@ order: 6
 7. <a href="/assets/moduls/communication_system/modul-praktikum/modul-7.pdf" target="_blank">Quadrature Phase Shift Keying (QPSK)</a>
 
 ## Optical Communication Systems
+---
+
 1. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Sistem Komunikasi Optik</a><br>
 2. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-2.pdf" target="_blank">Pengenalan Teknologi FTTX</a><br>
 3. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-3.pdf" target="_blank">Splicing</a><br>
@@ -75,6 +88,8 @@ order: 6
 9. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-9.pdf" target="_blank">Pengukuran Redaman Perangkat Sistem Komunikasi Optik</a>
 
 ## Web Design
+---
+
 1. <a href="/assets/moduls/web_design/modul-1.pdf" target="_blank">Pengenalan Aplikasi Berbasis Web dan Teks Editor</a><br>
 2. <a href="/assets/moduls/web_design/modul-2.pdf" target="_blank">HTML (Hyper Text Markup Language)</a><br>
 3. <a href="/assets/moduls/web_design/modul-3.pdf" target="_blank">CSS (Cascading Style Sheets)</a><br>
@@ -87,6 +102,8 @@ order: 6
 10. <a href="/assets/moduls/web_design/modul-10.pdf" target="_blank">Laravel</a><br>
 
 ## NSA NCCP Course
+---
+
 Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 1. <a href="https://drive.google.com/drive/folders/1MkwI4Db1RFzbhcjc3EuFrtn4VefuVKxZ?usp=sharing" target="_blank">Network Penetration Testing</a><br>
 2. <a href="https://drive.google.com/drive/folders/1h_ACZED-0fcNeGwhqSdGzqP3JyKX4FXz?usp=sharing" target="_blank">Digital Forensics</a><br>
@@ -95,6 +112,8 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 
 
 ## Thanks to
+---
+
 - [[Tel-U] School of Applied Science, Telecommunication Technology](https://linktr.ee/d3_tekniktelekomunikasi)
 - [Telecommunication Network Laboratory](https://www.instagram.com/telnetlab/)
 - [Mechatronics Laboratory](https://www.instagram.com/b_mech/)

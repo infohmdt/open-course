@@ -1,31 +1,36 @@
 ---
-title: Biography of Risnanda pascal
+title: Biography of Risnanda Pascal
 author: nata
 ---
 
-Risnanda, sering dikenal sebagai Pascal adalah seorang kontributor di bidang keamanan informasi dan jaringan, berasal dari Indonesia. 
+---
+
+[Risnanda C. Abdurrozaq](https://ricaldocs.github.io/posts/risnanda-pascal/) (lahir di Indonesia) adalah seorang kontributor di bidang keamanan informasi dan jaringan. Ia dikenal luas dengan nama Pascal.
 
 ![Risnanda Pascal](/assets/img/personal/rical.jpg){: w="150" h="150" }
-_foto paling keren, [Risnanda Pascal](https://risnandapascal.github.io), Los Angeles, CA._
+_katanya ini foto paling keren, [Risnanda Pascal](https://risnandapascal.github.io), Los Angeles, CA._
 
-Dengan latar belakang pendidikan di bidang [Telekomunikasi](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/) dari Telkom University, ia memiliki cukup pengalaman yang luas dalam analisis keamanan dan privasi data. Risnanda Pascal aktif dalam berbagai komunitas dan inisiatif yang bertujuan untuk meningkatkan kesadaran akan keamanan digital.
+[Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) saat ini sedang menempuh pendidikan di bidang [Telekomunikasi](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/) di Telkom University. Ia memiliki pengalaman yang luas dalam analisis keamanan dan privasi data.
 
 ## Kegiatan
+---
 
-1. **Analisis Keamanan Informasi**: Risnanda Pascal bertanggung jawab untuk memastikan bahwa sistem informasi dan data di [NextCrow](https://risnandapascal.github.io/NextCrow.html) terlindungi dari berbagai ancaman dan risiko.
+1. **Analisis Keamanan Informasi**: [Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) bertanggung jawab untuk memastikan bahwa sistem informasi dan data di [NextCrow](https://risnandapascal.github.io/NextCrow.html) terlindungi dari berbagai ancaman dan risiko.
    
 2. **Cobra & Warriors**: Ia berkolaborasi dengan komunitas [Cobra & Warriors](https://cobraandwarriors.github.io) untuk meningkatkan kesadaran tentang keamanan digital di kalangan generasi muda.
 
-3. **Privacy Researcher**: Risnanda Pascal menganalisis kebijakan privasi dan memastikan bahwa data pengguna dilindungi sesuai dengan regulasi yang berlaku dan praktik terbaik dalam perlindungan data.
+3. **Privacy Researcher**: [Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) menganalisis kebijakan privasi dan memastikan bahwa data pengguna dilindungi sesuai dengan regulasi yang berlaku dan praktik terbaik dalam perlindungan data.
 
-4. **Security Researcher**: Ia melakukan uji penetrasi dan memperkuat keamanan perangkat lunak *open source*.
+4. **Security Researcher**: Ia melakukan [Penetration Testing](https://ricaldocs.github.io/posts/penetration-testing/) dan memperkuat keamanan perangkat lunak *open source*.
 
-Risnanda Pascal memiliki fokus yang kuat pada bidang pertahanan dan telah terlibat dalam berbagai inisiatif yang berkaitan dengan keamanan nasional. Setiap proyek yang diikutinya memberikan kesempatan untuk mengasah keterampilan dan mendapatkan wawasan baru.
+[Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) memiliki fokus yang kuat pada bidang pertahanan dan telah terlibat dalam berbagai inisiatif yang berkaitan dengan keamanan nasional.
 
 ## Pendidikan dan Pengalaman
+---
 
 - **Digital Connectivity**, [Telkom University](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/)
 - **Wakil Ketua**, [HMDT Tel-U](https://instagram.com/infohmdt)
+- **Founder / Owner**, [rical_net](https://risnandapascal.github.io)
 - **Co-Founder / CISO**, [Cobra & Warriors Community](https://cobraandwarriors.github.io)
 - **Co-Founder / Lead Developer**, [NextCrow](https://risnandapascal.github.io/NextCrow.html)
 
@@ -33,20 +38,23 @@ Risnanda Pascal memiliki fokus yang kuat pada bidang pertahanan dan telah terlib
 _Logo [NextCrow](https://risnandapascal.github.io/NextCrow.html), Jakarta, Indonesia._
 
 ## Keterampilan Utama
+---
 
-- **Alat dan Teknologi**: [Kali Linux](https://www.kali.org/docs/introduction/what-is-kali-linux/) dan distribusi Linux berbasis [Debian](https://en.wikipedia.org/wiki/Debian).
+- **Alat dan Teknologi**: Penguasaan [Kali Linux](https://www.kali.org/docs/introduction/what-is-kali-linux/) dan distribusi Linux berbasis [Debian](https://en.wikipedia.org/wiki/Debian).
 - **Sistem Administrator**: Pengelolaan dan pemeliharaan sistem komputer dan jaringan.
 - **Anonimitas**: Implementasi berbagai alat dan teknik keamanan, termasuk [enkripsi](https://en.wikipedia.org/wiki/Encryption), [VPN](https://en.wikipedia.org/wiki/Virtual_private_network), dan [jaringan TOR](https://en.wikipedia.org/wiki/Tor_(network)).
 
 ## Hobi dan Minat
+---
 
-Di luar pekerjaan, Risnanda Pascal menikmati bermain dengan perangkat Android. Aktivitas ini membantunya tetap kreatif dan bersemangat. Ia juga aktif dalam komunitas Linux dan pengembangan Custom ROM Android, serta terbuka untuk kolaborasi dengan individu yang memiliki minat serupa.
+Di luar pekerjaan, [Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) menikmati bermain dengan perangkat [Android](https://ricaldocs.github.io/categories/android/). Ia juga aktif dalam komunitas [Linux](https://ricaldocs.github.io/categories/linux/) dan pengembangan Custom ROM [Android](https://ricaldocs.github.io/categories/android/), serta terbuka untuk kolaborasi dengan individu yang memiliki minat serupa.
 
 ## Kontak
+---
 
-Untuk diskusi lebih lanjut mengenai keamanan informasi atau peluang kerja sama, Anda dapat menghubungi Risnanda Pascal melalui forum diskusi [Cobra & Warriors](https://discord.gg/nAVZkEwjYJ).
+Untuk diskusi lebih lanjut mengenai keamanan informasi atau peluang kerja sama, Anda dapat menghubungi [Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) melalui forum diskusi [Cobra & Warriors](https://discord.gg/nAVZkEwjYJ).
 
-Untuk alasan keamanan, harap gunakan [kunci ini](https://ricaldocs.github.io/assets/personal/rical_net.asc) saat menghubunginya secara pribadi. Untuk informasi lebih lanjut, silakan merujuk ke dokumentasi [GnuPG](https://ricaldocs.github.io/posts/gnu-privacy-guard/#impor-kunci) pada bagian **Impor Kunci** dan **Mengirim Pesan**.
+Untuk alasan keamanan, harap gunakan [kunci ini](https://ricaldocs.github.io/assets/personal/rical_net.asc) saat menghubunginya secara pribadi. Untuk informasi lebih lanjut, silakan merujuk ke dokumentasi [GnuPG](https://ricaldocs.github.io/posts/gnu-privacy-guard/) pada bagian [Impor Kunci](https://ricaldocs.github.io/posts/gnu-privacy-guard/#impor-kunci) dan [Mengirim Pesan](https://ricaldocs.github.io/posts/gnu-privacy-guard/#mengirim-pesan).
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

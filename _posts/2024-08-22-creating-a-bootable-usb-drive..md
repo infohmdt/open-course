@@ -7,13 +7,16 @@ author: rical
 ---
 
 ## Create
+---
 Untuk membuat *usb bootable* menggunakan Linux, ikuti langkah-langkah berikut:
 
 ### Persyaratan
+---
 - USB flash drive.
 - File ISO yang sudah diunduh.
 
 ### Langkah-langkah
+---
 
 1. Sambungkan *usb drive* ke komputer.
 2. Buka terminal dan jalankan perintah berikut untuk mengidentifikasi nama USB:
@@ -57,8 +60,10 @@ Untuk membuat *usb bootable* menggunakan Linux, ikuti langkah-langkah berikut:
 Setelah selesai, kita dapat menggunakan *usb drive* tersebut untuk *booting* ke sistem operasi yang akan digunakan.
 
 ## Delete
+---
 
 ### Langkah-langkah
+---
 
 1. Pastikan *usb flash drive* terhubung ke komputer.
 
@@ -94,4 +99,6 @@ Setelah selesai, kita dapat menggunakan *usb drive* tersebut untuk *booting* ke 
 {: .prompt-info}
 
 ## Referensi 
-- [ricalWiki](https://risnandapascal.github.io/ricalwiki.html)
+---
+
+- [ricalWiki: Creating a bootable USB drive](https://risnandapascal.github.io/ricalwiki.html)
