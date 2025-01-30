@@ -51,7 +51,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ## 5. Akses dan Pembaruan
 ---
 
-Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Januari 2025) yang membahas [Wine](https://ricaldocs.github.io/posts/wine) dan [Penetration Testing](https://ricaldocs.github.io/posts/penetration-testing/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
+Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Januari 2025) yang membahas [OwlSearch](https://ricaldocs.github.io/posts/owlsearch) dan [Wine](https://ricaldocs.github.io/posts/wine/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
 
 ## 6. Kontak dan Dukungan
 ---
