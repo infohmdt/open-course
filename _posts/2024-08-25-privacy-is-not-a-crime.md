@@ -55,7 +55,7 @@ Sebagai alternatif, pertimbangkan untuk beralih ke aplikasi *open source*, yang 
 | Pesan                  | [Session](https://getsession.org/) <br> [Signal](https://signal.org/) / [Molly](https://molly.im/) <br> [Telegram](https://telegram.org/) | Yes     | Yes    |
 | Catatan                | [Standard Notes](https://standardnotes.com/)       | Yes     | Yes    |
 | Mesin Pencari          | [Startpage](https://startpage.com) <br> [DuckDuckGo](https://duckduckgo.com) | Yes     | Yes    |
-| Penyimpanan            | [NextCrow](https://risnandapascal.github.io/nextcrow.html) | Yes     | Yes    |
+| Penyimpanan            | [NextCrow](https://risnandapascal.github.io/website/NextCrow.html) | Yes     | Yes    |
 | VPN                    | [Riseup VPN](https://riseup.net/en/vpn) <br> [ProtonVPN](https://protonvpn.com/) | Yes     | Yes    |
 
 ### Alat

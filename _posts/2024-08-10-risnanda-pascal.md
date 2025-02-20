@@ -5,107 +5,42 @@ author: nata
 
 ---
 
-[Risnanda C. Abdurrozaq](https://ricaldocs.github.io/posts/risnanda-pascal/) (lahir di Indonesia) adalah seorang kontributor di bidang keamanan informasi dan jaringan. Ia dikenal luas dengan nama Pascal.
+[Risnanda C. Abdurrozaq](https://linkedin.com/in/risnandacandraabdurrozaq) (born in Indonesia), widely known as Pascal, is a contributor in the field of information security and networking.
 
-![Risnanda Pascal](/assets/img/personal/rical.jpg){: w="150" h="150" }
-_katanya ini foto paling keren, [Risnanda Pascal](https://risnandapascal.github.io), Los Angeles, CA._
+![Risnanda Pascal](assets/img/personal/rical.jpg){: w="150" h="150" }
+_This is said to be the coolest photo of [Risnanda Pascal](https://risnandapascal.github.io), Bandung, West Java._
 
-[Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) saat ini sedang menempuh pendidikan di bidang [Telekomunikasi](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/) di Telkom University. Ia memiliki pengalaman yang luas dalam analisis keamanan dan privasi data.
+Currently, Risnanda Pascal is pursuing a degree in [Telecommunications](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/) at Telkom University. He possesses extensive experience in security analysis and data privacy.
 
-## Kegiatan
----
+## Activities
 
-1. **Analisis Keamanan Informasi**: [Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) bertanggung jawab untuk memastikan bahwa sistem informasi dan data di [NextCrow](https://risnandapascal.github.io/NextCrow.html) terlindungi dari berbagai ancaman dan risiko.
-   
-2. **Cobra & Warriors**: Ia berkolaborasi dengan komunitas [Cobra & Warriors](https://cobraandwarriors.github.io) untuk meningkatkan kesadaran tentang keamanan digital di kalangan generasi muda.
+1. **Information Security Analysis**: Risnanda Pascal is responsible for ensuring that information systems and data at [NextCrow](https://risnandapascal.github.io/website/NextCrow.html) are protected from various threats and risks.
 
-3. **Privacy Researcher**: [Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) menganalisis kebijakan privasi dan memastikan bahwa data pengguna dilindungi sesuai dengan regulasi yang berlaku dan praktik terbaik dalam perlindungan data.
+2. **Cobra & Warriors**: He collaborates with the [Cobra & Warriors](https://cobraandwarriors.github.io) community to raise awareness about digital security among the youth.
 
-4. **Security Researcher**: Ia melakukan [Penetration Testing](https://ricaldocs.github.io/posts/penetration-testing/) dan memperkuat keamanan perangkat lunak *open source*.
+3. **Privacy Researcher**: Risnanda Pascal analyzes privacy policies and ensures that user data is protected in accordance with applicable regulations and best practices in data protection.
 
-[Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) memiliki fokus yang kuat pada bidang pertahanan dan telah terlibat dalam berbagai inisiatif yang berkaitan dengan keamanan nasional.
+4. **Security Researcher**: He conducts [Penetration Testing](https://ricaldocs.github.io/posts/penetration-testing/) and strengthens the security of open-source software.
 
-## Pendidikan dan Pengalaman
----
+Risnanda Pascal has a strong focus on defense and has been involved in various initiatives related to national security.
+
+## Education and Experience
 
 - **Digital Connectivity**, [Telkom University](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/)
-- **Wakil Ketua**, [HMDT Tel-U](https://instagram.com/infohmdt)
-- **Founder / Owner**, [rical_net](https://risnandapascal.github.io)
+- **Vice Chairman**, [HMDT Tel-U](https://instagram.com/infohmdt)
+- **Founder / Owner**, [ricalNet](https://risnandapascal.github.io/website)
 - **Co-Founder / CISO**, [Cobra & Warriors Community](https://cobraandwarriors.github.io)
-- **Co-Founder / Lead Developer**, [NextCrow](https://risnandapascal.github.io/NextCrow.html)
+- **Co-Founder / Lead Developer**, [NextCrow](https://risnandapascal.github.io/website/NextCrow.html)
 
-![NextCrow](/assets/img/personal/OnionCal.png){: w="150" h="150" }
-_Logo [NextCrow](https://risnandapascal.github.io/NextCrow.html), Jakarta, Indonesia._
+![NextCrow](assets/img/personal/OnionCal.png){: w="150" h="150" }
+_Logo of [NextCrow](https://risnandapascal.github.io/website/NextCrow.html), Jakarta, Indonesia._
 
-## Keterampilan Utama
----
+## Key Skills
 
-- **Alat dan Teknologi**: Penguasaan [Kali Linux](https://www.kali.org/docs/introduction/what-is-kali-linux/) dan distribusi Linux berbasis [Debian](https://en.wikipedia.org/wiki/Debian).
-- **Sistem Administrator**: Pengelolaan dan pemeliharaan sistem komputer dan jaringan.
-- **Anonimitas**: Implementasi berbagai alat dan teknik keamanan, termasuk [enkripsi](https://en.wikipedia.org/wiki/Encryption), [VPN](https://en.wikipedia.org/wiki/Virtual_private_network), dan [jaringan TOR](https://en.wikipedia.org/wiki/Tor_(network)).
+- **Tools and Technologies**: Proficient in [Kali Linux](https://www.kali.org/docs/introduction/what-is-kali-linux/) and Debian-based Linux distributions.
+- **System Administration**: Management and maintenance of computer systems and networks.
+- **Anonymity**: Implementation of various security tools and techniques, including [encryption](https://en.wikipedia.org/wiki/Encryption), [VPN](https://en.wikipedia.org/wiki/Virtual_private_network), and the [TOR network](https://en.wikipedia.org/wiki/Tor_(network)).
 
-## Hobi dan Minat
----
+## Hobbies and Interests
 
-Di luar pekerjaan, [Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) menikmati bermain dengan perangkat [Android](https://ricaldocs.github.io/categories/android/). Ia juga aktif dalam komunitas [Linux](https://ricaldocs.github.io/categories/linux/) dan pengembangan Custom ROM [Android](https://ricaldocs.github.io/categories/android/), serta terbuka untuk kolaborasi dengan individu yang memiliki minat serupa.
-
-## Kontak
----
-
-Untuk diskusi lebih lanjut mengenai keamanan informasi atau peluang kerja sama, Anda dapat menghubungi [Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) melalui forum diskusi [Cobra & Warriors](https://discord.gg/nAVZkEwjYJ).
-
-Untuk alasan keamanan, harap gunakan [kunci ini](https://ricaldocs.github.io/assets/personal/rical_net.asc) saat menghubunginya secara pribadi. Untuk informasi lebih lanjut, silakan merujuk ke dokumentasi [GnuPG](https://ricaldocs.github.io/posts/gnu-privacy-guard/) pada bagian [Impor Kunci](https://ricaldocs.github.io/posts/gnu-privacy-guard/#impor-kunci) dan [Mengirim Pesan](https://ricaldocs.github.io/posts/gnu-privacy-guard/#mengirim-pesan).
-
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
-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
-+aTSsfr8WX6w9VBh5//brQ8=
-=KWmM
------END PGP PUBLIC KEY BLOCK-----
-```
+Outside of work, Risnanda Pascal enjoys experimenting with [Android](https://ricaldocs.github.io/categories/android/) devices. He is also active in the [Linux](https://ricaldocs.github.io/categories/linux/) community and in developing Custom ROMs for [Android](https://ricaldocs.github.io/categories/android/), and is open to collaboration with individuals who share similar interests.

@@ -1,8 +1,8 @@
 ---
 title: Home Server
 description: Bangun home server untuk mengoptimalkan keamanan dan privasi data pribadi. Dengan cara ini, kita dapat mengendalikan sepenuhnya penyimpanan dan akses informasi tanpa harus bergantung pada layanan cloud pihak ketiga yang dapat menjadi titik lemah.
-categories: [Cybersecurity, Linux, rical_net, Privacy]
-tags: [linux, rical_net, privacy, open source]
+categories: [Cybersecurity, Linux, ricalNet, Privacy]
+tags: [linux, ricalNet, privacy, open source]
 author: rical
 ---
 
@@ -130,7 +130,7 @@ Buka browser dan akses [http://localhost/nextcloud](http://localhost/nextcloud).
 
 Selesai. Sekarang, unduh aplikasi Nextcloud ke perangkat dan mulai mengunggah serta mengelola file secara mandiri.
 
-> Selain untuk home server, [Nextcloud](https://nextcloud.com) juga menjadi fondasi utama untuk pengembangan [NextCrow](https://risnandapascal.github.io/nextcrow.html) berkat sifatnya yang *open source*, memberikan kontrol penuh atas data, serta fitur keamanan tingkat tinggi.
+> Selain untuk home server, [Nextcloud](https://nextcloud.com) juga menjadi fondasi utama untuk pengembangan [NextCrow](https://risnandapascal.github.io/website/NextCrow.html) berkat sifatnya yang *open source*, memberikan kontrol penuh atas data, serta fitur keamanan tingkat tinggi.
 {: .prompt-info}
 
 Selanjutnya, jalankan perintah berikut untuk membuat crontab baru yang akan digunakan untuk menjalankan skrip crontab Nextcloud:
