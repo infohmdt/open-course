@@ -39,7 +39,7 @@ Sebagai alternatif, pertimbangkan untuk beralih ke aplikasi *open source*, yang 
 | Nama                          | Alternatif     |
 | :--------------------- | :--------------- |
 | Desktop        | [QubesOS](https://www.qubes-os.org/) <br> [TailsOS](https://tails.net/) <br> [Whonix](https://www.whonix.org/) <br> [OpenBSD](https://www.openbsd.org/)|
-| Android       | [LineageOS](https://lineageos.org/) <br> [GrapheneOS](https://grapheneos.org/) <br> [CalyxOS](https://calyxos.org/) <br> [LibreMobileOS](https://lmo.framer.website)<br> Custom Rom (Vanilla Build) |
+| Android       | [LineageOS](https://lineageos.org/) <br> [GrapheneOS](https://grapheneos.org/) <br> [CalyxOS](https://calyxos.org/) <br> [LibreMobileOS](https://lmo.framer.website)<br> [/e/OS](https://e.foundation/e-os/) <br> Custom Rom (Vanilla Build) |
 
 ### Rekomendasi Penggunaan Sehari-hari
 ---
@@ -48,10 +48,10 @@ Sebagai alternatif, pertimbangkan untuk beralih ke aplikasi *open source*, yang 
 |------------------------|-----------------------------------------------------|---------|--------|
 | Google Play Services   | [MicroG](https://ricaldocs.github.io/posts/microg/)                      | No      | Yes    |
 | App Store / Play Store | [F-Droid](https://f-droid.org/) (Open Source APK Store) <br> [Aurora Store](https://auroraoss.com/) (GPlay Store Alternative)                    | No      | Yes    |
-| Authenticator          | [Aegis Authenticator](https://github.com/beemdevelopment/Aegis) | No      | Yes    |
+| Authenticator          | [Aegis Authenticator](https://getaegis.app/) (Android only) <br> [Ente Auth](https://ente.io/auth/) | Yes      | Yes    |
 | Browser                | [TOR Browser](https://www.torproject.org/) <br> [Brave](https://brave.com/) <br> [Firefox](https://www.mozilla.org/en-US/firefox/) | Yes     | Yes    |
 | Email                  | [ProtonMail](https://protonmail.com/) <br> [TutaMail](https://tutanota.com/) | Yes     | Yes    |
-| Peta                | [OpenStreetMap](https://openstreetmap.org) | Yes     | Yes    |
+| Peta                | [OpenStreetMap](https://openstreetmap.org) <br> [Organic Maps](https://organicmaps.app/) | Yes     | Yes    |
 | Pesan                  | [Session](https://getsession.org/) <br> [Signal](https://signal.org/) / [Molly](https://molly.im/) <br> [Telegram](https://telegram.org/) | Yes     | Yes    |
 | Catatan                | [Standard Notes](https://standardnotes.com/)       | Yes     | Yes    |
 | Mesin Pencari          | [Startpage](https://startpage.com) <br> [DuckDuckGo](https://duckduckgo.com) | Yes     | Yes    |

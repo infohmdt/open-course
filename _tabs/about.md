@@ -51,7 +51,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ## 5. Akses dan Pembaruan
 ---
 
-Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Januari 2025) yang membahas [OwlSearch](https://ricaldocs.github.io/posts/owlsearch) dan [Wine](https://ricaldocs.github.io/posts/wine/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
+Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Februari 2025) yang membahas [Basic Terminal Kali Linux](https://ricaldocs.github.io/posts/basic-terminal-kali-linux/) dan [OwlSearch](https://ricaldocs.github.io/posts/owlsearch). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
 
 ## 6. Kontak dan Dukungan
 ---
