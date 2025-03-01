@@ -7,6 +7,24 @@ order: 6
 
 [#contributetothenation](https://github.com/risnandapascal/D3TT_TelkomUniversity). Ilmu pengetahuan ini terbuka untuk seluruh masyarakat Indonesia yang ingin mendalami pemahaman mengenai teknologi telekomunikasi, yang mencakup aspek perangkat keras, perangkat lunak, elektronika, dan jaringan telekomunikasi.
 
+## Thanks to
+---
+
+- [[Tel-U] School of Applied Science, Diploma Telecommunication Engineering](https://linktr.ee/d3_tekniktelekomunikasi)
+
+| Laboratory                       | Course           | 
+| :------------------------------- | :--------------- |
+| Telecommunication Network        | [1. Web Design](https://ricaldocs.github.io/open-course/#web-design) <br> [2. Computer Network](https://ricaldocs.github.io/open-course/#computer-network) <br> [3. Cloud Computing](https://ricaldocs.github.io/open-course/#cloud-computing) <br> [4. Telecommunication Network](https://ricaldocs.github.io/open-course/#telecommunication-network) <br> [5. Network Security](https://ricaldocs.github.io/open-course/#network-security) <br> |
+| Mechatronics Laboratory | [Electronic Workshop](https://ricaldocs.github.io/open-course/#electronics-workshop) |
+| Microcontroller Laboratory | [Microcontroller Applications and Interfaces](https://ricaldocs.github.io/open-course/#microcontroller-applications-and-interfaces) |
+| Communication System Laboratory | [Communication System](https://ricaldocs.github.io/open-course/#communication-system) |
+| Optical Communication System Laboratory | [Optical Communication Systems](https://ricaldocs.github.io/open-course/#optical-communication-systems) |
+
+| Others                       | Course           | 
+| :--------------------------- | :--------------- |
+| Cybersecurity                | [NSA NCCP Course by CLARK](https://ricaldocs.github.io/open-course/#nsa-nccp-course) |
+
+
 ## Cloud Computing
 ---
 
@@ -18,6 +36,17 @@ order: 6
 6. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-6.pdf" target="_blank">Implementasi Docker Sebagai Container</a><br>
 7. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-7.pdf" target="_blank">Docker Compose</a><br>
 8. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-8.pdf" target="_blank">Migration Data</a>
+
+## Communication System
+---
+
+1. <a href="/assets/moduls/communication_system/modul-praktikum/modul-1.pdf" target="_blank">Amplitude Modulation (AM)</a><br>
+2. <a href="/assets/moduls/communication_system/modul-praktikum/modul-2.pdf" target="_blank">Frequency Modulation (FM)</a><br>
+3. <a href="/assets/moduls/communication_system/modul-praktikum/modul-3.pdf" target="_blank">Noise</a><br>
+4. <a href="/assets/moduls/communication_system/modul-praktikum/modul-4.pdf" target="_blank">Amplitude Shift Keying (ASK)</a><br>
+5. <a href="/assets/moduls/communication_system/modul-praktikum/modul-5.pdf" target="_blank">Frequency Shift Keying (FSK)</a><br>
+6. <a href="/assets/moduls/communication_system/modul-praktikum/modul-6.pdf" target="_blank">Binary Phase Shift Keying (BPSK)</a><br>
+7. <a href="/assets/moduls/communication_system/modul-praktikum/modul-7.pdf" target="_blank">Quadrature Phase Shift Keying (QPSK)</a>
 
 ## Computer Network
 ---
@@ -32,6 +61,39 @@ order: 6
 8. <a href="/assets/moduls/computer_network/modul-praktikum/modul-8.pdf" target="_blank">Wireless Security</a><br>
 9. <a href="/assets/moduls/computer_network/modul-praktikum/modul-9.pdf" target="_blank">DNS Server</a><br>
 10. <a href="/assets/moduls/computer_network/modul-praktikum/modul-10.pdf" target="_blank">QOS (Quality Of Service)</a>
+
+## Network Security
+---
+1. <a href="/assets/moduls/network_security/modul-1.pdf" target="_blank">PENGENALAN KEAMANAN JARINGAN DAN SISTEM OPERASI LINUX</a><br>
+2. <a href="/assets/moduls/network_security/modul-2.pdf" target="_blank">FOOTPRINTING</a><br>
+3. <a href="/assets/moduls/network_security/modul-3.pdf" target="_blank">NETWORK SCANNING</a><br>
+4. <a href="/assets/moduls/network_security/modul-4.pdf" target="_blank">PENETRATION TESTING</a><br>
+5. <a href="/assets/moduls/network_security/modul-5.pdf" target="_blank">ATTACKING WEB SERVER</a><br>
+6. <a href="/assets/moduls/network_security/modul-6.pdf" target="_blank">ANCAMAN PERANGKAT LUNAK BERBAHAYA</a><br>
+7. <a href="/assets/moduls/network_security/modul-7.pdf" target="_blank">VPN DAN FIREWALL</a><br>
+8. <a href="/assets/moduls/network_security/modul-8.pdf" target="_blank">KRIPTOGRADI DAN TEKNIK PENYAMARAN INFORMASI</a><br>
+9. <a href="/assets/moduls/network_security/modul-9.pdf" target="_blank">SECURITY INFORMATION AND EVENT MANAGEMENT (SIEM)</a><br>
+10. <a href="/assets/moduls/network_security/modul-10.pdf" target="_blank">DIGITAL FORENSIK</a><br>
+
+## NSA NCCP Course
+---
+
+Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
+1. <a href="https://drive.google.com/drive/folders/1MkwI4Db1RFzbhcjc3EuFrtn4VefuVKxZ?usp=sharing" target="_blank">Network Penetration Testing</a><br>
+2. <a href="https://drive.google.com/drive/folders/1h_ACZED-0fcNeGwhqSdGzqP3JyKX4FXz?usp=sharing" target="_blank">Digital Forensics</a><br>
+3. <a href="https://drive.google.com/drive/folders/15jTTZDuZ2bqSNrg4mmkkBzl_blX7GG6I?usp=sharing" target="_blank">Computer Security</a><br>
+4. <a href="https://drive.google.com/drive/folders/1P-tDVcGjEsWEaMg9ZCT193V-A8OurLip?usp=sharing" target="_blank">Machine Learning for Cybersecurity</a><br>
+
+## Telecommunication Network
+---
+1. <a href="/assets/moduls/telecommunication_network/modul-1.pdf" target="_blank">SIP VoIP Menggunakan Asterisk</a><br>
+2. <a href="/assets/moduls/telecommunication_network/modul-2.pdf" target="_blank">Simulasi NGN/Softswitch menggunakan Trixbox</a><br>
+3. <a href="/assets/moduls/telecommunication_network/modul-3.pdf" target="_blank">Video Conference menggunakan WebRtc</a><br>
+4. <a href="/assets/moduls/telecommunication_network/modul-4.pdf" target="_blank">File Transfer Protocol (FTP) Server</a><br>
+5. <a href="/assets/moduls/telecommunication_network/modul-5.pdf" target="_blank">Penginstalan Grafana dan Prometheus di Ubuntu Server</a><br>
+6. <a href="/assets/moduls/telecommunication_network/modul-6.pdf" target="_blank">Membuat Voucher Wifi Menggunakan Mikrotik</a><br>
+8. <a href="/assets/moduls/telecommunication_network/modul-8.pdf" target="_blank">Monitoring MikroTik Menggunakan Grafana</a><br>
+
 
 ## Electronics Workshop
 ---
@@ -63,17 +125,6 @@ order: 6
 12. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-12.pdf" target="_blank">Komunikasi Nirkabel dengan Aplikasi Web Server (Blynk)</a><br>
 13. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-13.pdf" target="_blank">Aplikasi Mikrokontroler dengan Kecerdasan Buatan (ESP32-S3-CAM WROOM)</a>
 
-## Communication System
----
-
-1. <a href="/assets/moduls/communication_system/modul-praktikum/modul-1.pdf" target="_blank">Amplitude Modulation (AM)</a><br>
-2. <a href="/assets/moduls/communication_system/modul-praktikum/modul-2.pdf" target="_blank">Frequency Modulation (FM)</a><br>
-3. <a href="/assets/moduls/communication_system/modul-praktikum/modul-3.pdf" target="_blank">Noise</a><br>
-4. <a href="/assets/moduls/communication_system/modul-praktikum/modul-4.pdf" target="_blank">Amplitude Shift Keying (ASK)</a><br>
-5. <a href="/assets/moduls/communication_system/modul-praktikum/modul-5.pdf" target="_blank">Frequency Shift Keying (FSK)</a><br>
-6. <a href="/assets/moduls/communication_system/modul-praktikum/modul-6.pdf" target="_blank">Binary Phase Shift Keying (BPSK)</a><br>
-7. <a href="/assets/moduls/communication_system/modul-praktikum/modul-7.pdf" target="_blank">Quadrature Phase Shift Keying (QPSK)</a>
-
 ## Optical Communication Systems
 ---
 
@@ -100,25 +151,3 @@ order: 6
 8. <a href="/assets/moduls/web_design/modul-8.pdf" target="_blank">Visualisasi Database Dalam Bentuk Grafik</a><br>
 9. <a href="/assets/moduls/web_design/modul-9.pdf" target="_blank">Web Hosting dan GitHub</a><br>
 10. <a href="/assets/moduls/web_design/modul-10.pdf" target="_blank">Laravel</a><br>
-
-## NSA NCCP Course
----
-
-Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
-1. <a href="https://drive.google.com/drive/folders/1MkwI4Db1RFzbhcjc3EuFrtn4VefuVKxZ?usp=sharing" target="_blank">Network Penetration Testing</a><br>
-2. <a href="https://drive.google.com/drive/folders/1h_ACZED-0fcNeGwhqSdGzqP3JyKX4FXz?usp=sharing" target="_blank">Digital Forensics</a><br>
-3. <a href="https://drive.google.com/drive/folders/15jTTZDuZ2bqSNrg4mmkkBzl_blX7GG6I?usp=sharing" target="_blank">Computer Security</a><br>
-4. <a href="https://drive.google.com/drive/folders/1P-tDVcGjEsWEaMg9ZCT193V-A8OurLip?usp=sharing" target="_blank">Machine Learning for Cybersecurity</a><br>
-
-
-## Thanks to
----
-
-- [[Tel-U] School of Applied Science, Telecommunication Technology](https://linktr.ee/d3_tekniktelekomunikasi)
-- [Telecommunication Network Laboratory](https://www.instagram.com/telnetlab/)
-- [Mechatronics Laboratory](https://www.instagram.com/b_mech/)
-- [Microcontroller Laboratory](https://www.instagram.com/mcl_laboratory/)
-- [Communication System Laboratory](https://www.instagram.com/comsys.laboratory/)
-- Optical Communication System Laboratory
-- [NSA NCCP Course by CLARK](https://clark.center/home)
-
