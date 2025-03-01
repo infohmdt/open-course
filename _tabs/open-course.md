@@ -12,9 +12,9 @@ order: 6
 
 - [[Tel-U] School of Applied Science, Diploma Telecommunication Engineering](https://linktr.ee/d3_tekniktelekomunikasi)
 
-| Laboratory                       | Course           | 
-| :------------------------------- | :--------------- |
-| Telecommunication Network        | [1. Web Design](https://ricaldocs.github.io/open-course/#web-design) <br> [2. Computer Network](https://ricaldocs.github.io/open-course/#computer-network) <br> [3. Cloud Computing](https://ricaldocs.github.io/open-course/#cloud-computing) <br> [4. Telecommunication Network](https://ricaldocs.github.io/open-course/#telecommunication-network) <br> [5. Network Security](https://ricaldocs.github.io/open-course/#network-security) <br> |
+| Laboratory                           | Course           | 
+| :----------------------------------- | :--------------- |
+| Telecommunication Network Laboratory | [1. Web Design](https://ricaldocs.github.io/open-course/#web-design) <br> [2. Computer Network](https://ricaldocs.github.io/open-course/#computer-network) <br> [3. Cloud Computing](https://ricaldocs.github.io/open-course/#cloud-computing) <br> [4. Telecommunication Network](https://ricaldocs.github.io/open-course/#telecommunication-network) <br> [5. Network Security](https://ricaldocs.github.io/open-course/#network-security) <br> |
 | Mechatronics Laboratory | [Electronic Workshop](https://ricaldocs.github.io/open-course/#electronics-workshop) |
 | Microcontroller Laboratory | [Microcontroller Applications and Interfaces](https://ricaldocs.github.io/open-course/#microcontroller-applications-and-interfaces) |
 | Communication System Laboratory | [Communication System](https://ricaldocs.github.io/open-course/#communication-system) |
@@ -23,7 +23,6 @@ order: 6
 | Others                       | Course           | 
 | :--------------------------- | :--------------- |
 | Cybersecurity                | [NSA NCCP Course by CLARK](https://ricaldocs.github.io/open-course/#nsa-nccp-course) |
-
 
 ## Cloud Computing
 ---
