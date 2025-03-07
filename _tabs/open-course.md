@@ -63,7 +63,7 @@ order: 6
 
 ## Network Security
 ---
-1. <a href="/assets/moduls/network_security/modul-1.pdf" target="_blank">PENGENALAN KEAMANAN JARINGAN DAN SISTEM OPERASI LINUX</a><br>
+1. <a href="/assets/moduls/network_security/modul-1.pdf" target="_blank">PENGENALAN CYBER SECURITY DAN SISTEM OPERASI LINUX</a><br>
 2. <a href="/assets/moduls/network_security/modul-2.pdf" target="_blank">FOOTPRINTING</a><br>
 3. <a href="/assets/moduls/network_security/modul-3.pdf" target="_blank">NETWORK SCANNING</a><br>
 4. <a href="/assets/moduls/network_security/modul-4.pdf" target="_blank">PENETRATION TESTING</a><br>
