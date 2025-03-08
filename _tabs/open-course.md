@@ -70,7 +70,7 @@ order: 6
 5. <a href="/assets/moduls/network_security/modul-5.pdf" target="_blank">ATTACKING WEB SERVER</a><br>
 6. <a href="/assets/moduls/network_security/modul-6.pdf" target="_blank">ANCAMAN PERANGKAT LUNAK BERBAHAYA</a><br>
 7. <a href="/assets/moduls/network_security/modul-7.pdf" target="_blank">VPN DAN FIREWALL</a><br>
-8. <a href="/assets/moduls/network_security/modul-8.pdf" target="_blank">KRIPTOGRADI DAN TEKNIK PENYAMARAN INFORMASI</a><br>
+8. <a href="/assets/moduls/network_security/modul-8.pdf" target="_blank">KRIPTOGRAFI DAN TEKNIK PENYAMARAN INFORMASI</a><br>
 9. <a href="/assets/moduls/network_security/modul-9.pdf" target="_blank">SECURITY INFORMATION AND EVENT MANAGEMENT (SIEM)</a><br>
 10. <a href="/assets/moduls/network_security/modul-10.pdf" target="_blank">DIGITAL FORENSIK</a><br>
 
