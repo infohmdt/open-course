@@ -143,10 +143,11 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 1. <a href="/assets/moduls/web_design/modul-1.pdf" target="_blank">Pengenalan Aplikasi Berbasis Web dan Teks Editor</a><br>
 2. <a href="/assets/moduls/web_design/modul-2.pdf" target="_blank">HTML (Hyper Text Markup Language)</a><br>
 3. <a href="/assets/moduls/web_design/modul-3.pdf" target="_blank">CSS (Cascading Style Sheets)</a><br>
-4. <a href="/assets/moduls/web_design/modul-4.pdf" target="_blank">PHP</a><br>
-5. <a href="/assets/moduls/web_design/modul-5.pdf" target="_blank">Database</a><br>
-6. <a href="/assets/moduls/web_design/modul-6.pdf" target="_blank">RELASI MYSQL & KONEKSI MYSQL DENGAN PHP</a><br>
-7. <a href="/assets/moduls/web_design/modul-7.pdf" target="_blank">Pengenalan JavaScript</a><br>
+4. <a href="/assets/moduls/web_design/modul-7.pdf" target="_blank">JavaScript</a><br>
+5. <a href="/assets/moduls/web_design/modul-4.pdf" target="_blank">PHP</a><br>
+6. <a href="/assets/moduls/web_design/modul-5.pdf" target="_blank">Database</a><br>
+7. <a href="/assets/moduls/web_design/modul-6.pdf" target="_blank">RELASI MYSQL & KONEKSI MYSQL DENGAN PHP</a><br>
 8. <a href="/assets/moduls/web_design/modul-8.pdf" target="_blank">Visualisasi Database Dalam Bentuk Grafik</a><br>
-9. <a href="/assets/moduls/web_design/modul-9.pdf" target="_blank">Web Hosting dan GitHub</a><br>
-10. <a href="/assets/moduls/web_design/modul-10.pdf" target="_blank">Laravel</a><br>
+9. <a href="/assets/moduls/web_design/modul-10.pdf" target="_blank">Laravel</a><br>
+10. <a href="/assets/moduls/web_design/modul-9.pdf" target="_blank">Web Hosting dan GitHub</a><br>
+11. <a href="/assets/moduls/web_design/modul-11.pdf" target="_blank">Figma</a><br>
