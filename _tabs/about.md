@@ -51,7 +51,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ## 5. Akses dan Pembaruan
 ---
 
-Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Maret 2025) yang membahas [Connect Devices to a Home Gateway and Monitor Your Network](https://ricaldocs.github.io/posts/connect-devices-to-a-home-gateway-and-monitor-your-network/) dan [Blinking an LED Using Blockly](https://ricaldocs.github.io/posts/blinking-an-led-using-blockly/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
+Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Maret 2025) yang membahas [Create a Simple Network](https://ricaldocs.github.io/posts/create-a-simple-network/) dan [Connect Devices to a Home Gateway and Monitor Your Network](https://ricaldocs.github.io/posts/connect-devices-to-a-home-gateway-and-monitor-your-network/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
 
 ## 6. Kontak dan Dukungan
 ---

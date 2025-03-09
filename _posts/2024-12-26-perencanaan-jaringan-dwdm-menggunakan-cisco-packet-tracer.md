@@ -1,7 +1,7 @@
 ---
 title: Perencanaan Jaringan DWDM Menggunakan Cisco Packet Tracer
 description: Konfigurasi jaringan DWDM menggunakan Cisco Packet Tracer, yang meningkatkan kapasitas dan efisiensi pengiriman data melalui serat optik. Langkah-langkah mencakup penambahan perangkat, pengaturan IP, dan simulasi konektivitas.
-categories: [Cisco Packet Tracer]
+categories: [Cisco Packet Tracer, Networking]
 tags: [cisco packet tracer]
 author: rical
 ---

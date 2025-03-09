@@ -1,7 +1,7 @@
 ---
 title: Konfigurasi QoS di Cisco Packet Tracer
 description: Menjelaskan langkah-langkah konfigurasi Quality of Service (QoS) pada perangkat Cisco menggunakan Cisco Packet Tracer. Konfigurasi ini mencakup pengaturan router dan pengujian konektivitas.
-categories: [Cisco Packet Tracer]
+categories: [Cisco Packet Tracer, Networking]
 tags: [cisco packet tracer]
 author: rical
 ---
