@@ -2,7 +2,7 @@
 title: Create a Simple Network
 description: Membangun jaringan sederhana di Packet Tracer dalam Logical Workspace.
 categories: [Cisco Packet Tracer, Networking]
-tags: [cisco packet tracer]
+tags: [cisco packet tracer, IoT]
 author: rical
 ---
 
