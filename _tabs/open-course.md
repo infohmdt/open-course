@@ -14,7 +14,7 @@ order: 6
 
 | Laboratory                           | Course           | 
 | :----------------------------------- | :--------------- |
-| Telecommunication Network Laboratory | [1. Web Design](https://ricaldocs.github.io/open-course/#web-design) <br> [2. Computer Network](https://ricaldocs.github.io/open-course/#computer-network) <br> [3. Cloud Computing](https://ricaldocs.github.io/open-course/#cloud-computing) <br> [4. Telecommunication Network](https://ricaldocs.github.io/open-course/#telecommunication-network) <br> [5. Network Security](https://ricaldocs.github.io/open-course/#network-security) <br> |
+| [Telecommunication Network Laboratory](https://telnetlab.github.io) | [1. Algorithms & Programming](https://ricaldocs.github.io/open-course/#algorithms--programming) <br> [2. Web Design](https://ricaldocs.github.io/open-course/#web-design) <br> [3. Computer Network](https://ricaldocs.github.io/open-course/#computer-network) <br> [4. Cloud Computing](https://ricaldocs.github.io/open-course/#cloud-computing) <br> [5. Telecommunication Network](https://ricaldocs.github.io/open-course/#telecommunication-network) <br> [6. Network Security](https://ricaldocs.github.io/open-course/#network-security) <br> |
 | Mechatronics Laboratory | [Electronic Workshop](https://ricaldocs.github.io/open-course/#electronics-workshop) |
 | Microcontroller Laboratory | [Microcontroller Applications and Interfaces](https://ricaldocs.github.io/open-course/#microcontroller-applications-and-interfaces) |
 | Communication System Laboratory | [Communication System](https://ricaldocs.github.io/open-course/#communication-system) |
@@ -23,6 +23,18 @@ order: 6
 | Others                       | Course           | 
 | :--------------------------- | :--------------- |
 | Cybersecurity                | [NSA NCCP Course by CLARK](https://ricaldocs.github.io/open-course/#nsa-nccp-course) |
+
+## Algorithms & Programming
+---
+
+1. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-1.pdf" target="_blank">Dasar Python</a><br>
+2. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-2.pdf" target="_blank">Dasar Python 2</a><br>
+3. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-3.pdf" target="_blank">Dasar Python 3</a><br>
+4. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-4.pdf" target="_blank">Try Except, Input, Metode, Format, dan File Handling Pada Python</a><br>
+5. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-5.pdf" target="_blank">Python Modules</a><br>
+6. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-6.pdf" target="_blank">Matplotlib</a><br>
+7. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-7.pdf" target="_blank">Machine Learning</a><br>
+8. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-8.pdf" target="_blank">MySQL</a>
 
 ## Cloud Computing
 ---
