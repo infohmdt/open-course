@@ -94,7 +94,7 @@ Sekarang, kunjungi [http://127.0.0.1:8000/](http://127.0.0.1:8000/), pesan **"He
 ## Referensi
 ---
 
-- [ricalWiki: Python Django](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Python Django](https://ricalnet.github.io/ricalwiki.html)
 
 
 

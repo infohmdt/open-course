@@ -137,4 +137,4 @@ pm enable NameOfPackage
 ## Referensi
 ---
 
-- [ricalWiki: Android Tools & Fix](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Android Tools & Fix](https://ricalnet.github.io/ricalwiki.html)

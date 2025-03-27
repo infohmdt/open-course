@@ -134,4 +134,4 @@ Pelaksanaan pentesting harus mematuhi etika dan hukum yang berlaku. Pentester wa
 ## Referensi 
 ---
 
-- [ricalWiki: Penetration Testing](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Penetration Testing](https://ricalnet.github.io/ricalwiki.html)

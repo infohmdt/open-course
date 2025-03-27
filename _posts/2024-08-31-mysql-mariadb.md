@@ -171,4 +171,4 @@ DROP TABLE nama_tabel;
 ## Referensi
 ---
 
-- [ricalWiki: MySQL Command](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: MySQL Command](https://ricalnet.github.io/ricalwiki.html)

@@ -152,4 +152,4 @@ Setelah konfigurasi selesai, lakukan pengujian untuk memastikan bahwa QoS berfun
 ## Referensi 
 ---
 
-- [ricalWiki: Konfigurasi QoS di Cisco Packet Tracer](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Konfigurasi QoS di Cisco Packet Tracer](https://ricalnet.github.io/ricalwiki.html)

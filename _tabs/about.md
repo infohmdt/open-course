@@ -41,7 +41,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ### Proyek Terkait
 ---
 
-- [rical_net](https://risnandapascal.github.io): platform yang menyediakan alat-alat keamanan siber dengan fokus utama pada keamanan dan privasi. Platform ini dirancang untuk membantu individu dalam melindungi data dan informasi sensitif mereka dari ancaman siber. Dengan pendekatan yang berorientasi pada pengguna, [rical_net](https://risnandapascal.github.io) bertujuan untuk meningkatkan kesadaran dan pemahaman tentang pentingnya keamanan siber di dunia digital saat ini.
+- [ricalNet](https://ricalnet.github.io): platform yang menyediakan alat-alat keamanan siber dengan fokus utama pada keamanan dan privasi. Platform ini dirancang untuk membantu individu dalam melindungi data dan informasi sensitif mereka dari ancaman siber. Dengan pendekatan yang berorientasi pada pengguna, [ricalNet](https://ricalnet.github.io) bertujuan untuk meningkatkan kesadaran dan pemahaman tentang pentingnya keamanan siber di dunia digital saat ini.
 
 ### Kontribusi Komunitas
 ---
@@ -51,7 +51,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ## 5. Akses dan Pembaruan
 ---
 
-Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Maret 2025) yang membahas [Wireless Network Attack Using the Fluxion Method](https://ricaldocs.github.io/posts/fluxion/) dan [Create a Simple Network](https://ricaldocs.github.io/posts/create-a-simple-network/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
+Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Maret 2025) yang membahas [Video Conference Menggunakan WebRTC](https://ricaldocs.github.io/posts/video-conference-menggunakan-webrtc/) dan [Wireless Network Attack Using the Fluxion Method](https://ricaldocs.github.io/posts/fluxion/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
 
 ## 6. Kontak dan Dukungan
 ---

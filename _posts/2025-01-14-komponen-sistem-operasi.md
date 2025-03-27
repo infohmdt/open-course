@@ -173,4 +173,4 @@ Antarmuka Pengguna Grafis (GUI) telah berkembang dari waktu ke waktu. Sebagai co
 ## Referensi
 ---
 
-- [ricalWiki: Komponen Sistem Operasi](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Komponen Sistem Operasi](https://ricalnet.github.io/ricalwiki.html)

@@ -101,4 +101,4 @@ Setelah selesai, kita dapat menggunakan *usb drive* tersebut untuk *booting* ke 
 ## Referensi 
 ---
 
-- [ricalWiki: Creating a bootable USB drive](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Creating a bootable USB drive](https://ricalnet.github.io/ricalwiki.html)

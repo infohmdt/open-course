@@ -214,5 +214,5 @@ Linux Incident Response and Forensics adalah aspek kritis dalam menjaga keamanan
 ## Referensi
 ---
 
-- [ricalWiki: Linux Incident Response and Forensics](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Linux Incident Response and Forensics](https://ricalnet.github.io/ricalwiki.html)
 

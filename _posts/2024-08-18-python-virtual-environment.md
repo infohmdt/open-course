@@ -111,4 +111,4 @@ pip install nama_modul
 ## Referensi
 ---
 
-- [ricalWiki: Python Virtual Environment](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Python Virtual Environment](https://ricalnet.github.io/ricalwiki.html)

@@ -124,4 +124,4 @@ sudo systemctl restart apache2
 ## Referensi
 ---
 
-- [ricalWiki: Mastering Self-Signed Certificates](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Mastering Self-Signed Certificates](https://ricalnet.github.io/ricalwiki.html)

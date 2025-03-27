@@ -193,5 +193,5 @@ sudo rm -rf /etc/xdg/autostart/optimus.desktop
 ## Referensi 
 ---
 
-- [ricalWiki: NVIDIA GPU Drivers on Kali Linux](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: NVIDIA GPU Drivers on Kali Linux](https://ricalnet.github.io/ricalwiki.html)
 

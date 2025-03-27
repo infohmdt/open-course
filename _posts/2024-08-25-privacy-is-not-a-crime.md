@@ -55,7 +55,7 @@ Sebagai alternatif, pertimbangkan untuk beralih ke aplikasi *open source*, yang 
 | Pesan                  | [Session](https://getsession.org/) <br> [Signal](https://signal.org/) / [Molly](https://molly.im/) <br> [Telegram](https://telegram.org/) | Yes     | Yes    |
 | Catatan                | [Standard Notes](https://standardnotes.com/)       | Yes     | Yes    |
 | Mesin Pencari          | [Startpage](https://startpage.com) <br> [DuckDuckGo](https://duckduckgo.com) | Yes     | Yes    |
-| Penyimpanan            | [NextCrow](https://risnandapascal.github.io/website/NextCrow.html) | Yes     | Yes    |
+| Penyimpanan            | [NextCrow](https://ricalnet.github.io/website/NextCrow.html) | Yes     | Yes    |
 | VPN                    | [Riseup VPN](https://riseup.net/en/vpn) <br> [ProtonVPN](https://protonvpn.com/) | Yes     | Yes    |
 
 ### Alat
@@ -81,4 +81,4 @@ Jika memiliki keahlian teknis di bidang server dan jaringan, pertimbangkan untuk
 ## Referensi
 ---
 
-- [ricalWiki: Privacy Is Not A Crime](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Privacy Is Not A Crime](https://ricalnet.github.io/ricalwiki.html)

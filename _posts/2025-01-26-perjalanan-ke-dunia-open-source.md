@@ -71,7 +71,7 @@ Asterisk adalah perangkat lunak open source untuk sistem telepon yang memungkink
 ## Alat untuk Menjaga Privasi
 ---
 
-Selain Nextcloud dan Asterisk, penulis juga mulai mengeksplorasi alat-alat lain yang dapat membantu menjaga privasi. Penulis menemukan beberapa aplikasi dan layanan yang berfokus pada keamanan, [lihat di sini](https://ricaldocs.github.io/posts/privacy-is-not-a-crime/). Dengan mengintegrasikan alat-alat ini ke dalam ekosistem digital yang dibangun, penulis merasa lebih aman dan terlindungi dari potensi ancaman yang ada di dunia maya. Penulis juga mengembangkan sebuah alat yang bernama [Prabu Incognito](https://risnandapascal.github.io/prabu-incognito.html).
+Selain Nextcloud dan Asterisk, penulis juga mulai mengeksplorasi alat-alat lain yang dapat membantu menjaga privasi. Penulis menemukan beberapa aplikasi dan layanan yang berfokus pada keamanan, [lihat di sini](https://ricaldocs.github.io/posts/privacy-is-not-a-crime/). Dengan mengintegrasikan alat-alat ini ke dalam ekosistem digital yang dibangun, penulis merasa lebih aman dan terlindungi dari potensi ancaman yang ada di dunia maya. Penulis juga mengembangkan sebuah alat yang bernama [Prabu Incognito](https://ricalnet.github.io/website/prabu-incognito.html).
 
 ## Refleksi
 ---

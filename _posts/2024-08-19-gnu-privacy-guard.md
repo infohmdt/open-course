@@ -217,4 +217,4 @@ gpg -d data.tar.gpg > data.tar
 ## Referensi
 ---
 
-- [ricalWiki: GNU Privacy Guard](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: GNU Privacy Guard](https://ricalnet.github.io/ricalwiki.html)

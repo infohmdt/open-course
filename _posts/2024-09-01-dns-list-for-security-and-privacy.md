@@ -140,5 +140,5 @@ The `noads` service is a solution for blocking advertisements and trackers.
 ## Referensi
 ---
 
-- [ricalWiki: DNS List for Security and Privacy](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: DNS List for Security and Privacy](https://ricalnet.github.io/ricalwiki.html)
 

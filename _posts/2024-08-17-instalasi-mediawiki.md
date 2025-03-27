@@ -169,5 +169,5 @@ MediaWiki kini telah terkonfigurasi dan dapat diakses di [http://localhost/wiki]
 ## Referensi
 ---
 
-- [ricalWiki: Instalasi MediaWiki](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Instalasi MediaWiki](https://ricalnet.github.io/ricalwiki.html)
 - [Manual: Running MediaWiki on Debian or Ubuntu](https://www.mediawiki.org/wiki/Manual:Running_MediaWiki_on_Debian_or_Ubuntu)

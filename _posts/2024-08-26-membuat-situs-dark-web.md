@@ -84,4 +84,4 @@ Sekarang kita dapat mengakses situs `.onion` ini menggunakan browser TOR dari ma
 ## Referensi
 ---
 
-- [ricalWiki: Membuat Situs Dark Web](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Membuat Situs Dark Web](https://ricalnet.github.io/ricalwiki.html)

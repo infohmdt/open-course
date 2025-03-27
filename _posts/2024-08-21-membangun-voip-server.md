@@ -438,4 +438,4 @@ Perintah ini akan menampilkan entri log saat terjadi, membantu mengidentifikasi 
 ## Referensi
 ---
 
-- [ricalWiki: Membangun VoIP Server](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Membangun VoIP Server](https://ricalnet.github.io/ricalwiki.html)

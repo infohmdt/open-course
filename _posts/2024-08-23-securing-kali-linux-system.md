@@ -101,4 +101,4 @@ Pengguna baru yang beralih dari sistem operasi lain seperti Windows mungkin berp
 ## Referensi
 ---
 
-- [ricalWiki: Securing Kali Linux System](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Securing Kali Linux System](https://ricalnet.github.io/ricalwiki.html)

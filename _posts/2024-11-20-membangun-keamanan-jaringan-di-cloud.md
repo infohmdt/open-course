@@ -194,4 +194,4 @@ Gambar berikut menunjukkan bahwa kita berhasil masuk ke **private_instance**. Di
 ## Referensi 
 ---
 
-- [ricalWiki: Membangun Keamanan Jaringan di Cloud](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Membangun Keamanan Jaringan di Cloud](https://ricalnet.github.io/ricalwiki.html)

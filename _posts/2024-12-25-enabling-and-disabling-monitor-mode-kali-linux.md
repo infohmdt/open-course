@@ -82,4 +82,4 @@ author: rical
 ## Referensi
 ---
 
-- [ricalWiki: Enabling and Disabling Monitor Mode in Kali Linux](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Enabling and Disabling Monitor Mode in Kali Linux](https://ricalnet.github.io/ricalwiki.html)

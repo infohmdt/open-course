@@ -9,4 +9,4 @@ author: rical
 ## Pranala Luar
 ---
 
-[Source code](https://github.com/risnandapascal/DynamicArchive).
+[Source code](https://github.com/ricalnet/DynamicArchive).

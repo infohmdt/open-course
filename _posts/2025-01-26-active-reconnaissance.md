@@ -96,4 +96,4 @@ Sebelum melakukan active reconnaissance, sangat penting untuk mendapatkan izin e
 ## Referensi 
 ---
 
-- [ricalWiki: Active Reconnaissance](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Active Reconnaissance](https://ricalnet.github.io/ricalwiki.html)

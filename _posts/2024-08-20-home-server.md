@@ -130,7 +130,7 @@ Buka browser dan akses [http://localhost/nextcloud](http://localhost/nextcloud).
 
 Selesai. Sekarang, unduh aplikasi Nextcloud ke perangkat dan mulai mengunggah serta mengelola file secara mandiri.
 
-> Selain untuk home server, [Nextcloud](https://nextcloud.com) juga menjadi fondasi utama untuk pengembangan [NextCrow](https://risnandapascal.github.io/website/NextCrow.html) berkat sifatnya yang *open source*, memberikan kontrol penuh atas data, serta fitur keamanan tingkat tinggi.
+> Selain untuk home server, [Nextcloud](https://nextcloud.com) juga menjadi fondasi utama untuk pengembangan [NextCrow](https://ricalnet.github.io/website/NextCrow.html) berkat sifatnya yang *open source*, memberikan kontrol penuh atas data, serta fitur keamanan tingkat tinggi.
 {: .prompt-info}
 
 Selanjutnya, jalankan perintah berikut untuk membuat crontab baru yang akan digunakan untuk menjalankan skrip crontab Nextcloud:
@@ -190,4 +190,4 @@ sudo a2ensite nextcloud.conf && sudo systemctl restart apache2
 ## Referensi
 ---
 
-- [ricalWiki: Home Server](https://risnandapascal.github.io/ricalwiki.html)
+- [ricalWiki: Home Server](https://ricalnet.github.io/ricalwiki.html)
