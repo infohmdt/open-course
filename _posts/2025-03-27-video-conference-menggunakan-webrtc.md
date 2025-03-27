@@ -92,7 +92,7 @@ git clone https://github.com/kresekhitam/webrtc.git && cd webrtc
 ### 6. Memasang NPM
 ---
 
-Instal` npm` (Node Package Manager) yang diperlukan untuk mengelola paket JavaScript dengan perintah:
+Instal `npm` (Node Package Manager) yang diperlukan untuk mengelola paket JavaScript dengan perintah:
 
 ```bash
 sudo apt install -y npm
@@ -107,7 +107,7 @@ sudo apt install -y npm
 ### 7. Menambahkan Authtoken Ngrok
 ---
 
-Salin token ngrok yang didapatkan sebelumnya dan masukkan perintah berikut untuk menambahkannya ke konfigurasi ngrok:
+Salin [token ngrok yang didapatkan sebelumnya](https://ricaldocs.github.io/posts/video-conference-menggunakan-webrtc/#1-mendapatkan-authtoken-ngrok) dan masukkan perintah berikut untuk menambahkannya ke konfigurasi ngrok:
 
 ```bash
 ngrok config add-authtoken $YOUR_AUTHTOKEN
