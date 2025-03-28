@@ -7,8 +7,6 @@ author: rical
 ---
 
 ## Instalasi Django
----
-
 Instal Django dengan menggunakan `pip`:
 ```bash
 pip install django
@@ -33,8 +31,6 @@ python3 manage.py runserver
 {: .prompt-info}
 
 ## Membuat aplikasi Django
----
-
 Buat aplikasi di dalam proyek. Misalnya, untuk membuat aplikasi bernama `myapp`, jalankan:
 ```bash
 python3 manage.py startapp myapp
@@ -87,13 +83,9 @@ python3 manage.py runserver
 Sekarang, kunjungi [http://127.0.0.1:8000/](http://127.0.0.1:8000/), pesan **"Hello Friends! This is my first Django app."** akan muncul.
 
 ## Pranala Menarik
----
-
 - [Python Virtual Environment](https://ricaldocs.github.io/posts/python-virtual-environment/)
 
 ## Referensi
----
-
 - [ricalWiki: Python Django](https://ricalnet.github.io/ricalwiki.html)
 
 

@@ -6,16 +6,10 @@ tags: [linux]
 author: rical
 ---
 
----
-
 WebRTC adalah teknologi yang memungkinkan komunikasi audio, video, dan data secara langsung antara browser tanpa memerlukan plugin tambahan. Dalam panduan ini, ngrok digunakan untuk membuat tunneling ke server lokal agar dapat diakses dari internet.
 
 ## Langkah-langkah Pengaturan
----
-
 ### 1. Mendapatkan Authtoken Ngrok
----
-
 Langkah pertama melibatkan kunjungan ke [halaman resmi ngrok](https://ngrok.com/) untuk mendapatkan Authtoken. 
 
 > Authtoken ini diperlukan untuk mengautentikasi sesi tunneling yang akan dibuat. 
@@ -26,8 +20,6 @@ Ngrok menyediakan layanan tunneling yang memungkinkan akses ke server lokal dari
 ![Ngrok - Your Authtoken](assets/img/posts/2025-03-27-video-conference-menggunakan-webrtc/ngrok-token.png)
 
 ### 2. Mengakses Server Ubuntu
----
-
 Akses server Ubuntu yang berjalan di VirtualBox menggunakan [SSH](https://ricaldocs.github.io/posts/openssh/). Buka terminal dan masukkan perintah berikut:
 
 ```bash
@@ -42,8 +34,6 @@ ssh username@hostname
 ![SSH Login](assets/img/posts/2025-03-27-video-conference-menggunakan-webrtc/ssh-login.png)
 
 ### 3. Memperbarui Repositori Ubuntu
----
-
 Perbarui repositori paket Ubuntu untuk memastikan versi terbaru dari semua paket yang tersedia. Jalankan perintah berikut:
 
 ```bash
@@ -54,8 +44,6 @@ sudo apt update -y
 {: .prompt-tip}
 
 ### 4. Memasang Snapd
----
-
 Instal `snapd`, sistem manajemen paket untuk distribusi Linux, dengan perintah berikut:
 
 ```bash
@@ -78,8 +66,6 @@ sudo snap install ngrok
 {: .prompt-info}
 
 ### 5. Mengkloning Repositori WebRTC
----
-
 Klon repositori WebRTC dari GitHub dan masuk ke direktori yang baru saja dikloning dengan perintah berikut:
 
 ```bash
@@ -90,8 +76,6 @@ git clone https://github.com/kresekhitam/webrtc.git && cd webrtc
 {: .prompt-info}
 
 ### 6. Memasang NPM
----
-
 Instal `npm` (Node Package Manager) yang diperlukan untuk mengelola paket JavaScript dengan perintah:
 
 ```bash
@@ -105,8 +89,6 @@ sudo apt install -y npm
 {: .prompt-info}
 
 ### 7. Menambahkan Authtoken Ngrok
----
-
 Salin [token ngrok yang didapatkan sebelumnya](https://ricaldocs.github.io/posts/video-conference-menggunakan-webrtc/#1-mendapatkan-authtoken-ngrok) dan masukkan perintah berikut untuk menambahkannya ke konfigurasi ngrok:
 
 ```bash
@@ -123,8 +105,6 @@ Authtoken saved to configuration file: /home/ubuntu/snap/ngrok/260/.config/ngrok
 {: .prompt-info}
 
 ### 8. Menginstal Nodemon
----
-
 Instal `nodemon`, alat yang membantu dalam pengembangan aplikasi Node.js dengan secara otomatis me-restart aplikasi ketika file berubah:
 
 ```bash
@@ -135,8 +115,6 @@ npm install nodemon --save-dev
 {: .prompt-tip}
 
 ### 9. Menjalankan Aplikasi
----
-
 Jalankan aplikasi WebRTC menggunakan perintah berikut:
 
 ```bash
@@ -147,8 +125,6 @@ npm run dev
 {: .prompt-info}
 
 ### 10. Membuat Tunneling dengan Ngrok
----
-
 Buka terminal Ubuntu baru dan jalankan perintah `ngrok` untuk membuat tunneling ke server lokal, sehingga dapat diakses dari internet:
 
 ```bash
@@ -160,15 +136,11 @@ ngrok http http://localhost:4300
 ![Ngrok - Visit Site](assets/img/posts/2025-03-27-video-conference-menggunakan-webrtc/ngrok-page.png)
 {: .prompt-info}
 
-## Referensi
----
-
-- [ricalWiki: WebRTC](https://ricalnet.github.io/ricalwiki.html)
-- [Telecommunication Network Laboratory](https://telnetlab.github.io)
-
 ## Pranala Menarik
----
-
 - [Home Server](https://ricaldocs.github.io/posts/home-server/)
 - [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/)
 - [OpenSSH](https://ricaldocs.github.io/posts/openssh/)
+
+## Referensi
+- [ricalWiki: WebRTC](https://ricalnet.github.io/ricalwiki.html)
+- [Telecommunication Network Laboratory](https://telnetlab.github.io)

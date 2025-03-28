@@ -6,21 +6,13 @@ tags: [linux, wiki, open source]
 author: rical
 ---
 
----
-
 Dokumentasi ini menjelaskan cara menggunakan MediaWiki untuk tujuan kolaborasi dan dokumentasi proyek. MediaWiki adalah perangkat lunak wiki *open source* yang banyak digunakan, terutama oleh proyek-proyek Wikimedia.
 
 ## Instalasi
----
-
 ### Persyaratan Sistem
----
-
 Disarankan untuk menggunakan sistem operasi Ubuntu atau Debian untuk meminimalisir potensi masalah saat menginstal MediaWiki.
 
 ### Memperbarui Sistem
----
-
 Sebelum memulai instalasi, perbarui sistem dengan menjalankan perintah berikut:
 
 ```bash
@@ -28,8 +20,6 @@ sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt aut
 ```
 
 ### Instalasi LAMPP
----
-
 Instal paket-paket yang diperlukan untuk menjalankan MediaWiki dengan perintah berikut:
 
 ```bash
@@ -43,8 +33,6 @@ sudo apt-get install php-apcu php-intl imagemagick inkscape php-gd php-cli php-c
 {: .prompt-info}
 
 ## Mengunduh MediaWiki
----
-
 Pindah ke direktori `/var/www/html`{: .filepath}:
 
 ```bash
@@ -76,12 +64,7 @@ mv mediawiki-*/* /var/www/html/wiki
 ```
 
 ## Konfigurasi MySQL
----
-
-
 ### Membuat Pengguna Baru
----
-
 Masuk ke MySQL sebagai pengguna root:
 
 ```bash
@@ -101,8 +84,6 @@ quit;
 ```
 
 ### Membuat Database Baru
----
-
 Masuk kembali ke MySQL:
 
 ```bash
@@ -122,8 +103,6 @@ USE my_wiki;
 ```
 
 ### Memberikan Akses Pengguna ke Database
----
-
 Izinkan pengguna yang telah dibuat untuk mengakses database:
 
 ```sql
@@ -133,8 +112,6 @@ exit;
 ```
 
 ## Konfigurasi MediaWiki
----
-
 Arahkan browser ke [http://localhost/wiki](http://localhost/wiki) dan ikuti prosedur yang diberikan.
 
 Jika muncul keluhan bahwa ekstensi PHP seperti `mbstring` dan `xml` hilang, aktifkan secara manual dengan perintah berikut:
@@ -144,8 +121,6 @@ sudo phpenmod mbstring && sudo phpenmod xml && sudo systemctl restart apache2.se
 ```
 
 ### Pengaturan Konfigurasi
----
-
 > Di halaman web, ikuti langkah-langkah berikut:
 1. Klik "Please set up the wiki first."
 2. Pilih bahasa.
@@ -167,7 +142,5 @@ cd ~/Downloads && mv LocalSettings.php /var/www/html/wiki/
 MediaWiki kini telah terkonfigurasi dan dapat diakses di [http://localhost/wiki](http://localhost/wiki).
 
 ## Referensi
----
-
 - [ricalWiki: Instalasi MediaWiki](https://ricalnet.github.io/ricalwiki.html)
 - [Manual: Running MediaWiki on Debian or Ubuntu](https://www.mediawiki.org/wiki/Manual:Running_MediaWiki_on_Debian_or_Ubuntu)

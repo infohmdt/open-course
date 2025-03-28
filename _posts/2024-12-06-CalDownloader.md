@@ -7,6 +7,4 @@ author: rical
 ---
 
 ## Pranala Luar
----
-
 [Source code](https://github.com/ricalnet/CalDownloader).

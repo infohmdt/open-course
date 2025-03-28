@@ -7,16 +7,10 @@ author: rical
 ---
 
 ## Pendahuluan
----
-
 Panduan ini bertujuan untuk membangun server VoIP dengan memanfaatkan [Asterisk](https://www.asterisk.org/) pada sistem operasi [Linux Mint](https://www.linuxmint.com/download.php) untuk pemula dan [Debian](https://www.debian.org/download) untuk pengguna tingkat lanjut. Ucapan terima kasih kepada [@inibim](https://discord.com/invite/nAVZkEwjYJ) atas kontribusinya dalam pemecahan masalah.
 
 ## Panduan untuk Pemula
----
-
 ### Instalasi Server
----
-
 1. Buka terminal di Linux Mint dan jalankan perintah berikut untuk memperbarui sistem:
    ```bash
    sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
@@ -38,8 +32,6 @@ Panduan ini bertujuan untuk membangun server VoIP dengan memanfaatkan [Asterisk]
    ```
 
 ### Konfigurasi
----
-
 > Sebelum melakukan konfigurasi, cadangkan file `sip.conf`, `extensions.conf`, dan `voicemail.conf`:
 ```bash
 sudo mv /etc/asterisk/sip.conf /etc/asterisk/extensions.conf /etc/asterisk/voicemail.conf ~/Documents
@@ -123,8 +115,6 @@ exten => 8002,2,Hangup()
 ```
 
 ### Mengelola Layanan Asterisk
----
-
 - Untuk menghentikan layanan:
   ```bash
   sudo systemctl stop asterisk
@@ -141,8 +131,6 @@ exten => 8002,2,Hangup()
   ```
 
 ### Antarmuka Baris Perintah Asterisk (CLI)
----
-
 Masuk ke antarmuka baris perintah Asterisk (CLI) dengan menggunakan perintah berikut:
 ```bash
 sudo asterisk -rvvvv
@@ -159,22 +147,14 @@ Pengaturan server telah selesai. Untuk menguji komunikasi antar klien, disaranka
 {: .prompt-tip}
 
 ## Panduan untuk Pengguna Tingkat Lanjut
----
-
 ### Langkah-langkah Instalasi
----
-
 #### 1. Memperbarui Sistem
----
-
 Buka terminal dan jalankan perintah berikut untuk memperbarui sistem:
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
 ```
 
 #### 2. Menginstal Paket yang Diperlukan
----
-
 Instal paket-paket yang diperlukan untuk membangun Asterisk dengan perintah berikut:
 ```bash
 sudo apt install -y build-essential wget subversion libncurses5-dev libssl-dev libxml2-dev libsqlite3-dev uuid-dev libjansson-dev libedit-dev
@@ -201,38 +181,28 @@ sudo systemctl stop apparmor && sudo apt remove -y apparmor
 {: .prompt-tip}
 
 #### 3. Mengunduh Asterisk
----
-
 Unduh versi terbaru Asterisk dari situs web resmi dengan perintah berikut:
 ```bash
 cd /usr/src && sudo wget https://downloads.asterisk.org/pub/telephony/asterisk/asterisk-22-current.tar.gz
 ```
 
 #### 4. Mengekstrak File
----
-
 Ekstrak file yang telah diunduh dengan perintah berikut:
 ```bash
 sudo tar -xvf asterisk-22-current.tar.gz
 ```
 
 #### 5. Masuk ke Direktori Asterisk
----
-
 Masuk ke direktori Asterisk yang telah diekstrak:
 ```bash
 cd asterisk-22*
 ```
 
 ### Kompilasi Asterisk
----
-
 > Kompilasi Asterisk memungkinkan pengguna untuk menyesuaikan instalasi sesuai dengan kebutuhan spesifik. Proses ini mungkin memakan waktu cukup lama, sehingga disarankan untuk menyiapkan kopi terlebih dahulu sambil menunggu.
 {: .prompt-info}
 
 #### 1. Menjalankan Konfigurasi
----
-
 Jalankan perintah berikut untuk memulai proses konfigurasi:
 ```bash
 sudo ./configure
@@ -240,8 +210,6 @@ sudo ./configure
 Perintah ini akan memeriksa sistem untuk memastikan bahwa pustaka yang diperlukan tersedia dan menyiapkan lingkungan build.
 
 #### 2. Memilih Opsi yang Diinginkan
----
-
 Setelah konfigurasi selesai, pilih opsi yang diinginkan dengan menampilkan menu:
 ```bash
 sudo make menuselect
@@ -260,8 +228,6 @@ sudo make menuselect
 Setelah membuat pilihan, simpan dan keluar dari `menuselect`.
 
 #### 3. Mengompilasi Asterisk
----
-
 Setelah memilih opsi, kompilasi Asterisk dengan perintah berikut:
 ```bash
 sudo make
@@ -269,8 +235,6 @@ sudo make
 Proses ini mungkin memakan waktu beberapa menit, tergantung pada kinerja sistem dan modul yang telah dipilih.
 
 ### Instalasi Asterisk
----
-
 Setelah proses kompilasi selesai, lanjutkan dengan langkah-langkah berikut untuk menginstal Asterisk:
 
 1. Instal Asterisk dengan perintah:
@@ -296,29 +260,21 @@ Setelah proses kompilasi selesai, lanjutkan dengan langkah-langkah berikut untuk
 File konfigurasi contoh, terutama `sip.conf`{: .filepath} dan `extensions.conf`{: .filepath}, memberikan titik awal untuk pengaturan Asterisk. Meskipun file-file ini tidak cocok untuk digunakan dalam lingkungan produksi tanpa modifikasi, mereka menawarkan contoh dan template yang berharga untuk konfigurasi.
 
 ### Konfigurasi Asterisk
----
-
 Keamanan dan integrasi sistem yang tepat sangat penting untuk setiap instalasi Asterisk. Konfigurasi yang benar memastikan bahwa Asterisk dapat beroperasi dengan efisien dan aman. Berikut adalah langkah-langkah untuk mengatur pengguna dan grup khusus untuk menjalankan Asterisk.
 
 #### 1. Membuat Grup Asterisk
----
-
 Untuk memulai, buat grup baru bernama "asterisk" dengan perintah berikut:
 ```bash
 sudo groupadd asterisk
 ```
 
 #### 2. Membuat Pengguna Asterisk
----
-
 Selanjutnya, buat pengguna baru bernama "asterisk" yang akan menjalankan proses Asterisk:
 ```bash
 sudo useradd -r -d /var/lib/asterisk -g asterisk asterisk
 ```
 
 #### 3. Mengubah Kepemilikan Direktori Asterisk
----
-
 Ubah kepemilikan direktori yang terkait dengan Asterisk agar dimiliki oleh pengguna dan grup "asterisk":
 ```bash
 sudo chown -R asterisk:asterisk /etc/asterisk /var/{lib,log,spool}/asterisk /usr/lib/asterisk
@@ -336,8 +292,6 @@ AST_GROUP="asterisk"
 ```
 
 ### Konfigurasi SIP
----
-
 Selanjutnya, atur konfigurasi SIP dengan mengedit file berikut:
 - `/etc/asterisk/sip.conf`{: .filepath}
 - `/etc/asterisk/extensions.conf`{: .filepath}
@@ -346,21 +300,15 @@ Selanjutnya, atur konfigurasi SIP dengan mengedit file berikut:
 Untuk melanjutkan konfigurasi, silakan merujuk pada [panduan ini](https://ricaldocs.github.io/posts/membangun-voip-server/#konfigurasi). 
 
 ### Pengujian Instalasi Asterisk
----
-
 Setelah konfigurasi Asterisk selesai, langkah selanjutnya adalah memulai Asterisk dan memverifikasi operasinya. Proses ini penting untuk memastikan bahwa sistem berfungsi dengan baik dan siap digunakan.
 
 #### 1. Memulai Asterisk
----
-
 Untuk memulai Asterisk, jalankan perintah berikut:
 ```bash
 sudo systemctl enable asterisk.service && sudo systemctl start asterisk.service
 ```
 
 #### 2. Memeriksa Status Layanan
----
-
 Setelah Asterisk dimulai, periksa status layanan untuk memastikan bahwa Asterisk berjalan dengan baik:
 ```bash
 sudo systemctl status asterisk.service
@@ -368,8 +316,6 @@ sudo systemctl status asterisk.service
 Output yang ditampilkan seharusnya menunjukkan bahwa Asterisk aktif dan berjalan.
 
 #### 3. Mengakses Antarmuka Baris Perintah Asterisk (CLI)
----
-
 Untuk berinteraksi langsung dengan Asterisk, akses Antarmuka Baris Perintah Asterisk (CLI) dengan perintah berikut:
 ```bash
 sudo asterisk -rvvvv
@@ -379,19 +325,13 @@ sudo asterisk -rvvvv
 {: .prompt-info}
 
 #### 4. Pengujian Fungsi Dasar
----
-
 Sebagai langkah pengujian fungsi dasar, pengguna dapat menggunakan klien SIP atau [softphone](https://en.wikipedia.org/wiki/Softphone) untuk mendaftar dengan ekstensi yang telah dibuat (misalnya, 1000) dan melakukan panggilan percobaan.
 
 ### Masalah Umum dan Pemecahan Masalah
----
-
 > Meskipun instalasi Asterisk telah dilakukan dengan hati-hati, pengguna mungkin akan menemui beberapa masalah.
 {: .prompt-warning}
 
 #### Masalah Umum dan Solusinya
----
-
 Berikut adalah beberapa masalah umum yang sering terjadi beserta solusinya.
 
 - **Dependensi yang Hilang**: 
@@ -410,8 +350,6 @@ Berikut adalah beberapa masalah umum yang sering terjadi beserta solusinya.
   Verifikasi bahwa modul codec yang diperlukan telah dimuat dan bahwa jaringan mengizinkan lalu lintas RTP, yang biasanya terjadi pada port UDP 10000-20000.
 
 #### Proses Debugging
----
-
 Untuk proses debugging, log Asterisk sangat berharga. Pantau log tersebut secara real-time dengan menggunakan perintah berikut:
 ```bash
 sudo tail -f /var/log/asterisk/messages
@@ -425,17 +363,11 @@ Perintah ini akan menampilkan entri log saat terjadi, membantu mengidentifikasi 
 {: .prompt-tip}
 
 ## Pranala Menarik
----
-
 - [Perjalanan ke Dunia Open Source](https://ricaldocs.github.io/posts/perjalanan-ke-dunia-open-source/)
 - [Home Server](https://ricaldocs.github.io/posts/home-server/)
 
 ## Pranala Luar
----
-
 - [Asterisk](https://www.asterisk.org/)
 
 ## Referensi
----
-
 - [ricalWiki: Membangun VoIP Server](https://ricalnet.github.io/ricalwiki.html)

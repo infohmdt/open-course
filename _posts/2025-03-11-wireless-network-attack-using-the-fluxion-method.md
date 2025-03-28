@@ -6,16 +6,12 @@ tags: [cybersecurity, red team, linux]
 author: rical
 ---
 
----
-
 Fluxion adalah alat audit keamanan dan penelitian social engineering yang dirancang untuk menguji keamanan jaringan nirkabel. Alat ini merupakan pengembangan dari [linset](https://github.com/vk496/linset), yang dibuat oleh vk496 dan tidak diperbarui selama enam tahun terakhir. Fluxion menawarkan fungsionalitas yang lebih luas dan berusaha untuk mendapatkan kunci WPA/WPA2 dari titik akses target melalui serangan social engineering (phishing). Alat ini kompatibel dengan Kali Linux.
 
 > Pengguna diharapkan untuk mematuhi semua hukum yang berlaku dan mendapatkan izin eksplisit sebelum melakukan pengujian terhadap jaringan yang bukan milik mereka. Penyalahgunaan alat ini dapat mengakibatkan konsekuensi hukum yang serius dan merusak reputasi profesional di bidang keamanan siber. Penggunaan Fluxion harus dilakukan dengan tanggung jawab dan integritas, serta dengan tujuan untuk meningkatkan keamanan, bukan untuk mengeksploitasi kerentanan.
 {: .prompt-danger}
 
 ## Instalasi
----
-
 Proses instalasi Fluxion di Kali Linux cukup sederhana. Pengguna perlu mengkloning Fluxion dari repositori GitHub dengan menggunakan perintah berikut di terminal:
 
 ```bash
@@ -48,8 +44,6 @@ Setelah menginstal persyaratan, aplikasi akan mulai secara otomatis dan meminta 
 ![Select Wireless Interface](assets/img/posts/2025-03-11-fluxion/select-wireless-interface.png)
 
 ## Proses Penggunaan
----
-
 Selanjutnya, pengguna perlu melakukan pemindaian untuk mencari jaringan WiFi yang tersedia di sekitar.
 
 ![Channel](assets/img/posts/2025-03-11-fluxion/channel.png)
@@ -96,13 +90,10 @@ Meskipun jenis serangan ini dapat dilaksanakan dengan menggunakan [aircrack-ng](
 ![Handshake Snooper](assets/img/posts/2025-03-11-fluxion/handshake-snooper.png)
 
 ## Evil-Twin Attack
----
 Fluxion juga memiliki kemampuan untuk melakukan serangan Evil-Twin. Dalam teknik serangan ini, pengguna mengirimkan paket de-authentikasi secara terus-menerus kepada perangkat yang terhubung ke jaringan target, sehingga semua klien yang terhubung akan terputus dari jaringan tersebut. Sementara itu, pengguna menciptakan jaringan WiFi baru dengan nama yang sama (SSID) seperti jaringan asli. Jika klien menganggap jaringan WiFi yang baru dibuat tersebut sebagai jaringan asli mereka, mereka akan terjebak dan dapat secara tidak sadar memberikan kredensial mereka kepada penyerang. 
 
 Teknik ini mirip dengan metode phishing, di mana pengguna tertipu untuk memasukkan informasi sensitif ke dalam jaringan yang tidak aman. Serangan Evil-Twin ini merupakan salah satu cara yang efektif untuk mendapatkan akses tidak sah ke informasi pengguna dan dapat digunakan dalam konteks pengujian penetrasi untuk mengidentifikasi kerentanan dalam keamanan jaringan.
 
 ## Pranala Menarik
----
-
 - [Penetration Testing](https://ricaldocs.github.io/posts/penetration-testing/)
 - [Linux Incident Response and Forensics](https://ricaldocs.github.io/posts/linux-incident-response-and-forensics/)

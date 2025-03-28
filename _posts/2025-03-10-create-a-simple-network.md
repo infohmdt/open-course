@@ -7,27 +7,19 @@ author: rical
 ---
 
 ## Tujuan
----
-
 Dalam aktivitas ini, Anda akan membangun jaringan sederhana di Packet Tracer dalam Logical Workspace.
 
 - [Bagian 1: Membangun Jaringan Sederhana](https://ricaldocs.github.io/posts/create-a-simple-network/#bagian-1-membangun-jaringan-sederhana)
 - [Bagian 2: Mengonfigurasi End Devices dan Memverifikasi Konektivitas](https://ricaldocs.github.io/posts/create-a-simple-network/#bagian-2-mengonfigurasi-end-devices-dan-memverifikasi-konektivitas)
 
 ## Instruksi 
----
-
 Unduh berkas berikut dan buka di Cisco Packet Tracer: [Create_a_Simple_Network_pka.pka](/assets/posts/Create_a_Simple_Network_pka.pka)
 
 
 ## Bagian 1: Membangun Jaringan Sederhana
----
-
 Dalam bagian ini, Anda akan membangun jaringan sederhana dengan menyebarkan dan menghubungkan perangkat jaringan di Logical Workspace.
 
 ### Langkah 1: Tambahkan perangkat jaringan ke ruang kerja.
----
-
 Dalam langkah ini, Anda akan menambahkan sebuah PC, laptop, dan modem kabel ke Logical Workspace.
 
 > Modem kabel adalah perangkat keras yang memungkinkan komunikasi dengan Internet Service Provider (ISP). Kabel koaksial dari ISP terhubung ke modem kabel, dan kabel Ethernet dari jaringan lokal juga terhubung. Modem kabel mengubah koneksi koaksial menjadi koneksi Ethernet.
@@ -40,15 +32,11 @@ Dengan menggunakan Device-Type Selection Box, tambahkan perangkat berikut ke rua
 - **Cable Modem**: Network Devices > WAN Emulation > Cable Modem
 
 ### Langkah 2: Ubah nama tampilan perangkat jaringan.
----
-
 - Untuk mengubah nama tampilan perangkat jaringan, klik ikon perangkat di Logical Workspace.
 - Klik tab **Config** di jendela konfigurasi perangkat.
 - Masukkan nama baru untuk perangkat yang baru ditambahkan ke dalam kolom Display Name: PC, Laptop, dan Cable Modem.
 
 ### Langkah 3: Tambahkan kabel fisik antara perangkat di ruang kerja.
----
-
 Dengan menggunakan Device-Type Selection Box, tambahkan kabel fisik antara perangkat di ruang kerja.
 
 - PC akan memerlukan kabel copper straight-through untuk terhubung ke router nirkabel. Dengan menggunakan Device-Type Selection Box, klik Connections (ikon petir). Pilih kabel copper straight-through di Device-Specific Selection Box dan sambungkan ke antarmuka **FastEthernet0** dari PC dan antarmuka **GigabitEthernet 1** dari router nirkabel.
@@ -59,15 +47,11 @@ Dengan menggunakan Device-Type Selection Box, tambahkan kabel fisik antara peran
 _Topologi Jaringan_
 
 ## Bagian 2: Mengonfigurasi End Devices dan Memverifikasi Konektivitas
----
-
 Dalam bagian ini, Anda akan menghubungkan sebuah PC dan laptop ke router nirkabel. PC akan terhubung ke jaringan menggunakan kabel Ethernet. Untuk laptop, Anda akan mengganti Network Interface Card (NIC) Ethernet berkabel dengan NIC nirkabel dan menghubungkan laptop ke router secara nirkabel.
 
 Setelah kedua perangkat akhir terhubung ke jaringan, Anda akan memverifikasi konektivitas ke cisco.srv. PC dan laptop masing-masing akan diberikan alamat IP (Internet Protocol). Internet Protocol adalah seperangkat aturan untuk pengaturan dan pengalamatan data di internet. Alamat IP digunakan untuk mengidentifikasi perangkat di jaringan dan memungkinkan perangkat untuk terhubung dan mentransfer data di jaringan.
 
 ### Langkah 1: Konfigurasi PC.
----
-
 Anda akan mengonfigurasi PC untuk jaringan berkabel dalam langkah ini.
 
 - Klik **PC**. Di tab **Desktop**, navigasikan ke **IP Configuration** untuk memverifikasi bahwa DHCP diaktifkan dan PC telah menerima alamat IP.
@@ -86,8 +70,6 @@ Pilih **DHCP** untuk judul IP Configuration jika Anda tidak melihat alamat IP un
 - Uji konektivitas ke **cisco.srv** dari PC. Dari command prompt, keluarkan perintah `ping cisco.srv`. Mungkin diperlukan beberapa detik untuk ping kembali. Empat balasan harus diterima.
 
 ### Langkah 2: Konfigurasi Laptop.
----
-
 Dalam langkah ini, Anda akan mengonfigurasi Laptop untuk mengakses jaringan nirkabel.
 
 - Klik **Laptop**, dan pilih tab **Physical**.
@@ -109,8 +91,6 @@ Dalam langkah ini, Anda akan mengonfigurasi Laptop untuk mengakses jaringan nirk
 - Di Web Browser, navigasikan ke **cisco.srv**.
 
 ## Refleksi
----
-
 Sekarang setelah Anda memverifikasi konektivitas ke cisco.srv, gunakan perintah ipconfig dari Command Prompt untuk mengisi tabel pengalamatan IP di bawah ini:
 
 | Perangkat | Alamat IP       | Subnet Mask     | Default Gateway  |
@@ -125,6 +105,4 @@ Subnet mask digunakan untuk membedakan antara bagian ID host dan bagian ID jarin
 Default gateway dapat dianalogikan dengan persimpangan jalan. Lalu lintas dari jalan 192.168.0 harus keluar melalui persimpangan menuju jalan lain. Jalan lain adalah jaringan lain. Dalam jaringan ini, default gateway adalah router nirkabel yang mengarahkan lalu lintas dari jaringan lokal ke modem kabel, dan lalu lintas tersebut kemudian dikirim ke ISP.
 
 ## Pranala Menarik
----
-
 - [Kesalahan dalam Instalasi Cisco Packet Tracer di Kali Linux](https://ricaldocs.github.io/posts/kesalahan-dalam-instalasi-cisco-packet-tracer-di-kali-linux/)

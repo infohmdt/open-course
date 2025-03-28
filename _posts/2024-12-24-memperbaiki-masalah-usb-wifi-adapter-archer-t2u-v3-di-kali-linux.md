@@ -6,14 +6,9 @@ tags: [cybersecurity, linux]
 author: rical
 ---
 
-Gambaran umum
----
-
 Dokumentasi ini membahas langkah-langkah untuk mengatasi masalah yang mungkin terjadi pada adaptor WiFi USB Archer T2U V3 di sistem operasi Kali Linux. Pengguna sering mengalami kendala setelah melakukan pembaruan sistem, yang dapat menyebabkan adaptor WiFi tidak berfungsi dengan baik. Berikut adalah panduan untuk menyelesaikan masalah ini dengan menginstal driver yang sesuai.
 
 ## Langkah 1: Menghapus Driver Lama yang Tidak Berfungsi
----
-
 Langkah pertama dalam proses pemecahan masalah adalah mengidentifikasi dan menghapus driver lama yang mungkin tidak berfungsi dengan baik.
 
 1. **Periksa Status Driver yang Terpasang:**
@@ -33,8 +28,6 @@ Langkah pertama dalam proses pemecahan masalah adalah mengidentifikasi dan mengh
    ```
 
 ## Langkah 2: Menginstal Driver yang Lebih Baru
----
-
 Setelah menghapus driver lama, langkah selanjutnya adalah menginstal driver yang lebih baru yang mendukung adaptor WiFi USB.
 
 1. **Kloning Repositori Driver:**
@@ -65,14 +58,10 @@ Setelah menghapus driver lama, langkah selanjutnya adalah menginstal driver yang
    {: .prompt-info}
 
 ## Langkah 3: Melakukan Reboot
----
-
 Setelah instalasi driver selesai, *reboot* sistem untuk menerapkan perubahan yang telah dilakukan.
 
 Dengan mengikuti langkah-langkah di atas, diharapkan masalah yang dialami dengan adaptor WiFi USB Archer T2U V3 di Kali Linux dapat teratasi. Jika masalah masih berlanjut, pertimbangkan untuk mencari dukungan lebih lanjut dari [komunitas pengguna Kali Linux](https://forums.kali.org/).
 
 ## Pranala Menarik
----
-
 - [Securing Kali Linux System](https://ricaldocs.github.io/posts/securing-kali-linux-system/)
 - [Enabling and Disabling Monitor Mode in Kali Linux](https://ricaldocs.github.io/posts/enabling-and-disabling-monitor-mode-kali-linux/)

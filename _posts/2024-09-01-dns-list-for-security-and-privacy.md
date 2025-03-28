@@ -7,10 +7,7 @@ author: rical
 ---
 
 ## 1. Cloudflare
----
-
 ###  Cloudflare - Desktop
----
 
 | IPv4                            | IPv6       				   |
 | :--------------------- | :---------------------------- |
@@ -18,18 +15,13 @@ author: rical
 | 1.0.0.1 			| 2606:4700:4700::1001 |
 
 ### Cloudflare - Android
----
-
 Cari pengaturan DNS (biasanya bernama `Private DNS` atau `DNS Pribadi`) dan masukkan informasi berikut:
 ```
 security.cloudflare-dns.com
 ```
 
 ## 2. Quad9
----
-
 ### Quad9 - Desktop
----
 
 | IPv4                            | IPv6              |
 | :--------------------- | :----------- - |
@@ -37,15 +29,12 @@ security.cloudflare-dns.com
 | 149.112.112.112 | 2620:fe::9  |
 
 ### Quad9 - Android
----
-
 Cari pengaturan DNS (biasanya bernama `Private DNS` atau `DNS Pribadi`) dan masukkan informasi berikut:
 ```
 dns.quad9.net
 ```
 
 ## 3. OpenDNS
----
 
 | IPv4                         | IPv6                          |
 | :------------------- | :-------------------- |
@@ -53,48 +42,35 @@ dns.quad9.net
 | 208.67.220.220 | 2620:119:53::53 |
 
 ## 4. AdGuard
----
-
 ### AdGuard - Desktop
----
 
 | IPv4                         | IPv6                          |
 | :------------------- | :-------------------- |
 | 94.140.14.14      | 2a10:50c0:8000::1 |
 | 94.140.15.15      | 2a10:50c0:8001::1 |
 
-### AdGuard - Android 
----
-
+### AdGuard - Android
 Cari pengaturan DNS (biasanya bernama `Private DNS` atau `DNS Pribadi`) dan masukkan informasi berikut:
 ```
 dns.adguard.com
 ```
 
 ## 5. NextDNS
----
-
 ### NextDNS - Desktop
----
 
 | IPv4                         | IPv6                                 |
 | :------------------- | :------------------------ |
 | 45.90.28.0           | 2a07:a8c0::e2:4ddc |
 | 45.90.30.0           | 2a07:a8c1::e2:4ddc |
 
-### NextDNS - Android 
----
-
+### NextDNS - Android
 Cari pengaturan DNS (biasanya bernama `Private DNS` atau `DNS Pribadi`) dan masukkan informasi berikut:
 ```
 e24ddc.dns.nextdns.io
 ```
 
 ## 6. Google Public DNS
----
-
 ### Google Public DNS - Desktop
----
 
 | IPv4                | IPv6                                        |
 | :-------------- | :---------------------------- |
@@ -108,8 +84,6 @@ dns.google.com
 ```
 
 ## 7. LibreDNS (Recommended)
----
-
 The `noads` service is a solution for blocking advertisements and trackers. 
 
 | Endpoint                             | Description                   |
@@ -122,13 +96,9 @@ The `noads` service is a solution for blocking advertisements and trackers.
 {: .prompt-info}
 
 ## Pranala Menarik
----
-
 - [Privacy Is Not A Crime](https://ricaldocs.github.io/posts/privacy-is-not-a-crime/)
 
 ## Pranala Luar
----
-
 - [Cloudflare Docs](https://developers.cloudflare.com/1.1.1.1/setup/)
 - [quad9](https://quad9.net/)
 - [OpenDNS](https://www.opendns.com/setupguide/)
@@ -138,7 +108,5 @@ The `noads` service is a solution for blocking advertisements and trackers.
 - [LibreDNS](https://libredns.gr/)
 
 ## Referensi
----
-
 - [ricalWiki: DNS List for Security and Privacy](https://ricalnet.github.io/ricalwiki.html)
 

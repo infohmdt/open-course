@@ -6,13 +6,11 @@ tags: [cybersecurity, cisco packet tracer]
 author: rical
 ---
 
-![VPN Configuration in Cisco Packet Tracer](/assets/img/posts/2024-12-24-konfigurasi-vpn-menggunakan-router-di-cisco-packet-tracer/vpn-configuration.png)
-
 Dokumentasi ini menunjukkan konfigurasi VPN menggunakan tiga *router* dalam Cisco Packet Tracer. Ini adalah contoh lab yang menunjukkan cara mengonfigurasi VPN *tunnel*.
 
-### Jaringan yang Digunakan
----
+![VPN Configuration in Cisco Packet Tracer](/assets/img/posts/2024-12-24-konfigurasi-vpn-menggunakan-router-di-cisco-packet-tracer/vpn-configuration.png)
 
+### Jaringan yang Digunakan
 > Total ada empat jaringan yang digunakan dalam konfigurasi ini:
 - Jaringan 192.168.1.0/24
 - Jaringan 192.168.2.0/24
@@ -21,13 +19,9 @@ Dokumentasi ini menunjukkan konfigurasi VPN menggunakan tiga *router* dalam Cisc
 {: .prompt-info}
 
 ## Konfigurasi Router
----
-
 Langkah pertama yang akan dilakukan adalah memberikan alamat IP pada setiap antarmuka *router* dan juga memberikan alamat IP pada komputer yang digunakan di sini.
 
 ### Konfigurasi Router R1
----
-
 ```
 Router>enable
 Router#config t
@@ -42,8 +36,6 @@ r1(config-if)#no shut
 ```
 
 ### Konfigurasi Router R2
----
-
 ```
 Router>enable
 Router#config t
@@ -58,8 +50,6 @@ r2(config-if)#no shut
 ```
 
 ### Konfigurasi Router R3
----
-
 ```
 Router>enable
 Router#config t
@@ -74,11 +64,7 @@ r3(config-if)#no shut
 ```
 
 ## Konfigurasi Routing Default
----
-
 ### Router R1
----
-
 ```
 r1>enable
 r1#config t
@@ -87,8 +73,6 @@ r1(config)#
 ```
 
 ### Router R3
----
-
 ```
 r3>enable
 r3#config t
@@ -97,13 +81,9 @@ r3(config)#
 ```
 
 ## Pengujian Koneksi
----
-
 Sekarang, mari kita periksa koneksi dengan melakukan `ping` satu sama lain. Untuk memeriksa koneksi, lakukan `ping` antara *router*.
 
 ### Ping dari R1 ke R3
----
-
 ```
 r1#ping 2.0.0.2
 ```
@@ -117,8 +97,6 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 26/28/33 ms
 ```
 
 ### Ping dari R3 ke R1
----
-
 ```
 r3#ping 1.0.0.1
 ```
@@ -132,11 +110,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 25/28/32 ms
 ```
 
 ## Pembuatan VPN Tunnel antara R1 dan R3
----
-
 ### Membuat VPN Tunnel di Router R1
----
-
 ```
 r1#config t
 r1(config)#interface tunnel 10
@@ -147,8 +121,6 @@ r1(config-if)#no shut
 ```
 
 ### Membuat VPN Tunnel di Router R3
----
-
 ```plaintext
 r3#config t
 r3(config)#interface tunnel 100
@@ -159,11 +131,7 @@ r3(config-if)#no shut
 ```
 
 ### Pengujian VPN Tunnel
----
-
 #### Ping dari R1 ke R3 melalui Tunnel
----
-
 ```
 r1#ping 172.16.1.2
 ```
@@ -177,8 +145,6 @@ r1#
 ```
 
 #### Ping dari R3 ke R1 melalui Tunnel
----
-
 ```
 r3#ping 172.16.1.1
 ```
@@ -191,32 +157,22 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 33/45/83 ms
 ```
 
 ## Konfigurasi Routing untuk VPN Tunnel
----
-
 Setelah *tunnel* VPN berhasil dibuat, lakukan konfigurasi *routing* untuk memastikan kedua *router* dapat saling berkomunikasi melalui *tunnel*.
 
 ### Routing pada Router R1
----
-
 ```
 r1(config)#ip route 192.168.2.0 255.255.255.0 172.16.1.2
 ```
 
 ### Routing pada Router R3
----
-
 ```
 r3(config)#ip route 192.168.1.0 255.255.255.0 172.16.1.1
 ```
 
 ## Uji Konfigurasi VPN Tunnel
----
-
 Untuk memastikan bahwa *tunnel* VPN telah berhasil dibuat, lakukan pemeriksaan pada masing-masing *router*.
 
 ### Pemeriksaan pada Router R1
----
-
 ```
 r1#show interfaces Tunnel 10
 ```
@@ -256,8 +212,6 @@ Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
 ```
 
 ### Pemeriksaan pada Router R3
----
-
 ```
 r3#show interface Tunnel 100
 ```
@@ -296,13 +250,9 @@ Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
 ```
 
 ## Melacak Jalur VPN Tunnel
----
-
 Untuk memeriksa jalur yang digunakan oleh VPN *tunnel*, gunakan perintah `tracert` dari salah satu komputer yang terhubung ke jaringan. Berikut adalah langkah-langkahnya:
 
 ### Mengonfigurasi IP pada PC
----
-
 Pertama, pastikan PC terhubung ke jaringan dan memiliki alamat IP yang benar. Gunakan perintah berikut untuk memeriksa konfigurasi IP:
 
 ```
@@ -319,8 +269,6 @@ Default Gateway.................: 192.168.2.1
 ```
 
 ### Melakukan Ping ke R1
----
-
 Setelah memastikan konfigurasi IP, lakukan `ping` ke *router* R1 untuk menguji konektivitas:
 
 ```
@@ -341,8 +289,6 @@ Minimum = 55ms, Maximum = 61ms, Average = 57ms
 ```
 
 ### Melacak Jalur ke Router R1
----
-
 Setelah ping berhasil, gunakan perintah `tracert` untuk melacak jalur ke *router* R1:
 
 ```
@@ -360,13 +306,9 @@ PC1>
 ```
 
 ## Unduh File Konfigurasi
----
-
 Untuk memudahkan, file konfigurasi dapat diunduh [di sini](/assets/posts/vpn-configuration.pkt). 
 
 ## Pranala Menarik
----
-
 - [Kesalahan dalam Instalasi Cisco Packet Tracer di Kali Linux](https://ricaldocs.github.io/posts/kesalahan-dalam-instalasi-cisco-packet-tracer-di-kali-linux/)
 - [Perencanaan Jaringan DWDM Menggunakan Cisco Packet Tracer](https://ricaldocs.github.io/posts/perencanaan-jaringan-dwdm-menggunakan-cisco-packet-tracer/)
 - [Konfigurasi QoS di Cisco Packet Tracer](https://ricaldocs.github.io/posts/qos-cisco-packet-tracer/)

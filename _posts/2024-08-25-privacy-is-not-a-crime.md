@@ -11,15 +11,11 @@ image:
 ---
 
 ## Pendahuluan
----
-
 Menjaga privasi di internet ibarat merawat kebun yang penuh dengan tanaman berharga. Sementara itu, kita tahu bahwa kebun ini terpapar sinar matahari dan angin bebas, dan sulit untuk menutup seluruhnya. Begitu juga dengan privasi di dunia maya, hampir tidak mungkin untuk sepenuhnya menghilangkan jejak kita. Namun, kita bisa mengurangi risiko agar kebun kita tetap hijau dan aman dari pengunjung yang tidak diinginkan.
 
 Meskipun usaha ini memerlukan perhatian dan kehati-hatian, penting untuk bertanya pada diri sendiri: Apakah kita benar-benar ingin membiarkan privasi kita tergerus begitu saja?
 
 ## Melakukan Adaptasi
----
-
 Kadang-kadang, kita terbuai oleh posisi nyaman dan enggan untuk bergerak, seperti saat duduk santai di kursi empuk yang membuat kita lupa waktu. Namun, sikap ini bisa menjadi jebakan, karena kita sering kali tidak mengetahui kebijakan dari berbagai platform digital dan seringkali menyetujuinya tanpa membaca isinya.
 
 > Kunjungi pengaturan setiap aplikasi dan pengaturan sistem, lalu nonaktifkan semua fitur personalisasi, program pengalaman pengguna, dan iklan yang dipersonalisasi. Pokoknya semua hal yang berbau [telemetri](https://id.wikipedia.org/wiki/Telemetri).
@@ -31,10 +27,7 @@ Kadang-kadang, kita terbuai oleh posisi nyaman dan enggan untuk bergerak, sepert
 Sebagai alternatif, pertimbangkan untuk beralih ke aplikasi *open source*, yang ibaratnya adalah rumah kaca di mana kita bisa melihat setiap rinci tanaman di dalamnya. Dengan *open source*, kita dapat memeriksa kode secara langsung dan jika ada potensi masalah, kita bisa segera mengidentifikasinya dan melaporkannya kepada pengembang. Di dunia *open source*, pengembang pun akan lebih berhati-hati karena transparansi yang tinggi mengurangi kemungkinan adanya kode berbahaya atau *spyware*.
 
 ## Alternatif
----
-
 ### Sistem Operasi
----
 
 | Nama                          | Alternatif     |
 | :--------------------- | :--------------- |
@@ -42,7 +35,6 @@ Sebagai alternatif, pertimbangkan untuk beralih ke aplikasi *open source*, yang 
 | Android       | [LineageOS](https://lineageos.org/) <br> [GrapheneOS](https://grapheneos.org/) <br> [CalyxOS](https://calyxos.org/) <br> [LibreMobileOS](https://lmo.framer.website)<br> [/e/OS](https://e.foundation/e-os/) <br> Custom Rom (Vanilla Build) |
 
 ### Rekomendasi Penggunaan Sehari-hari
----
 
 | Nama                   | Alternatif                                         | Desktop | Mobile |
 |------------------------|-----------------------------------------------------|---------|--------|
@@ -59,8 +51,6 @@ Sebagai alternatif, pertimbangkan untuk beralih ke aplikasi *open source*, yang 
 | VPN                    | [Riseup VPN](https://riseup.net/en/vpn) <br> [ProtonVPN](https://protonvpn.com/) | Yes     | Yes    |
 
 ### Alat
----
-
 - [TOR Project](https://www.torproject.org/)
 - [I2P](https://geti2p.net/en/)
 - [Proxychains](https://github.com/haad/proxychains)
@@ -68,17 +58,12 @@ Sebagai alternatif, pertimbangkan untuk beralih ke aplikasi *open source*, yang 
 - [DynamicArchive](https://ricaldocs.github.io/posts/DynamicArchive/)
 
 ## Membangun Ekosistem
----
-
 Jika memiliki keahlian teknis di bidang server dan jaringan, pertimbangkan untuk membangun ekosistem sendiri. silakan merujuk pada dokumentasi [Home Server](https://ricaldocs.github.io/posts/home-server/) dan [Membangun VOIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/), yang dapat menjadi dasar yang berguna untuk memulai.
 
 ## Pranala Menarik 
----
-
 - [Home Server](https://ricaldocs.github.io/posts/home-server/) 
 - [Membangun VOIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/)
+- [Pelacakan Digital oleh Perusahaan Teknologi Besar dan Pemerintah](https://ricaldocs.github.io/posts/pelacakan-digital-oleh-perusahaan-teknologi-besar-dan-pemerintah/)
 
 ## Referensi
----
-
 - [ricalWiki: Privacy Is Not A Crime](https://ricalnet.github.io/ricalwiki.html)

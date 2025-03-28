@@ -7,18 +7,12 @@ author: rical
 ---
 
 ## Pendahuluan
----
-
-*python virtual environment* adalah alat yang digunakan untuk membuat lingkungan terisolasi untuk proyek pengembangan Python. Ini mempermudah manajemen dependensi dan versi paket, sehingga menghindari konflik antara proyek yang berbeda.
+Python Virtual Environment adalah alat yang digunakan untuk membuat lingkungan terisolasi untuk proyek pengembangan Python. Ini mempermudah manajemen dependensi dan versi paket, sehingga menghindari konflik antara proyek yang berbeda.
 
 ## Prasyarat
----
-
 Sebelum melanjutkan ke langkah-langkah konfigurasi, pastikan bahwa [Python](https://www.python.org/) telah diinstal di sistem.
 
 ## Memeriksa Versi Python
----
-
 Untuk memeriksa versi Python yang terinstal, masukkan perintah berikut ke terminal:
 
 ```bash
@@ -45,8 +39,6 @@ python3 -m venv projects/
 ```
 
 ### Mengaktifkan Lingkungan Virtual
----
-
 Untuk mengaktifkan lingkungan virtual, gunakan perintah berikut:
 
 ```bash
@@ -56,8 +48,6 @@ source projects/bin/activate
 Setelah diaktifkan, prompt terminal akan menunjukkan nama *virtual environment*, menandakan bahwa `venv` sudah siap digunakan.
 
 ### Menonaktifkan Lingkungan Virtual
----
-
 Untuk menonaktifkan lingkungan virtual, gunakan perintah:
 
 ```bash
@@ -65,8 +55,6 @@ deactivate
 ```
 
 ## Lingkungan Virtual di Android
----
-
 Untuk pengguna Android, unduh aplikasi [Termux](https://f-droid.org/en/packages/com.termux/) dan instal melalui pengelola file.
 
 Setelah instalasi, gunakan perintah berikut untuk memperbarui paket:
@@ -102,13 +90,9 @@ pip install nama_modul
 ```
 
 ## Pranala Menarik
----
-
 - [CalDownloader](https://ricaldocs.github.io/posts/CalDownloader/)
 - [Python Django ](https://ricaldocs.github.io/posts/python-django/)
 - [Membuat NAT Router Menggunakan ESP32-DevKitC-V4](https://ricaldocs.github.io/posts/membuat-nat-router-menggunakan-esp32-devkitc-v4/)
 
 ## Referensi
----
-
 - [ricalWiki: Python Virtual Environment](https://ricalnet.github.io/ricalwiki.html)

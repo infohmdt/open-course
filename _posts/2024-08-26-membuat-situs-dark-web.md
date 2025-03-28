@@ -7,8 +7,6 @@ author: rical
 ---
 
 ## Instalasi dan Konfigurasi TOR
----
-
 Untuk memulai, lakukan pembaruan dan instalasi TOR dengan perintah berikut:
 
 ```bash
@@ -35,8 +33,6 @@ sudo systemctl restart tor
 ```
 
 ## Membuat dan Menghosting Situs Dark Web
----
-
 Buat file `index.html` di Desktop dengan perintah:
 
 ```bash
@@ -58,8 +54,6 @@ Server pengembangan PHP kini akan berjalan. Untuk memeriksa situs web localhost 
 {: .prompt-info}
 
 ### Terhubung ke Layanan TOR
----
-
 Biarkan jendela terminal ini tetap terbuka (karena server localhost sedang berjalan). Buka terminal lain dan ketik perintah berikut:
 
 ```bash
@@ -82,6 +76,4 @@ Sekarang kita dapat mengakses situs `.onion` ini menggunakan browser TOR dari ma
 {: .prompt-danger}
 
 ## Referensi
----
-
 - [ricalWiki: Membuat Situs Dark Web](https://ricalnet.github.io/ricalwiki.html)

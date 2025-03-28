@@ -6,26 +6,18 @@ tags: [cybersecurity, linux]
 author: rical
 ---
 
----
-
 Kali Linux, sebagai distribusi sistem operasi berbasis Linux yang populer di kalangan profesional keamanan siber, dilengkapi dengan antarmuka pengguna grafis (*graphical user interface* atau GUI). Namun, terminal tetap menjadi komponen yang paling kuat dan esensial dalam sistem ini. Terdapat berbagai alat terminal yang perlu digunakan selama pengujian keamanan, sehingga penting bagi pengguna untuk mempelajari setidaknya dasar-dasar penggunaan terminal.
 
 > Sebagai seorang Penetration Tester, berbagai perintah terminal sering digunakan dalam aktivitas sehari-hari. Postingan ini bertujuan untuk memperkenalkan penggunaan dasar terminal serta beberapa perintah fundamental yang akan sangat membantu dalam perjalanan karier sebagai Penetration Tester.
 {: .prompt-info}
 
 ## Membuka Terminal di Kali Linux
----
-
 Untuk memulai, pengguna perlu membuka jendela terminal dari desktop Kali Linux. Pengguna juga dapat menggunakan kombinasi tombol `CTRL+ALT+T` untuk membuka jendela terminal secara langsung dari keyboard.
 
 ## Dasar-dasar Penggunaan Terminal
----
-
 Terminal memungkinkan pengguna untuk melakukan berbagai tugas berbasis teks. Pengguna dapat mengetikkan perintah dan menekan tombol Enter ⤶ untuk menjalankan perintah tersebut. Jika tampilan terminal menjadi tidak teratur, pengguna dapat membersihkannya dengan menggunakan perintah `clear` atau dengan menekan `CTRL+L`. Untuk membuka jendela terminal baru dari sesi terminal yang sedang aktif, pengguna dapat menggunakan kombinasi `CTRL+SHIFT+T`.
 
 ### Penyelesaian Perintah dan Nama File
----
-
 Untuk menyelesaikan perintah atau nama file di terminal, pengguna dapat menekan tombol `TAB`. Jika terdapat beberapa file dengan awalan nama yang sama, setiap kali tombol `TAB` ditekan, terminal akan menampilkan semua opsi yang tersedia. Sebagai contoh, jika terdapat dua file dengan awalan nama yang sama, yaitu `test.sh` dan `test.txt` di direktori `/home`{: .filepath}, pengguna akan melihat kedua opsi tersebut saat menekan tombol `TAB`:
 
 ```
@@ -36,18 +28,12 @@ test.sh test.txt
 ```
 
 ### Menghentikan dan Menutup Terminal
----
-
 Jika pengguna menjalankan sebuah perintah dan perlu menghentikan eksekusinya, kombinasi tombol `CTRL+C` dapat digunakan. Untuk menutup jendela terminal, pengguna dapat menggunakan kombinasi tombol `CTRL+D` atau menjalankan perintah `exit`.
 
 ### Mematikan dan Merestart Sistem
----
-
 Pengguna juga dapat mematikan dan merestart sistem melalui jendela terminal. Untuk mematikan sistem, perintah `poweroff` digunakan, sedangkan untuk merestart, perintah `reboot` dengan hak akses root diperlukan.
 
 ### Melihat Riwayat Perintah
----
-
 Untuk memeriksa perintah-perintah yang baru saja digunakan di terminal, pengguna dapat menggunakan perintah `history`. Selain itu, untuk menggunakan perintah yang telah digunakan sebelumnya, pengguna dapat menekan `CTRL+R` dan mengetikkan sebagian dari perintah tersebut; terminal akan menyarankan perintah yang relevan. Contoh tampilan perintah `history` adalah sebagai berikut:
 
 ```
@@ -57,8 +43,6 @@ bck-i-search: his_
 ```
 
 ## Pengalihan Output di Terminal
----
-
 Dalam sistem Linux, termasuk Kali Linux, terdapat banyak pengalihan (*redirection*) yang perlu dipahami. Sebagai contoh, untuk menyimpan output dari perintah daftar file (`ls`) ke dalam sebuah file teks (`.txt`), pengguna dapat menjalankan perintah berikut:
 
 ```bash
@@ -91,8 +75,6 @@ cat < ls-list.txt
 ```
 
 ### Penggunaan Command Pipe
----
-
 Pengalihan lain yang penting untuk diketahui adalah penggunaan *command pipe*. Dengan menggunakan karakter `|`, pengguna dapat menggabungkan output dari setiap perintah dan menggunakannya sebagai input untuk perintah berikutnya. Contoh penggunaannya adalah sebagai berikut:
 
 ```
@@ -120,11 +102,8 @@ test.txt
 ```
 
 ## Perintah Dasar Linux
----
 
 ### 1. `ls`
----
-
 **Deskripsi**: Perintah `ls` digunakan untuk menampilkan daftar file dan direktori dalam direktori saat ini.
 
 **Sintaks**:
@@ -144,8 +123,6 @@ ls -la
 Perintah ini akan menampilkan semua file dan direktori, termasuk yang tersembunyi, dalam format daftar yang panjang.
 
 ### 2. `cd`
----
-
 **Deskripsi**: Perintah `cd` (*change directory*) digunakan untuk berpindah antara direktori dalam sistem file.
 
 **Sintaks**:
@@ -160,8 +137,6 @@ cd /home/user/Documents
 Perintah ini akan memindahkan pengguna ke direktori `Documents`{: .filepath} di dalam direktori `user`{: .filepath}.
 
 ### 3. `cp`
----
-
 **Deskripsi**: Perintah `cp` digunakan untuk menyalin file dan direktori.
 
 **Sintaks**:
@@ -180,8 +155,6 @@ cp -r /source/directory /destination/directory
 Perintah ini akan menyalin direktori dari lokasi sumber ke lokasi tujuan.
 
 ### 4. `mv`
----
-
 **Deskripsi**: Perintah `mv` digunakan untuk memindahkan atau mengubah nama file dan direktori.
 
 **Sintaks**:
@@ -196,8 +169,6 @@ mv oldname.txt newname.txt
 Perintah ini akan mengubah nama file `oldname.txt` menjadi `newname.txt`.
 
 ### 5. `rm`
----
-
 **Deskripsi**: Perintah `rm` digunakan untuk menghapus file dan direktori.
 
 **Sintaks**:
@@ -216,8 +187,6 @@ rm -rf /path/to/directory
 Perintah ini akan menghapus direktori dan semua isinya tanpa konfirmasi.
 
 ### 6. `mkdir`
----
-
 **Deskripsi**: Perintah `mkdir` digunakan untuk membuat direktori baru.
 
 **Sintaks**:
@@ -235,10 +204,6 @@ mkdir -p /path/to/new/directory
 Perintah ini akan membuat direktori baru, termasuk direktori induknya jika diperlukan.
 
 ### 7. `chmod`
----
-
 **Deskripsi**: Perintah [chmod](https://ricaldocs.github.io/posts/chmod/) digunakan untuk mengubah izin akses file dan direktori.
-
----
 
 Perintah-perintah di atas merupakan dasar dari penggunaan sistem operasi Linux. Pengguna dapat mengkombinasikan berbagai opsi untuk memenuhi kebutuhan spesifik dalam pengelolaan file dan direktori. Untuk informasi lebih lanjut, pengguna disarankan untuk merujuk pada manual sistem dengan menggunakan perintah `man [perintah]`.

@@ -7,21 +7,15 @@ author: rical
 ---
 
 ## Persiapan
----
-
 Membangun infrastruktur data pribadi yang aman dan terkontrol merupakan tindakan proaktif yang krusial. Ini adalah langkah berani untuk melindungi informasi pribadi dari pengawasan luar dan memastikan bahwa hak digital tetap terjaga dengan baik.
 
 ### Memperbarui Sistem
----
-
 Perbarui sistem dengan menjalankan perintah berikut:
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
 ### Instalasi LAMPP
----
-
 Instal dan konfigurasi LAMPP (Linux, Apache, MySQL, PHP), karena Nextcloud memerlukan server web dan basis data. Jalankan perintah berikut:
 ```bash
 sudo apt install apache2 mariadb-server php php-curl php-cli php-mysql php-gd php-common php-xml php-json php-intl php-pear php-imagick php-dev php-common php-mbstring php-zip php-soap php-bz2 php-bcmath php-gmp php-apcu libmagickcore-dev php-redis php-memcached
@@ -48,8 +42,6 @@ sudo chown -R www-data:www-data nextcloud
 ```
 
 ## Konfigurasi MySQL
----
-
 Atur kata sandi root untuk basis data dengan menjalankan:
 ```bash
 sudo mysql_secure_installation
@@ -61,8 +53,6 @@ mysql -u root -p
 ```
 
 ### Membuat Basis Data dan Pengguna
----
-
 Gantilah `username` dan `password` sesuai kebutuhan:
 ```sql
 CREATE DATABASE home_server;
@@ -83,8 +73,6 @@ exit
 ```
 
 ## Konfigurasi Virtual Host
----
-
 Buat konfigurasi virtual host dengan perintah berikut:
 ```bash
 sudo nano /etc/apache2/sites-available/nextcloud.conf
@@ -121,8 +109,6 @@ sudo a2ensite nextcloud.conf && sudo systemctl restart apache2
 ```
 
 ## Konfigurasi Nextcloud
----
-
 Buka browser dan akses [http://localhost/nextcloud](http://localhost/nextcloud).
 
 > Petunjuk instalasi Nextcloud akan muncul. Selama proses instalasi, atur basis data MariaDB, akun admin, dan direktori penyimpanan data. Ikuti instruksi yang diberikan.
@@ -147,8 +133,6 @@ Tambahkan konfigurasi berikut ke file crontab:
 Simpan dan keluar dari file setelah selesai.
 
 ## Mengganti Alamat IP
----
-
 Ubah `trusted domain` di berkas `config.php`{: .filepath}:
 ```bash
 sudo nano /var/www/html/nextcloud/config/config.php
@@ -182,12 +166,8 @@ sudo a2ensite nextcloud.conf && sudo systemctl restart apache2
 ```
 
 ## Pranala Menarik
----
-
 - [Perjalanan ke Dunia Open Source](https://ricaldocs.github.io/posts/perjalanan-ke-dunia-open-source-copy/)
 - [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/)
 
 ## Referensi
----
-
 - [ricalWiki: Home Server](https://ricalnet.github.io/ricalwiki.html)

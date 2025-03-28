@@ -7,13 +7,9 @@ author: rical
 ---
 
 ## Gambaran Umum
----
-
 Dokumentasi ini menjelaskan langkah-langkah untuk mengonfigurasi dan menggunakan [ESP32-DevKitC-V4](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp32-devkitc/user_guide.html) sebagai NAT *router*. Proses ini mencakup instalasi perangkat lunak yang diperlukan, *flashing firmware*, dan konfigurasi jaringan untuk menyediakan koneksi internet yang aman dan efisien.
 
 ## Instalasi esptool
----
-
 Sebelum memulai, disarankan untuk menggunakan lingkungan [virtual Python (venv)](https://ricaldocs.github.io/posts/python-virtual-environment/) untuk mengelola dependensi. Langkah-langkah instalasi **esptool** adalah sebagai berikut:
 
 1. Instal pyserial dengan perintah:
@@ -32,8 +28,6 @@ Sebelum memulai, disarankan untuk menggunakan lingkungan [virtual Python (venv)]
    ```
 
 ## Instalasi ESP32_NAT_Router
----
-
 Untuk menginstal ESP32_NAT_Router, lakukan langkah-langkah berikut:
 
 1. Clone repositori ESP32_NAT_Router:
@@ -47,8 +41,6 @@ Untuk menginstal ESP32_NAT_Router, lakukan langkah-langkah berikut:
    ```
 
 ### Flashing
----
-
 Untuk melakukan *flashing* pada *board* ESP32-DevKitC-V4, ikuti langkah-langkah berikut:
 
 1. Masuk ke *download mode* dengan menahan tombol `Boot` dan menekan tombol `en`.
@@ -66,8 +58,6 @@ Untuk melakukan *flashing* pada *board* ESP32-DevKitC-V4, ikuti langkah-langkah 
 {: .prompt-tip}
 
 ### Konfigurasi ESP32_NAT_Router
----
-
 Setelah *flashing* selesai, lakukan konfigurasi sebagai berikut:
 
 1. Sambungkan ke jaringan Wi-Fi yang bernama **ESP32_NAT_Router**.
@@ -82,11 +72,7 @@ ping 8.8.8.8
 Jika `ping` berhasil, maka ESP32 telah berhasil dikonfigurasi untuk mengakses internet.
 
 ## Uji Coba Keamanan
----
-
 Setelah konfigurasi selesai, lakukan uji coba untuk memastikan keamanan dan kinerja NAT router yang telah dibuat. Salah satu cara untuk melakukan pengujian ini adalah dengan menggunakan [Wireshark](https://www.wireshark.org/), sebuah alat analisis jaringan yang memungkinkan pengguna untuk menangkap dan menganalisis paket data yang melintasi jaringan.
 
 ## Referensi
----
-
 - [YouTube: Build a Hackable Router with a $5 ESP32](https://www.youtube.com/watch?v=41Lymi6rXA8)

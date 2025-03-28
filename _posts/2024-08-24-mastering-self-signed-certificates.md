@@ -7,8 +7,6 @@ author: rical
 ---
 
 ## Pendahuluan
----
-
 Sertifikat *self-signed* dapat menawarkan tingkat enkripsi yang setara dengan sertifikat yang dikeluarkan oleh *Certificate Authority* (CA) yang terverifikasi. Namun, karena sertifikat ini tidak dikeluarkan oleh CA yang terpercaya, identitas situs tidak dapat diverifikasi oleh pihak ketiga.
 
 > Browser akan memberikan peringatan bahwa sertifikat *self-signed* tidak dapat dipercaya, dan pengguna akan melihat peringatan keamanan saat mengakses situs. Ini merupakan langkah pencegahan yang wajar karena sertifikat *self-signed* tidak diverifikasi oleh pihak ketiga.
@@ -23,8 +21,6 @@ Sertifikat *self-signed* umumnya digunakan untuk keperluan *internal*, pengujian
 {: .prompt-tip}
 
 ## Membuat Sertifikat Self-Signed
----
-
 Aktifkan modul SSL dengan menggunakan perintah berikut:
 ```bash
 sudo a2enmod ssl
@@ -36,8 +32,6 @@ sudo mkdir /etc/ssl/nextcloud
 ```
 
 ### Menghasilkan Sertifikat dan Kunci Privat
----
-
 Gunakan perintah berikut untuk menghasilkan sertifikat dan kunci privat:
 ```bash
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:4096 -keyout /etc/ssl/nextcloud/nextcloud.key -out /etc/ssl/nextcloud/nextcloud.crt
@@ -95,8 +89,6 @@ sudo a2ensite nextcloud-ssl && sudo systemctl restart apache2
 ```
 
 ## Menghapus Sertifikat Self-Signed
----
-
 Untuk menghapus sertifikat *self-signed*, gunakan perintah berikut:
 ```bash
 sudo rm -r /etc/ssl/nextcloud/nextcloud.key && sudo rm -r /etc/ssl/nextcloud/nextcloud.crt
@@ -122,6 +114,4 @@ sudo systemctl restart apache2
 ```
 
 ## Referensi
----
-
 - [ricalWiki: Mastering Self-Signed Certificates](https://ricalnet.github.io/ricalwiki.html)
