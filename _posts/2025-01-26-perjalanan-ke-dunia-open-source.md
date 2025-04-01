@@ -1,7 +1,7 @@
 ---
 title: Perjalanan ke Dunia Open Source
 description: Alasan pribadi memilih untuk menggunakan open source.
-categories: [Cybersecurity, articles]
+categories: [Cybersecurity, Articles]
 tags: [cybersecurity, privacy, linux, open source]
 author: rical
 pin: true

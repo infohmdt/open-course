@@ -1,7 +1,7 @@
 ---
 title: Pelacakan Digital oleh Perusahaan Teknologi Besar dan Pemerintah
 description: Membahas Metode, Tujuan, dan Kontroversi Pelacakan Digital
-categories: [Cybersecurity, Privacy]
+categories: [Cybersecurity, Privacy, Articles]
 tags: [cybersecurity, privacy]
 author: rical
 pin: true
