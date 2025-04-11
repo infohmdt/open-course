@@ -99,7 +99,7 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 ---
 1. <a href="/assets/moduls/telecommunication_network/modul-1.pdf" target="_blank">SIP VoIP Menggunakan Asterisk</a><br>
 2. <a href="/assets/moduls/telecommunication_network/modul-2.pdf" target="_blank">Simulasi NGN/Softswitch menggunakan Trixbox</a><br>
-3. <a href="/assets/moduls/telecommunication_network/modul-3.pdf" target="_blank">Video Conference menggunakan WebRtc</a><br>
+3. <a href="https://ricaldocs.github.io/posts/video-conference-menggunakan-webrtc/" target="_blank">Video Conference menggunakan WebRtc</a><br>
 4. <a href="/assets/moduls/telecommunication_network/modul-4.pdf" target="_blank">File Transfer Protocol (FTP) Server</a><br>
 5. <a href="/assets/moduls/telecommunication_network/modul-5.pdf" target="_blank">Penginstalan Grafana dan Prometheus di Ubuntu Server</a><br>
 6. <a href="/assets/moduls/telecommunication_network/modul-6.pdf" target="_blank">Membuat Voucher Wifi Menggunakan Mikrotik</a><br>

