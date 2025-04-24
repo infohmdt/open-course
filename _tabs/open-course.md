@@ -15,7 +15,7 @@ order: 6
 | Laboratory                           | Course           | 
 | :----------------------------------- | :--------------- |
 | [Telecommunication Network Laboratory](https://telnetlab.github.io) | [1. Algorithms & Programming](https://ricaldocs.github.io/open-course/#algorithms--programming) <br> [2. Web Design](https://ricaldocs.github.io/open-course/#web-design) <br> [3. Computer Network](https://ricaldocs.github.io/open-course/#computer-network) <br> [4. Cloud Computing](https://ricaldocs.github.io/open-course/#cloud-computing) <br> [5. Telecommunication Network](https://ricaldocs.github.io/open-course/#telecommunication-network) <br> [6. Network Security](https://ricaldocs.github.io/open-course/#network-security) <br> |
-| Mechatronics Laboratory | [Electronic Workshop](https://ricaldocs.github.io/open-course/#electronics-workshop) |
+| [Mechatronics Laboratory](https://www.instagram.com/b_mech/) | [Electronic Workshop](https://ricaldocs.github.io/open-course/#electronics-workshop) |
 | Microcontroller Laboratory | [Microcontroller Applications and Interfaces](https://ricaldocs.github.io/open-course/#microcontroller-applications-and-interfaces) |
 | Communication System Laboratory | [Communication System](https://ricaldocs.github.io/open-course/#communication-system) |
 | Optical Communication System Laboratory | [Optical Communication Systems](https://ricaldocs.github.io/open-course/#optical-communication-systems) |
@@ -77,9 +77,9 @@ order: 6
 ---
 1. <a href="/assets/moduls/network_security/modul-1.pdf" target="_blank">PENGENALAN CYBER SECURITY DAN SISTEM OPERASI LINUX</a><br>
 2. <a href="/assets/moduls/network_security/modul-2.pdf" target="_blank">FOOTPRINTING</a><br>
-3. <a href="/assets/moduls/network_security/modul-3.pdf" target="_blank">NETWORK SCANNING</a><br>
+3. <a href="/assets/moduls/network_security/modul-3.pdf" target="_blank">VULNERABILITY SCANNING & ASSESMENT</a><br>
 4. <a href="/assets/moduls/network_security/modul-4.pdf" target="_blank">PENETRATION TESTING</a><br>
-5. <a href="/assets/moduls/network_security/modul-5.pdf" target="_blank">ATTACKING WEB SERVER</a><br>
+5. <a href="/assets/moduls/network_security/modul-5.pdf" target="_blank">MOBILE HACKING</a><br>
 6. <a href="/assets/moduls/network_security/modul-6.pdf" target="_blank">ANCAMAN PERANGKAT LUNAK BERBAHAYA</a><br>
 7. <a href="/assets/moduls/network_security/modul-7.pdf" target="_blank">VPN DAN FIREWALL</a><br>
 8. <a href="/assets/moduls/network_security/modul-8.pdf" target="_blank">KRIPTOGRAFI DAN TEKNIK PENYAMARAN INFORMASI</a><br>
@@ -155,11 +155,11 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 1. <a href="/assets/moduls/web_design/modul-1.pdf" target="_blank">Pengenalan Aplikasi Berbasis Web dan Teks Editor</a><br>
 2. <a href="/assets/moduls/web_design/modul-2.pdf" target="_blank">HTML (Hyper Text Markup Language)</a><br>
 3. <a href="/assets/moduls/web_design/modul-3.pdf" target="_blank">CSS (Cascading Style Sheets)</a><br>
-4. <a href="/assets/moduls/web_design/modul-7.pdf" target="_blank">JavaScript</a><br>
-5. <a href="/assets/moduls/web_design/modul-4.pdf" target="_blank">PHP</a><br>
-6. <a href="/assets/moduls/web_design/modul-5.pdf" target="_blank">Database</a><br>
-7. <a href="/assets/moduls/web_design/modul-6.pdf" target="_blank">RELASI MYSQL & KONEKSI MYSQL DENGAN PHP</a><br>
+4. <a href="/assets/moduls/web_design/modul-4.pdf" target="_blank">JavaScript</a><br>
+5. <a href="/assets/moduls/web_design/modul-5.pdf" target="_blank">PHP</a><br>
+6. <a href="/assets/moduls/web_design/modul-6.pdf" target="_blank">Database</a><br>
+7. <a href="/assets/moduls/web_design/modul-7.pdf" target="_blank">RELASI MYSQL & KONEKSI MYSQL DENGAN PHP</a><br>
 8. <a href="/assets/moduls/web_design/modul-8.pdf" target="_blank">Visualisasi Database Dalam Bentuk Grafik</a><br>
-9. <a href="/assets/moduls/web_design/modul-10.pdf" target="_blank">Laravel</a><br>
-10. <a href="/assets/moduls/web_design/modul-9.pdf" target="_blank">Web Hosting dan GitHub</a><br>
+9. <a href="/assets/moduls/web_design/modul-9.pdf" target="_blank">Laravel</a><br>
+10. <a href="/assets/moduls/web_design/modul-10.pdf" target="_blank">Web Hosting dan GitHub</a><br>
 11. <a href="/assets/moduls/web_design/modul-11.pdf" target="_blank">Figma</a><br>
