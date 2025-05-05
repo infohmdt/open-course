@@ -50,7 +50,7 @@ sudo nano /etc/apache2/sites-available/nextcloud-ssl.conf
 ```
 
 Isi file tersebut dengan konfigurasi berikut:
-```
+```apache
 <IfModule mod_ssl.c>
 <VirtualHost *:443>
 ServerAdmin admin@domain.com

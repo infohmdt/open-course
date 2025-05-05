@@ -79,7 +79,7 @@ sudo nano /etc/apache2/sites-available/nextcloud.conf
 ```
 
 Isi berkas dengan konfigurasi berikut:
-```
+```apache
 <VirtualHost *:80>
     ServerName localhost
 
@@ -127,7 +127,7 @@ sudo crontab -u www-data -e
 Parameter `-u www-data` digunakan karena server web Apache2 berjalan di atas pengguna tersebut.
 
 Tambahkan konfigurasi berikut ke file crontab:
-```bash
+```
 */5  *  *  *  * php -f /var/www/html/nextcloud/cron.php
 ```
 Simpan dan keluar dari file setelah selesai.
@@ -156,16 +156,28 @@ sudo nano /etc/apache2/sites-available/nextcloud.conf
 ```
 
 Pada bagian:
-```
+```apache
 ServerName *masukkan ip address atau domain di sini*
 ```
+
+> Untuk mengaktifkan protokol HTTPS, tambahkan baris berikut ke dalam konfigurasi server:
+```apache
+Redirect permanent / https://ip_address
+```
+{: .prompt-tip}
 
 Simpan berkas dan aktifkan konfigurasi:
 ```bash
 sudo a2ensite nextcloud.conf && sudo systemctl restart apache2
 ```
 
+## Security & setup warnings
+Salin setiap pesan kesalahan dan tempelkan ke dalam kolom pencarian pada browser untuk mencari solusi pemecahan masalah.
+
+![Security & setup warnings](/assets/img/posts/2024-08-20-home-server/security-and-setup-warnings.png)
+
 ## Pranala Menarik
+- [Mastering Self-Signed Certificates](https://ricaldocs.github.io/posts/mastering-self-signed-certificates/)
 - [Perjalanan ke Dunia Open Source](https://ricaldocs.github.io/posts/perjalanan-ke-dunia-open-source-copy/)
 - [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/)
 
