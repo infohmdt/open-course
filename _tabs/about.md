@@ -51,7 +51,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ## 5. Akses dan Pembaruan
 ---
 
-Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per April 2025) yang membahas [Periferal Utama dalam Mikrokontroler](https://ricaldocs.github.io/posts/periferal-utama-dalam-mikrokontroler/) dan [Implementasi Model AI Berbasis Open Source Secara Offline pada Perangkat Android](https://ricaldocs.github.io/posts/implementasi-model-ai-berbasis-open-source-secara-offline-pada-perangkat-android/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
+Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per April 2025) yang membahas [Mentransformasikan Kali Linux menjadi macOS](https://ricaldocs.github.io/posts/mentransformasikan-kali-linux-menjadi-macos/) dan [Perintah Git dan GitHub](https://ricaldocs.github.io/posts/perintah-git-dan-github/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
 
 ## 6. Kontak dan Dukungan
 ---
