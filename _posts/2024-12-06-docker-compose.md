@@ -250,6 +250,7 @@ Setelah semua file selesai dibuat dan disimpan, periksa IP publik AWS di browser
 
 ## Pranala Menarik
 - [Docker on AWS](https://ricaldocs.github.io/posts/docker-on-aws/)
+- [Docker Command Reference](https://ricaldocs.github.io/posts/docker-command-reference/)
 
 ## Referensi 
 [Telecommunication Network Laboratory: Cloud Computing](https://telnetlab.github.io)

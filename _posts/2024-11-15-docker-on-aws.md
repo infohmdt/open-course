@@ -211,6 +211,7 @@ docker container start nginx && cat Dockerfile
 
 ## Pranala Menarik
 - [Docker Compose](https://ricaldocs.github.io/posts/docker-compose/)
+- [Docker Command Reference](https://ricaldocs.github.io/posts/docker-command-reference/)
 
 ## Referensi 
 [Telecommunication Network Laboratory: Cloud Computing](https://telnetlab.github.io)
