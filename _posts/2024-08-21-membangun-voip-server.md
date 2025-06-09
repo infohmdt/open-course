@@ -365,6 +365,7 @@ Perintah ini akan menampilkan entri log saat terjadi, membantu mengidentifikasi 
 ## Pranala Menarik
 - [Perjalanan ke Dunia Open Source](https://ricaldocs.github.io/posts/perjalanan-ke-dunia-open-source/)
 - [Home Server](https://ricaldocs.github.io/posts/home-server/)
+- [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/)
 
 ## Pranala Luar
 - [Asterisk](https://www.asterisk.org/)

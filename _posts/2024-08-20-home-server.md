@@ -180,6 +180,7 @@ Salin setiap pesan kesalahan dan tempelkan ke dalam kolom pencarian pada browser
 - [Mastering Self-Signed Certificates](https://ricaldocs.github.io/posts/mastering-self-signed-certificates/)
 - [Perjalanan ke Dunia Open Source](https://ricaldocs.github.io/posts/perjalanan-ke-dunia-open-source-copy/)
 - [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/)
+- [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/)
 
 ## Referensi
 - [ricalWiki: Home Server](https://ricalnet.github.io/ricalwiki.html)

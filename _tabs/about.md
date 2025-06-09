@@ -51,7 +51,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ## 5. Akses dan Pembaruan
 ---
 
-Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per April 2025) yang membahas [Docker Command Reference](https://ricaldocs.github.io/posts/docker-command-reference/) dan [Mentransformasikan Kali Linux menjadi macOS](https://ricaldocs.github.io/posts/mentransformasikan-kali-linux-menjadi-macos/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
+Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per April 2025) yang membahas [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk) dan [Docker Command Reference](https://ricaldocs.github.io/posts/docker-command-reference/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
 
 ## 6. Kontak dan Dukungan
 ---
