@@ -69,7 +69,7 @@ sudo snap install ngrok
 Klon repositori WebRTC dari GitHub dan masuk ke direktori yang baru saja dikloning dengan perintah berikut:
 
 ```bash
-git clone https://github.com/kresekhitam/webrtc.git && cd webrtc
+git clone https://github.com/ricalnet/WebRTC.git && cd WebRTC
 ```
 
 > Mengkloning repositori memungkinkan akses ke kode sumber aplikasi WebRTC yang akan digunakan untuk konferensi video.
