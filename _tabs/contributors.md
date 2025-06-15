@@ -18,7 +18,7 @@ order: 5
 - **Ceisya Asri Renata Galunga** - Memantau perubahan yang dilakukan oleh kontributor lain untuk memastikan bahwa informasi tetap akurat dan sesuai dengan pedoman yang ditetapkan oleh [ricalDocs](https://ricaldocs.github.io/about).
 - **s1reeen** - Peninjauan dan penyuntingan konten, memastikan bahwa semua informasi memenuhi standar kualitas dan konsistensi yang tinggi.
 - **Sleuth** - Memperbaiki tautan yang rusak dalam konten. Ia melakukan pemantauan secara berkala untuk memastikan semua tautan berfungsi dengan baik dan memperbarui referensi yang tidak lagi aktif, sehingga meningkatkan pengalaman pengguna dan integritas informasi.
-- **inibim** - Melakukan analisis dan pemecahan masalah terkait dokumentasi [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/).
+- [Gineng B. Pamungkas](https://astarajingga.github.io/) - Melakukan analisis dan pemecahan masalah terkait dokumentasi [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/) dan [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/).
 
 Berikut adalah daftar nama pengembang yang terlibat dalam pengembangan modul praktikum [Web Design](https://ricaldocs.github.io/open-course/#web-design).
 

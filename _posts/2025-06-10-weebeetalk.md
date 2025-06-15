@@ -8,7 +8,7 @@ author: rical
 
 ## 1. Pendahuluan
 
-[WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/) merupakan arsitektur telekomunikasi hybrid berorientasi privasi yang dirancang khusus untuk memenuhi kebutuhan konferensi enterprise melalui integrasi tumpukan teknologi sumber terbuka (open-source stack). Solusi ini dikembangkan sebagai respons terhadap tantangan kontemporer dalam komunikasi bisnis modern, terutama menyangkut kerahasiaan data, interoperabilitas sistem, dan kontrol infrastruktur mandiri. 
+[WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/) merupakan arsitektur telekomunikasi hybrid berorientasi privasi yang dirancang khusus untuk memenuhi kebutuhan konferensi enterprise melalui integrasi tumpukan teknologi sumber terbuka (open-source stack). Solusi ini dikembangkan oleh [Risnanda Pascal](https://ricaldocs.github.io/posts/risnanda-pascal/) & [Gineng B. Pamungkas](https://astarajingga.github.io) sebagai respons terhadap tantangan kontemporer dalam komunikasi bisnis modern, terutama menyangkut kerahasiaan data, interoperabilitas sistem, dan kontrol infrastruktur mandiri. 
 
 Dalam konteks lingkungan korporat yang semakin terdigitalisasi, kebutuhan akan platform konferensi yang mampu menjamin keamanan end-to-end tanpa mengorbankan fungsionalitas menjadi krusial. Arsitektur hybrid [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/) memadukan teknologi berbasis IP ([Rocket.Chat](https://www.rocket.chat/)), komunikasi real-time berbasis WebRTC ([Jitsi](https://jitsi.org/)), dan teleponi tradisional ([Asterisk](https://www.asterisk.org/)) dalam satu ekosistem terintegrasi. Pendekatan ini memungkinkan organisasi untuk:
 1. Mempertahankan kedaulatan data melalui implementasi *on-premise*
@@ -21,7 +21,10 @@ Inti arsitektur ini terletak pada integrasi strategis tiga komponen utama:
 - [Jitsi Meet](https://jitsi.org/) sebagai engine konferensi video WebRTC
 - [Asterisk](https://www.asterisk.org/) sebagai gateway teleponi berbasis IP-PBX
 
-Implementasi [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/) mengadopsi paradigma "privacy by design" dengan menerapkan enkripsi end-to-end pada semua lapisan komunikasi (data-at-rest dan data-in-transit), kontrol akses berbasis peran (RBAC), serta mekanisme autentikasi multi-faktor. Dokumentasi teknis ini menjabarkan langkah-langkah implementasi sistem beserta konfigurasi integrasinya untuk lingkungan produksi enterprise.
+![WeeBeeTalk Architecture](/assets/img/posts/2025-06-10-weebeetalk/weebeetalk.png)
+_WeeBeeTalk Architecture_
+
+Implementasi [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/) mengadopsi paradigma "privacy by design" dengan menerapkan enkripsi end-to-end pada semua lapisan komunikasi (data-at-rest dan data-in-transit), Role-Based Access Control (RBAC), serta mekanisme autentikasi multi-faktor.
 
 ## 2. Lingkungan Sistem dan Prasyarat  
 [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/) diimplementasikan pada lingkungan sistem operasi [Debian GNU/Linux](https://www.debian.org/) (versi stabil terkini) sebagai platform dasar, dipilih karena stabilitas jangka panjang (LTS), ekosistem paket yang komprehensif, dan kompatibilitas optimal dengan tumpukan teknologi open-source yang digunakan. Implementasi ini mengasumsikan lingkungan server Debian minimal dengan konfigurasi berikut:  
@@ -44,18 +47,19 @@ sudo apt install -y apt-transport-https ca-certificates gnupg2 curl software-pro
 
 ## 3. Konfigurasi Rocket.Chat via Docker
 ### 3.1 Struktur Direktori
-Struktur direktori untuk instalasi Rocket.Chat adalah sebagai berikut:
+Struktur direktori dasar untuk pengembangan adalah sebagai berikut:
 ```bash
-rocketchat/
+weebeetalk/
 ├── docker-compose.yml  # Konfigurasi container
 ├── .env                # Variabel lingkungan
 └── mongodb_data/       # Volume database
+└── jitsi/              # WebRTC
 ```
 
 Untuk membuat direktori dan berpindah ke dalamnya, gunakan perintah berikut:
 
 ```bash
-mkdir rocketchat && cd rocketchat
+mkdir weebeetalk && cd weebeetalk
 ```
 
 > Lihat dokumentasi mengenai [instalasi Docker](https://docs.docker.com/engine/install/debian/) di Debian.
@@ -71,11 +75,14 @@ curl -O https://raw.githubusercontent.com/RocketChat/Docker.Official.Image/maste
 Buat file `.env`{: .filepath} dengan konten berikut:
 
 ```ini
-NODE_VERSION=22.14.0
-DENO_VERSION=1.43.5
-MONGODB_VERSIONS=5.0, 6.0, 7.0
-APPS_ENGINE_VERSION=1.52.0
+NODE_VERSION=
+DENO_VERSION=
+MONGODB_VERSIONS=
+APPS_ENGINE_VERSION=
 ```
+
+> Lihat versi rilis di [halaman berikut](https://github.com/RocketChat/Rocket.Chat/releases).
+{: .prompt-tip}
 
 ### 3.3 Perintah Deployment
 Untuk memulai kontainer, jalankan perintah berikut:
@@ -277,6 +284,42 @@ Jika menggunakan [sertifikat yang ditandatangani sendiri](https://ricaldocs.gith
 Setelah mengakses, seharusnya terlihat halaman web yang meminta untuk membuat pertemuan baru. Pastikan dapat berhasil membuat pertemuan dan bahwa peserta lain dapat bergabung dalam sesi tersebut.
 
 Jika semua langkah ini berhasil, maka layanan konferensi Jitsi telah beroperasi dengan baik.
+
+### 4.3 Instalasi Jitsi Meet via Docker (Recommended)
+Salah satu metode untuk menginstal Jitsi Meet adalah melalui Docker, yang menyediakan lingkungan terisolasi untuk menjalankan aplikasi.
+
+#### Langkah-langkah Instalasi
+1. Untuk memulai, kloning repositori resmi Jitsi Meet dari GitHub dengan perintah berikut:
+
+   ```bash
+   git clone https://github.com/jitsi/docker-jitsi-meet.git && cd docker-jitsi-meet
+   ```
+
+2. Salin file contoh konfigurasi ke dalam file `.env`{:. filepath} yang akan digunakan untuk mengatur variabel lingkungan:
+
+   ```bash
+   cp env.example .env
+   ```
+
+3. Buka file `.env`{:. filepath} menggunakan editor teks dan sesuaikan konfigurasi yang diperlukan. Pastikan untuk mengganti nilai `PUBLIC_URL` dengan URL yang akan digunakan untuk mengakses Jitsi Meet secara publik. Contoh:
+
+   ```plaintext
+   PUBLIC_URL=https://your-domain.com
+   ```
+
+4. Untuk meningkatkan keamanan, jalankan skrip berikut untuk menghasilkan password yang diperlukan:
+
+   ```bash
+   ./gen-passwords.sh
+   ```
+
+5. Setelah semua konfigurasi selesai, jalankan Jitsi Meet dengan menggunakan Docker Compose. Pastikan berada di direktori `docker-jitsi-meet`{:. filepath} dan jalankan perintah berikut:
+
+   ```bash
+   docker-compose up -d
+   ```
+
+[Konfirmasi bahwa Instalasi Berfungsi](https://ricaldocs.github.io/posts/weebeetalk/#428-konfirmasi-bahwa-instalasi-berfungsi).
 
 ## 5. Integrasi dengan Asterisk
 Lihat dokumentasi tentang [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/) menggunakan Asterisk.
