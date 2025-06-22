@@ -16,7 +16,8 @@ order: 6
 | :----------------------------------- | :--------------- |
 | [Telecommunication Network Laboratory](https://telnetlab.github.io) | [1. Algorithms & Programming](https://ricaldocs.github.io/open-course/#algorithms--programming) <br> [2. Web Design](https://ricaldocs.github.io/open-course/#web-design) <br> [3. Computer Network](https://ricaldocs.github.io/open-course/#computer-network) <br> [4. Cloud Computing](https://ricaldocs.github.io/open-course/#cloud-computing) <br> [5. Telecommunication Network](https://ricaldocs.github.io/open-course/#telecommunication-network) <br> [6. Network Security](https://ricaldocs.github.io/open-course/#network-security) <br> |
 | [Mechatronics Laboratory](https://www.instagram.com/b_mech/) | [Electronic Workshop](https://ricaldocs.github.io/open-course/#electronics-workshop) |
-| Microcontroller Laboratory | [Microcontroller Applications and Interfaces](https://ricaldocs.github.io/open-course/#microcontroller-applications-and-interfaces) |
+| [Microcontroller Laboratory](https://www.instagram.com/mcl_laboratory/) | [Microcontroller Applications and Interfaces](https://ricaldocs.github.io/open-course/#microcontroller-applications-and-interfaces) |
+| CellCom Laboratory | [Cellular Communication](https://ricaldocs.github.io/open-course/#cellular-communication) |
 | Communication System Laboratory | [Communication System](https://ricaldocs.github.io/open-course/#communication-system) |
 | Optical Communication System Laboratory | [Optical Communication Systems](https://ricaldocs.github.io/open-course/#optical-communication-systems) |
 
@@ -35,6 +36,16 @@ order: 6
 6. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-6.pdf" target="_blank">Matplotlib</a><br>
 7. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-7.pdf" target="_blank">Machine Learning</a><br>
 8. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-8.pdf" target="_blank">MySQL</a>
+
+## Cellular Communication
+1. <a href="/assets/moduls/cellcom/modul-1.pdf" target="_blank">PENGENALAN PERANGKAT KOMUNIKASI SELULER</a><br>
+2. <a href="/assets/moduls/cellcom/modul-2.pdf" target="_blank">COVERAGE PLANNING</a><br>
+3. <a href="/assets/moduls/cellcom/modul-3.pdf" target="_blank">CAPACITY PLANNING</a><br>
+4. <a href="/assets/moduls/cellcom/modul-4.pdf" target="_blank">OPTIMASI</a><br>
+5. <a href="/assets/moduls/cellcom/modul-5.pdf" target="_blank">INDOOR PLANNING</a><br>
+6. <a href="/assets/moduls/cellcom/modul-6.pdf" target="_blank">5G RADIO PLANNING</a><br>
+7. <a href="/assets/moduls/cellcom/modul-7.pdf" target="_blank">WALK TEST</a><br>
+8. <a href="/assets/moduls/cellcom/modul-8.pdf" target="_blank">DRIVE TEST</a><br>
 
 ## Cloud Computing
 ---
@@ -73,39 +84,6 @@ order: 6
 9. <a href="/assets/moduls/computer_network/modul-praktikum/modul-9.pdf" target="_blank">DNS Server</a><br>
 10. <a href="/assets/moduls/computer_network/modul-praktikum/modul-10.pdf" target="_blank">QOS (Quality Of Service)</a>
 
-## Network Security
----
-1. <a href="/assets/moduls/network_security/modul-1.pdf" target="_blank">PENGENALAN CYBER SECURITY DAN SISTEM OPERASI LINUX</a><br>
-2. <a href="/assets/moduls/network_security/modul-2.pdf" target="_blank">FOOTPRINTING</a><br>
-3. <a href="/assets/moduls/network_security/modul-3.pdf" target="_blank">VULNERABILITY SCANNING & ASSESMENT</a><br>
-4. <a href="/assets/moduls/network_security/modul-4.pdf" target="_blank">PENETRATION TESTING</a><br>
-5. <a href="/assets/moduls/network_security/modul-5.pdf" target="_blank">MOBILE HACKING</a><br>
-6. <a href="/assets/moduls/network_security/modul-6.pdf" target="_blank">ANCAMAN PERANGKAT LUNAK BERBAHAYA</a><br>
-7. <a href="/assets/moduls/network_security/modul-7.pdf" target="_blank">VPN DAN FIREWALL</a><br>
-8. <a href="/assets/moduls/network_security/modul-8.pdf" target="_blank">KRIPTOGRAFI DAN TEKNIK PENYAMARAN INFORMASI</a><br>
-9. <a href="/assets/moduls/network_security/modul-9.pdf" target="_blank">SECURITY INFORMATION AND EVENT MANAGEMENT (SIEM)</a><br>
-10. <a href="/assets/moduls/network_security/modul-10.pdf" target="_blank">DIGITAL FORENSIK</a><br>
-
-## NSA NCCP Course
----
-
-Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
-1. <a href="https://drive.google.com/drive/folders/1MkwI4Db1RFzbhcjc3EuFrtn4VefuVKxZ?usp=sharing" target="_blank">Network Penetration Testing</a><br>
-2. <a href="https://drive.google.com/drive/folders/1h_ACZED-0fcNeGwhqSdGzqP3JyKX4FXz?usp=sharing" target="_blank">Digital Forensics</a><br>
-3. <a href="https://drive.google.com/drive/folders/15jTTZDuZ2bqSNrg4mmkkBzl_blX7GG6I?usp=sharing" target="_blank">Computer Security</a><br>
-4. <a href="https://drive.google.com/drive/folders/1P-tDVcGjEsWEaMg9ZCT193V-A8OurLip?usp=sharing" target="_blank">Machine Learning for Cybersecurity</a><br>
-
-## Telecommunication Network
----
-1. <a href="/assets/moduls/telecommunication_network/modul-1.pdf" target="_blank">SIP VoIP Menggunakan Asterisk</a><br>
-2. <a href="/assets/moduls/telecommunication_network/modul-2.pdf" target="_blank">Simulasi NGN/Softswitch menggunakan Trixbox</a><br>
-3. <a href="https://ricaldocs.github.io/posts/video-conference-menggunakan-webrtc/" target="_blank">Video Conference menggunakan WebRtc</a><br>
-4. <a href="/assets/moduls/telecommunication_network/modul-4.pdf" target="_blank">File Transfer Protocol (FTP) Server</a><br>
-5. <a href="/assets/moduls/telecommunication_network/modul-5.pdf" target="_blank">Penginstalan Grafana dan Prometheus di Ubuntu Server</a><br>
-6. <a href="/assets/moduls/telecommunication_network/modul-6.pdf" target="_blank">Membuat Voucher Wifi Menggunakan Mikrotik</a><br>
-8. <a href="/assets/moduls/telecommunication_network/modul-8.pdf" target="_blank">Monitoring MikroTik Menggunakan Grafana</a><br>
-
-
 ## Electronics Workshop
 ---
 
@@ -136,6 +114,28 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 12. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-12.pdf" target="_blank">Komunikasi Nirkabel dengan Aplikasi Web Server (Blynk)</a><br>
 13. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-13.pdf" target="_blank">Aplikasi Mikrokontroler dengan Kecerdasan Buatan (ESP32-S3-CAM WROOM)</a>
 
+## Network Security
+---
+1. <a href="/assets/moduls/network_security/modul-1.pdf" target="_blank">PENGENALAN CYBER SECURITY DAN SISTEM OPERASI LINUX</a><br>
+2. <a href="/assets/moduls/network_security/modul-2.pdf" target="_blank">FOOTPRINTING</a><br>
+3. <a href="/assets/moduls/network_security/modul-3.pdf" target="_blank">VULNERABILITY SCANNING & ASSESMENT</a><br>
+4. <a href="/assets/moduls/network_security/modul-4.pdf" target="_blank">PENETRATION TESTING</a><br>
+5. <a href="/assets/moduls/network_security/modul-5.pdf" target="_blank">MOBILE HACKING</a><br>
+6. <a href="/assets/moduls/network_security/modul-6.pdf" target="_blank">ANCAMAN PERANGKAT LUNAK BERBAHAYA</a><br>
+7. <a href="/assets/moduls/network_security/modul-7.pdf" target="_blank">WIFI DEAUTHER & EVIL TWIN</a><br>
+8. <a href="/assets/moduls/network_security/modul-8.pdf" target="_blank">KRIPTOGRAFI DAN TEKNIK PENYAMARAN INFORNMASI</a><br>
+9. <a href="/assets/moduls/network_security/modul-9.pdf" target="_blank">VPN DAN FIREWALL</a><br>
+10. <a href="/assets/moduls/network_security/modul-10.pdf" target="_blank">DIGITAL FORENSIK</a><br>
+
+## NSA NCCP Course
+---
+
+Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
+1. <a href="https://drive.google.com/drive/folders/1MkwI4Db1RFzbhcjc3EuFrtn4VefuVKxZ?usp=sharing" target="_blank">Network Penetration Testing</a><br>
+2. <a href="https://drive.google.com/drive/folders/1h_ACZED-0fcNeGwhqSdGzqP3JyKX4FXz?usp=sharing" target="_blank">Digital Forensics</a><br>
+3. <a href="https://drive.google.com/drive/folders/15jTTZDuZ2bqSNrg4mmkkBzl_blX7GG6I?usp=sharing" target="_blank">Computer Security</a><br>
+4. <a href="https://drive.google.com/drive/folders/1P-tDVcGjEsWEaMg9ZCT193V-A8OurLip?usp=sharing" target="_blank">Machine Learning for Cybersecurity</a><br>
+
 ## Optical Communication Systems
 ---
 
@@ -148,6 +148,17 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 7. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-7.pdf" target="_blank">Perancangan FTTH Menggunakan OptiSystem</a><br>
 8. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-8.pdf" target="_blank">Perancangan FTTH Menggunakan Google Earth</a><br>
 9. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-9.pdf" target="_blank">Pengukuran Redaman Perangkat Sistem Komunikasi Optik</a>
+
+## Telecommunication Network
+---
+1. <a href="/assets/moduls/telecommunication_network/modul-1.pdf" target="_blank">SIP VoIP Menggunakan Asterisk</a><br>
+2. <a href="/assets/moduls/telecommunication_network/modul-2.pdf" target="_blank">Simulasi NGN/Softswitch menggunakan Trixbox</a><br>
+3. <a href="https://ricaldocs.github.io/posts/video-conference-menggunakan-webrtc/" target="_blank">Video Conference menggunakan WebRtc</a><br>
+4. <a href="/assets/moduls/telecommunication_network/modul-4.pdf" target="_blank">KONFIGURASI FTP SERVER MENGUNAKAN FREE PBX</a><br>
+5. <a href="/assets/moduls/telecommunication_network/modul-5.pdf" target="_blank">MEMBUAT VOUCHER WIFI MENGGUNAKAN MIKROTIK</a><br>
+7. <a href="/assets/moduls/telecommunication_network/modul-7.pdf" target="_blank">KONFIGURASI PABX MENGGUNAKAN VoIP LOKAL</a><br>
+8. <a href="/assets/moduls/telecommunication_network/modul-8.pdf" target="_blank">MONITORING MIKROTIK MENGGUNAKAN GRAFANA</a><br>
+9. <a href="/assets/moduls/telecommunication_network/modul-9.pdf" target="_blank">MONITORING JARINGAN MENGGUNAKAN WIRESHARK</a><br>
 
 ## Web Design
 ---
