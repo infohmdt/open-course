@@ -44,7 +44,7 @@ Sebagai alternatif, pertimbangkan untuk beralih ke aplikasi *open source*, yang 
 | Browser                | [TOR Browser](https://www.torproject.org/) <br> [Brave](https://brave.com/) <br> [Firefox](https://www.mozilla.org/en-US/firefox/) | Yes     | Yes    |
 | Email                  | [ProtonMail](https://protonmail.com/) <br> [TutaMail](https://tutanota.com/) | Yes     | Yes    |
 | Peta                | [OpenStreetMap](https://openstreetmap.org) <br> [Organic Maps](https://organicmaps.app/) | Yes     | Yes    |
-| Pesan                  | [Session](https://getsession.org/) <br> [Signal](https://signal.org/) / [Molly](https://molly.im/) <br> [Telegram](https://telegram.org/) | Yes     | Yes    |
+| Pesan                  | [Session](https://getsession.org/) <br> [Signal](https://signal.org/) / [Molly](https://molly.im/) <br> [Telegram](https://telegram.org/) <br> [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/) | Yes     | Yes    |
 | Catatan                | [Standard Notes](https://standardnotes.com/)       | Yes     | Yes    |
 | Mesin Pencari          | [Startpage](https://startpage.com) <br> [DuckDuckGo](https://duckduckgo.com) | Yes     | Yes    |
 | Penyimpanan            | [NextCrow](https://ricalnet.github.io/website/NextCrow.html) | Yes     | Yes    |
@@ -64,6 +64,7 @@ Jika memiliki keahlian teknis di bidang server dan jaringan, pertimbangkan untuk
 - [Home Server](https://ricaldocs.github.io/posts/home-server/) 
 - [Membangun VOIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/)
 - [Pelacakan Digital oleh Perusahaan Teknologi Besar dan Pemerintah](https://ricaldocs.github.io/posts/pelacakan-digital-oleh-perusahaan-teknologi-besar-dan-pemerintah/)
+- [Praktik Terbaik Menjaga Privasi di Android](https://ricaldocs.github.io/posts/praktik-terbaik-menjaga-privasi-android) 
 
 ## Referensi
 - [ricalWiki: Privacy Is Not A Crime](https://ricalnet.github.io/ricalwiki.html)
