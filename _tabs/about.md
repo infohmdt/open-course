@@ -51,7 +51,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ## 5. Akses dan Pembaruan
 ---
 
-Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Juni 2025) yang membahas [Praktik Terbaik Menjaga Privasi di Android](https://ricaldocs.github.io/posts/praktik-terbaik-menjaga-privasi-android) dan [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
+Konten di [ricalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Juni 2025) yang membahas [sudo](https://ricaldocs.github.io/posts/sudo) dan [Praktik Terbaik Menjaga Privasi di Android](https://ricaldocs.github.io/posts/praktik-terbaik-menjaga-privasi-android). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
 
 ## 6. Kontak dan Dukungan
 ---
