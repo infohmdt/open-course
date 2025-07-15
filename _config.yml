@@ -16,7 +16,7 @@ timezone: Asia/Jakarta
 
 title: ricalDocs # the main title
 
-tagline: Blog and Technical Documentation # it will display as the subtitle
+tagline: Resources, Blog, and Technical Documentation # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Risnanda Pascal, rical, ricalNet, wiki, blog, Documentation,  GitHub, open source, Cybersecurity, Privacy, Telecommunications, Cloud Computing, Tutorial
@@ -97,7 +97,7 @@ theme_mode: dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/img/personal/rical.png
+avatar: assets/img/personal/logo.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
