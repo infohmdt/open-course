@@ -2,7 +2,7 @@
 title: GNU Privacy Guard
 description: Dengan GnuPG, kita dapat mengamankan pesan dan file dari pengintaian, memastikan integritas dan keaslian informasi dalam dunia digital yang penuh ancaman.
 categories: [Cybersecurity, Linux, Privacy]
-tags: [cybersecurity, linux, privacy, open source]
+tags: [cybersecurity, cryptography, linux, privacy, open source]
 author: rical
 ---
 
@@ -174,6 +174,9 @@ gpg -d data.tar.gpg > data.tar
 
 ## Pranala Luar
 - [Generating a new GPG key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
+
+## Pranala Menarik
+- [Kriptografi dan Steganografi](https://ricaldocs.github.io/posts/kriptografi-dan-steganografi/)
 
 ## Referensi
 - [ricalWiki: GNU Privacy Guard](https://ricalnet.github.io/ricalwiki.html)
