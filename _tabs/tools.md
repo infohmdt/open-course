@@ -1,6 +1,6 @@
 ---
 icon: fa-solid fa-toolbox
-order: 7
+order: 6
 ---
 
 ---
