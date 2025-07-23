@@ -12,7 +12,7 @@ _rical in 2024_
 
 ## Latar Belakang dan Pendidikan
 Risnanda Pascal mengembangkan minat pada komputasi dan privasi digital sejak 2020 lewat tulisannya di Blogger (sebelum memulai [ricalDocs](https://ricaldocs.github.io/about/)). Menempuh pendidikan formal di:
-- [Computer Engineering and Networking](), [SMK Wirakarya 1 Ciparay]() (2019-2022)
+- Teknik Komputer dan Jaringan, SMK Wirakarya 1 Ciparay (2019-2022)
 - [Diploma Telecommunication Engineering](https://dte.telkomuniversity.ac.id/), [Telkom University](https://telkomuniversity.ac.id/) (2023-sekarang)
 
 Salah satu proyek yang dikembangkannya berjudul "*Cloud Server Infrastructure Based on Nextcloud on the AWS Platform through the IaaS Concept to Enhance Data Privacy and Security*". Proyek ini mengeksplorasi aspek keamanan dalam layanan *cloud hosting* dan jejaring sosial, yang kemudian menjadi dasar pengembangan platform [NextCrow](https://ricalnet.github.io/website/nextcrow/).
@@ -20,8 +20,8 @@ Salah satu proyek yang dikembangkannya berjudul "*Cloud Server Infrastructure Ba
 ## Kontribusi di Dunia Open Source
 ### Proyek Privasi
 - Pencipta [Prabu Incognito](https://github.com/ricalnet/prabu-incognito) untuk tujuan privasi, keamanan, dan anonimitas.
-- Pendiri platform [NextCrow]() (penyimpanan dan jejaring sosial terdesentralisasi yang didedikasikan untuk privasi daring dan kebebasan internet tanpa sensor).
-- Pengembang alat [File Eraser (x1)]() untuk penghancuran berkas secara permanen.
+- Pendiri platform [NextCrow](https://ricalnet.github.io/website/nextcrow/) (penyimpanan dan jejaring sosial terdesentralisasi yang didedikasikan untuk privasi daring dan kebebasan internet tanpa sensor).
+- Pengembang alat [File Eraser (x1)](https://ricaldocs.github.io/posts/file-eraser-x1/) untuk penghancuran berkas secara permanen.
 
 ## Aktivisme dan Edukasi
 ### Peran di Komunitas
