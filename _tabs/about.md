@@ -23,7 +23,7 @@ Topik ini mencakup berbagai aspek yang berkaitan dengan perlindungan data dan in
 ### Pengembangan Teknis
 ---
 
-Dalam bagian ini, [ricalDocs](https://ricaldocs.github.io/) menyajikan artikel, dokumentasi dan panduan yang berfokus pada pengembangan teknis. Konten ini mencakup teknologi terbaru, alat, dan metodologi yang dapat digunakan oleh pengembang dan profesional IT untuk meningkatkan keterampilan dan efisiensi.
+Dalam bagian ini, [ricalDocs](https://ricaldocs.github.io/) menyajikan sumber daya, artikel, dokumentasi dan panduan yang berfokus pada pengembangan teknis. Konten ini mencakup teknologi terbaru, alat, dan metodologi yang dapat digunakan oleh pengembang dan profesional IT untuk meningkatkan keterampilan dan efisiensi.
 
 ### Pengujian Keamanan
 ---
@@ -41,7 +41,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ### Proyek Terkait
 ---
 
-- [ricalNet](https://ricalnet.github.io): platform yang menyediakan alat-alat keamanan siber dengan fokus utama pada keamanan dan privasi. Platform ini dirancang untuk membantu individu dalam melindungi data dan informasi sensitif mereka dari ancaman siber. Dengan pendekatan yang berorientasi pada pengguna, [ricalNet](https://ricalnet.github.io) bertujuan untuk meningkatkan kesadaran dan pemahaman tentang pentingnya keamanan siber di dunia digital saat ini.
+- [ricalNet](https://ricalnet.github.io/website/): platform yang menyediakan alat-alat keamanan siber dengan fokus utama pada keamanan dan privasi. Platform ini dirancang untuk membantu individu dalam melindungi data dan informasi sensitif mereka dari ancaman siber. Dengan pendekatan yang berorientasi pada pengguna, [ricalNet](https://ricalnet.github.io/website/) bertujuan untuk meningkatkan kesadaran dan pemahaman tentang pentingnya keamanan siber di dunia digital saat ini.
 
 ### Kontribusi Komunitas
 ---

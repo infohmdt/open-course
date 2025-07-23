@@ -5,42 +5,45 @@ author: nata
 
 ---
 
-[Risnanda C. Abdurrozaq](https://linkedin.com/in/risnandacandraabdurrozaq) (born in Indonesia), widely known as Pascal, is a contributor in the field of information security and networking.
+![Risnanda Pascal](assets/img/personal/rical.png){: w="150" h="150" }
+_rical in 2024_
 
-![Risnanda Pascal](assets/img/personal/rical.jpg){: w="150" h="150" }
-_This is said to be the coolest photo of [Risnanda Pascal](https://ricalnet.github.io), Bandung, West Java._
+[Risnanda C. Abdurrozaq](https://ricalnet.github.io/website/nextcrow/) (lahir di Bandung) adalah peneliti privasi digital, pegiat perangkat lunak sumber terbuka, dan kontributor aktif dalam komunitas pengujian Custom ROM Android dan ekosistem Linux. Dikenal dengan nama samaran **rical** atau **Risnanda Pascal** di komunitas, karyanya berfokus pada sumber terbuka, keamanan seluler, *de-Googling* perangkat Android, dan privasi komputer.
 
-Currently, Risnanda Pascal is pursuing a degree in [Telecommunications](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/) at Telkom University. He possesses extensive experience in security analysis and data privacy.
+## Latar Belakang dan Pendidikan
+Risnanda Pascal mengembangkan minat pada komputasi dan privasi digital sejak 2020 lewat tulisannya di Blogger (sebelum memulai [ricalDocs](https://ricaldocs.github.io/about/)). Menempuh pendidikan formal di:
+- [Computer Engineering and Networking](), [SMK Wirakarya 1 Ciparay]() (2019-2022)
+- [Diploma Telecommunication Engineering](https://dte.telkomuniversity.ac.id/), [Telkom University](https://telkomuniversity.ac.id/) (2023-sekarang)
 
-## Activities
+Salah satu proyek yang dikembangkannya berjudul "*Cloud Server Infrastructure Based on Nextcloud on the AWS Platform through the IaaS Concept to Enhance Data Privacy and Security*". Proyek ini mengeksplorasi aspek keamanan dalam layanan *cloud hosting* dan jejaring sosial, yang kemudian menjadi dasar pengembangan platform [NextCrow](https://ricalnet.github.io/website/nextcrow/).
 
-1. **Information Security Analysis**: Risnanda Pascal is responsible for ensuring that information systems and data at [NextCrow](https://ricalnet.github.io/website/NextCrow.html) are protected from various threats and risks.
+## Kontribusi di Dunia Open Source
+### Proyek Privasi
+- Pencipta [Prabu Incognito](https://github.com/ricalnet/prabu-incognito) untuk tujuan privasi, keamanan, dan anonimitas.
+- Pendiri platform [NextCrow]() (penyimpanan dan jejaring sosial terdesentralisasi yang didedikasikan untuk privasi daring dan kebebasan internet tanpa sensor).
+- Pengembang alat [File Eraser (x1)]() untuk penghancuran berkas secara permanen.
 
-2. **Cobra & Warriors**: He collaborates with the [Cobra & Warriors](https://cobraandwarriors.github.io) community to raise awareness about digital security among the youth.
+## Aktivisme dan Edukasi
+### Peran di Komunitas
+- Pembicara di [Cobra & Warriors Community](https://cobraandwarriors.github.io) (2024-sekarang)
+- Pemateri keamanan siber di [HMDT Tel-U](https://www.instagram.com/infohmdt/)
 
-3. **Privacy Researcher**: Risnanda Pascal analyzes privacy policies and ensures that user data is protected in accordance with applicable regulations and best practices in data protection.
+### Advokasi
+- Kampanye publik untuk [Privacy Is Not A Crime](https://ricaldocs.github.io/posts/privacy-is-not-a-crime/)
+- Kritikus terhadap [Pelacakan Digital oleh Perusahaan Teknologi Besar dan Pemerintah](https://ricaldocs.github.io/posts/pelacakan-digital-oleh-perusahaan-teknologi-besar-dan-pemerintah/)
 
-4. **Security Researcher**: He conducts [Penetration Testing](https://ricaldocs.github.io/posts/penetration-testing/) and strengthens the security of open-source software.
+## Filosofi dan Pendekatan Teknis
+Risnanda Pascal menganut prinsip:
+- "Privasi bukanlah sebuah kejahatan"
+- Model pengembangan "*No Tracking No Logging*"
+- Pendekatan [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) dalam desain sistem
 
-Risnanda Pascal has a strong focus on defense and has been involved in various initiatives related to national security.
+## Karya Penting
+### Proyek Perangkat Lunak
+Lihat [di sini](https://ricaldocs.github.io/tools/).
 
-## Education and Experience
+## Kehidupan Pribadi
+Bermukim di [Kota Bandung](https://en.wikipedia.org/wiki/Bandung), [Indonesia](https://en.wikipedia.org/wiki/Indonesia). Di luar dunia teknis, aktif dalam komunitas meme. Pengguna setia [Debian](https://www.debian.org/) sejak 2022 dan penggemar perangkat [Xiaomi](https://www.mi.com/global/).
 
-- **Digital Connectivity**, [Telkom University](https://smb.telkomuniversity.ac.id/cerita-telutizen/mengenal-jurusan-digital-connectivity-dan-prospek-kerjanya/)
-- **Vice Chairman**, [HMDT Tel-U](https://instagram.com/infohmdt)
-- **Founder / Owner**, [ricalNet](https://ricalnet.github.io/website)
-- **Co-Founder / CISO**, [Cobra & Warriors Community](https://cobraandwarriors.github.io)
-- **Co-Founder / Lead Developer**, [NextCrow](https://ricalnet.github.io/website/NextCrow.html)
-
-![NextCrow](assets/img/personal/OnionCal.png){: w="150" h="150" }
-_Logo of [NextCrow](https://ricalnet.github.io/website/NextCrow.html), Jakarta, Indonesia._
-
-## Key Skills
-
-- **Tools and Technologies**: Proficient in [Kali Linux](https://www.kali.org/docs/introduction/what-is-kali-linux/) and Debian-based Linux distributions.
-- **System Administration**: Management and maintenance of computer systems and networks.
-- **Anonymity**: Implementation of various security tools and techniques, including [encryption](https://en.wikipedia.org/wiki/Encryption), [VPN](https://en.wikipedia.org/wiki/Virtual_private_network), and the [TOR network](https://en.wikipedia.org/wiki/Tor_(network)).
-
-## Hobbies and Interests
-
-Outside of work, Risnanda Pascal enjoys experimenting with [Android](https://ricaldocs.github.io/categories/android/) devices. He is also active in the [Linux](https://ricaldocs.github.io/categories/linux/) community and in developing Custom ROMs for [Android](https://ricaldocs.github.io/categories/android/), and is open to collaboration with individuals who share similar interests.
+## Pandangan
+"*Sharing knowledge is the most fundamental act of friendship. Because it is a way you can give something without loosing something.*" - [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman)
