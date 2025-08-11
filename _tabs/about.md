@@ -51,7 +51,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ## 5. Akses dan Pembaruan
 ---
 
-Konten di [RicalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Juni 2025) yang membahas [Kriptografi dan Steganografi](https://ricaldocs.github.io/posts/kriptografi-dan-steganografi/) dan [Daftar Perintah Lengkap ADB dan Fastboot](https://ricaldocs.github.io/posts/daftar-perintah-lengkap-adb-dan-fastboot/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
+Konten di [RicalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Agustus 2025) yang membahas [SearXNG](https://ricaldocs.github.io/posts/searxng/) dan [Kriptografi dan Steganografi](https://ricaldocs.github.io/posts/kriptografi-dan-steganografi/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
 
 ## 6. Kontak dan Dukungan
 ---

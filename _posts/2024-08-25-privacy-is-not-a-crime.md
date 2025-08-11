@@ -48,7 +48,7 @@ Pengabaian privasi berpotensi menyebabkan:
 {: .prompt-tip}
 
 ### Membangun Ekosistem
-> Jika memiliki keahlian teknis di bidang server dan jaringan, pertimbangkan untuk membangun ekosistem sendiri. Silakan merujuk pada dokumentasi [Home Server](https://ricaldocs.github.io/posts/home-server/), [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/), dan [Membangun VOIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/), yang dapat menjadi dasar yang berguna untuk memulai.
+> Jika memiliki keahlian teknis di bidang server dan jaringan, pertimbangkan untuk membangun ekosistem sendiri. Silakan merujuk pada dokumentasi [Home Server](https://ricaldocs.github.io/posts/home-server/), [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/), [SearXNG](https://ricaldocs.github.io/posts/searxng/) dan [Membangun VOIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/), yang dapat menjadi dasar yang berguna untuk memulai.
 {: .prompt-tip}
 
 ## Peran Stakeholder Lain  

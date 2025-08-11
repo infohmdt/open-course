@@ -56,6 +56,7 @@ Perjalanan penulis ke dunia perangkat lunak sumber terbuka dan penciptaan ekosis
 - [Pelacakan Digital oleh Perusahaan Teknologi Besar dan Pemerintah](https://ricaldocs.github.io/posts/pelacakan-digital-oleh-perusahaan-teknologi-besar-dan-pemerintah/)
 - [Home Server](https://ricaldocs.github.io/posts/home-server/)
 - [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/)
+- [SearXNG](https://ricaldocs.github.io/posts/searxng/)
 - [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/)
 
 Artikel ini disusun dengan tujuan untuk memberikan wawasan dan pengalaman pribadi penulis dalam menjelajahi dunia perangkat lunak sumber terbuka. Penulis berharap dapat mendorong lebih banyak individu untuk mempertimbangkan penggunaan perangkat lunak open source sebagai alternatif yang lebih etis dan aman dalam era digital yang semakin kompleks.
