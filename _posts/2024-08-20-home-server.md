@@ -1,8 +1,8 @@
 ---
 title: Home Server
 description: Bangun home server untuk mengoptimalkan keamanan dan privasi data pribadi. Dengan cara ini, kita dapat mengendalikan sepenuhnya penyimpanan dan akses informasi tanpa harus bergantung pada layanan cloud pihak ketiga yang dapat menjadi titik lemah.
-categories: [Cybersecurity, Linux, ricalNet, Privacy]
-tags: [linux, ricalNet, privacy, open source]
+categories: [Cybersecurity, Linux, RicalNet, Privacy]
+tags: [cloud, linux, RicalNet, privacy, open source]
 author: rical
 ---
 

@@ -52,17 +52,18 @@ Algoritma AI menganalisis kumpulan data besar (big data) untuk mengidentifikasi 
 - Negara Otoriter: Pemerintah menggunakan pelacakan untuk membungkam kritik, seperti penggunaan spyware [Pegasus](https://en.wikipedia.org/wiki/Pegasus_(spyware)) di beberapa negara.
 
 ## Masa Depan Pelacakan Digital
-Masa depan pelacakan digital diprediksi akan ditandai oleh regulasi yang lebih ketat, seperti tren global menuju perlindungan data yang terlihat dalam [UU PDP di Indonesia](https://learning.hukumonline.com/wp-content/uploads/2023/07/Undang-Undang-No.27-Tahun-2022-Hukumonline.pdf). Selain itu, teknologi anti-pelacakan akan terus berkembang, dengan alat-alat seperti VPN, enkripsi end-to-end yang digunakan oleh [Signal](https://en.wikipedia.org/wiki/Signal_Protocol), dan browser privasi seperti [Librewolf](https://librewolf.net/). Di samping itu, kesadaran publik akan semakin meningkat melalui edukasi pengguna tentang hak digital dan cara membatasi pelacakan, misalnya dengan menghapus cookie.
+Masa depan pelacakan digital diprediksi akan ditandai oleh regulasi yang lebih ketat, seperti tren global menuju perlindungan data yang terlihat dalam [UU PDP di Indonesia](https://ricalnet.github.io/website/legal-resources/uu-perlindungan-data-pribadi.html). Selain itu, teknologi anti-pelacakan akan terus berkembang, dengan alat-alat seperti VPN, enkripsi end-to-end yang digunakan oleh [Signal](https://en.wikipedia.org/wiki/Signal_Protocol), dan browser privasi seperti [Librewolf](https://librewolf.net/). Di samping itu, kesadaran publik akan semakin meningkat melalui edukasi pengguna tentang hak digital dan cara membatasi pelacakan, misalnya dengan menghapus cookie.
 
 Pelacakan digital oleh Big Tech dan pemerintah memiliki dampak ganda: meningkatkan keamanan dan kenyamanan layanan, tetapi juga mengancam hak privasi individu. Keseimbangan antara kepentingan komersial, keamanan nasional, dan kebebasan sipil menjadi tantangan utama di era digital. Transparansi, regulasi, dan literasi teknologi diperlukan untuk memastikan praktik ini berjalan secara etis.
 
 ## Referensi
-- [Undang-Undang Perlindungan Data Pribadi (UU PDP) Indonesia.](https://learning.hukumonline.com/wp-content/uploads/2023/07/Undang-Undang-No.27-Tahun-2022-Hukumonline.pdf)
+- [Undang-Undang Perlindungan Data Pribadi (UU PDP) Indonesia.](https://ricalnet.github.io/website/assets/documents/Salinan-UU-Nomor-27-Tahun-2022.pdf)
 - [General Data Protection Regulation (GDPR) Uni Eropa.](https://gdpr-info.eu/)
 - Laporan Transparency Report oleh [Google](https://transparencyreport.google.com/?hl=id), [Facebook](https://transparency.facebook.com/), dan [Microsoft](https://www.microsoft.com/en-us/DigitalSafety/transparency-reports).
 - [Dokumen bocoran Edward Snowden tentang PRISM (2013).](https://archive.org/details/nsa-prism-13-1021)
 
 ## Pranala Menarik
 - [Privacy Is Not A Crime](https://ricaldocs.github.io/posts/privacy-is-not-a-crime/)
+- [Perjalanan ke Dunia Open Source](https://ricaldocs.github.io/posts/perjalanan-ke-dunia-open-source/)
 - [GNU Privacy Guard](https://ricaldocs.github.io/posts/gnu-privacy-guard/)
 - [Prabu Incognito](https://github.com/ricalnet/prabu-incognito?tab=readme-ov-file#prabu-incognito)

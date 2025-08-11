@@ -1,8 +1,8 @@
 ---
 title: DynamicArchive
 description: Arsipkan folder menjadi file dengan enkripsi untuk meningkatkan keamanan backup menggunakan DynamicArchive.
-categories: [Cybersecurity,  ricalNet, Linux, Privacy]
-tags: [cybersecurity, ricalNet, privacy, linux, open source]
+categories: [Cybersecurity,  RicalNet, Linux, Privacy]
+tags: [cybersecurity, RicalNet, privacy, linux, open source]
 author: rical
 ---
 

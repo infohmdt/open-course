@@ -1,8 +1,8 @@
 ---
 title: OwlSearch
 description: Mesin pencari yang dirancang untuk memberikan pengalaman pencarian yang aman dan menjaga privasi pengguna.
-categories: [Cybersecurity, ricalNet, Privacy, Articles]
-tags: [cybersecurity, ricalNet, privacy, open source]
+categories: [Cybersecurity, RicalNet, Privacy, Articles]
+tags: [cybersecurity, RicalNet, privacy, open source]
 author: nata
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Membangun VoIP Server
 description: Dapatkan kontrol penuh atas sistem komunikasi dengan panduan mendetail tentang instalasi dan konfigurasi server VoIP menggunakan Asterisk.
-categories: [Cybersecurity, Linux, Privacy]
-tags: [linux, privacy, open source]
+categories: [Cybersecurity, RicalNet, Linux, Privacy]
+tags: [linux, privacy, RicalNet, open source]
 author: rical
 ---
 

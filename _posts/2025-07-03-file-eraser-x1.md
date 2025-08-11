@@ -1,8 +1,8 @@
 ---
 title: File Eraser (x1)
 description: Penghapusan file dengan 7-pass overwrite, metadata destruction, dan secure deletion.
-categories: [Cybersecurity, Linux, ricalNet]
-tags: [cybersecurity, privacy, ricalNet]
+categories: [Cybersecurity, Linux, RicalNet]
+tags: [cybersecurity, privacy, RicalNet]
 author: rical
 ---
 

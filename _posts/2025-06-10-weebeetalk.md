@@ -1,8 +1,8 @@
 ---
 title: WeeBeeTalk
 description: A Privacy-Preserving Hybrid Telecommunication Architecture for Enterprise Conferencing Using Open-Source Stack Integration
-categories: [Cloud Computing, ricalNet]
-tags: [cloud, docker, cybersecurity, privacy, ricalNet]
+categories: [Cloud Computing, RicalNet]
+tags: [cloud, docker, cybersecurity, privacy, RicalNet]
 author: rical
 ---
 
