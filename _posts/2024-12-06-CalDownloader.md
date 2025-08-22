@@ -1,10 +1,10 @@
 ---
 title: CalDownloader
-description: CalDownloader adalah skrip Python sederhana yang memungkinkan pengguna untuk mengunduh video dari YouTube dan konten dari Instagram, termasuk postingan dan reels
+description: Python script that allows users to download videos from TikTok, YouTube and content from Instagram, including posts and reels.
 categories: [Cybersecurity, RicalNet, Linux]
 tags: [RicalNet, python, android, linux]
 author: rical
 ---
 
 ## Pranala Luar
-[Source code](https://github.com/ricalnet/CalDownloader).
+<a href="https://github.com/ricalnet/CalDownloader" target="_blank">Source code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>

@@ -1,10 +1,10 @@
 ---
 title: Prabu Incognito
-description: Prabu Incognito (raja yang menyamar) adalah kumpulan alat yang berfokus pada privasi, dirancang untuk meningkatkan keamanan dan anonimitas.
+description: A collection of tools prioritizing privacy, security, and anonymity.
 categories: [Cybersecurity, RicalNet, Linux, Privacy, ]
 tags: [cybersecurity, RicalNet, linux, privacy, open source]
 author: rical
 ---
 
 ## Pranala Luar
-[Source code](https://github.com/ricalnet/prabu-incognito).
+<a href="https://github.com/ricalnet/prabu-incognito" target="_blank">Source code <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
