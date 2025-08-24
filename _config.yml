@@ -16,10 +16,10 @@ timezone: Asia/Jakarta
 
 title: RicalDocs # the main title
 
-tagline: Resources, Blog, and Technical Documentation # it will display as the subtitle
+tagline: Wiki, blog, dan dokumentasi open source # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Risnanda Pascal, rical, RicalNet, wiki, blog, Documentation,  GitHub, open source, open education, Cybersecurity, Privacy, Telecommunications, Cloud Computing, Tutorial
+  RicalDocs oleh Risnanda Pascal - Wiki & dokumentasi open source untuk RicalNet dan proyek lainnya. Temukan tutorial, blog tentang Cybersecurity, Privacy, Cloud Computing, dan IT Infrastructure. Dukung open education di GitHub.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

@@ -25,10 +25,10 @@ Topik ini mencakup berbagai aspek yang berkaitan dengan perlindungan data dan in
 
 Dalam bagian ini, [RicalDocs](https://ricaldocs.github.io/) menyajikan sumber daya, artikel, dokumentasi dan panduan yang berfokus pada pengembangan teknis. Konten ini mencakup teknologi terbaru, alat, dan metodologi yang dapat digunakan oleh pengembang dan profesional IT untuk meningkatkan keterampilan dan efisiensi.
 
-### Pengujian Keamanan
+### Infrastruktur IT
 ---
 
-[RicalDocs](https://ricaldocs.github.io/) juga membahas pentingnya pengujian keamanan dalam konteks pengembangan perangkat lunak dan sistem informasi. Topik ini mencakup teknik, alat, dan strategi yang dapat digunakan untuk mengidentifikasi dan mengatasi kerentanan yang ada dalam sistem dan aplikasi.
+Topik ini mengeksplorasi strategi pembangunan ekosistem digital yang *resilient*. [RicalDocs](https://ricaldocs.github.io/) menekankan pendekatan *open source* dan solusi berbasis standar terbuka untuk menciptakan infrastruktur yang independen, terukur, dan mampu beradaptasi dengan evolusi teknologi. Pembahasan mencakup aspek teknis maupun tata kelola infrastruktur IT yang efektif.
 
 ## 3. Struktur dan Teknologi
 ---
@@ -41,7 +41,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ### Proyek Terkait
 ---
 
-- [RicalNet](https://ricalnet.github.io/website/): platform yang menyediakan alat-alat keamanan siber dengan fokus utama pada keamanan dan privasi. Platform ini dirancang untuk membantu individu dalam melindungi data dan informasi sensitif mereka dari ancaman siber. Dengan pendekatan yang berorientasi pada pengguna, [RicalNet](https://ricalnet.github.io/website/) bertujuan untuk meningkatkan kesadaran dan pemahaman tentang pentingnya keamanan siber di dunia digital saat ini.
+- [RicalNet](https://ricalnet.github.io/website/): platform yang menyediakan sumber daya keamanan siber dengan fokus utama pada keamanan dan privasi. Platform ini dirancang untuk membantu individu dalam melindungi data dan informasi sensitif mereka dari ancaman siber. Dengan pendekatan yang berorientasi pada pengguna, [RicalNet](https://ricalnet.github.io/website/) bertujuan untuk meningkatkan kesadaran dan pemahaman tentang pentingnya keamanan siber di dunia digital saat ini.
 
 ### Kontribusi Komunitas
 ---
@@ -51,7 +51,7 @@ Platform ini dibangun menggunakan [Jekyll](https://jekyllrb.com/) dengan tema [C
 ## 5. Akses dan Pembaruan
 ---
 
-Konten di [RicalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Agustus 2025) yang membahas [Social Engineering](https://ricaldocs.github.io/posts/social-engineering/) dan [Scrcpy](https://ricaldocs.github.io/posts/scrcpy/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
+Konten di [RicalDocs](https://ricaldocs.github.io/) diperbarui secara berkala, dengan informasi terbaru (per Agustus 2025) yang membahas [Calibre-Web](https://ricaldocs.github.io/posts/calibre/) dan [Social Engineering](https://ricaldocs.github.io/posts/social-engineering/). Untuk mengatasi masalah akses di wilayah tertentu, penulis mungkin merujuk ke [sumber kode](https://github.com/ricaldocs/ricaldocs.github.io).
 
 ## 6. Kontak dan Dukungan
 ---

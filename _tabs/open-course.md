@@ -5,27 +5,34 @@ order: 5
 
 ---
 
-[#contributetothenation](https://github.com/risnandapascal/D3TT_TelkomUniversity). Ilmu pengetahuan ini terbuka untuk seluruh masyarakat Indonesia yang ingin mendalami pemahaman mengenai teknologi telekomunikasi, yang mencakup aspek perangkat keras, perangkat lunak, elektronika, dan jaringan telekomunikasi.
+Ilmu pengetahuan ini tersedia bagi semua pihak yang berminat memperdalam pemahaman tentang teknologi telekomunikasi, meliputi aspek perangkat keras, perangkat lunak, elektronika, dan jaringan telekomunikasi.
+
+> Materi sebagian besar dalam bahasa Indonesia, dengan beberapa bagian menggunakan bahasa Inggris.
+{: .prompt-info}
 
 ## Thanks to
 ---
 
-- [[Tel-U] School of Applied Science, Diploma Telecommunication Engineering](https://linktr.ee/d3_tekniktelekomunikasi)
+- [[Tel-U] School of Applied Science, Diploma Telecommunication Engineering](https://instagram.com/tektel_telu)
 
-| Laboratory                           | Course           | 
+| Authors                              | Course           | 
 | :----------------------------------- | :--------------- |
-| [Telecommunication Network Laboratory](https://telnetlab.github.io) | [1. Algorithms & Programming](https://ricaldocs.github.io/open-course/#algorithms--programming) <br> [2. Web Design](https://ricaldocs.github.io/open-course/#web-design) <br> [3. Computer Network](https://ricaldocs.github.io/open-course/#computer-network) <br> [4. Cloud Computing](https://ricaldocs.github.io/open-course/#cloud-computing) <br> [5. Telecommunication Network](https://ricaldocs.github.io/open-course/#telecommunication-network) <br> [6. Network Security](https://ricaldocs.github.io/open-course/#network-security) <br> |
+| [Telnet Laboratory](https://instagram.com/telnetlab) | [1. Algorithms & Programming](https://ricaldocs.github.io/open-course/#algorithms--programming) <br> [2. Web Design](https://ricaldocs.github.io/open-course/#web-design) <br> [3. Computer Network](https://ricaldocs.github.io/open-course/#computer-network) <br> [4. Cloud Computing](https://ricaldocs.github.io/open-course/#cloud-computing) <br> [5. Telecommunication Network](https://ricaldocs.github.io/open-course/#telecommunication-network) <br> [6. Network Security](https://ricaldocs.github.io/open-course/#network-security) <br> |
 | [Mechatronics Laboratory](https://www.instagram.com/b_mech/) | [Electronic Workshop](https://ricaldocs.github.io/open-course/#electronics-workshop) |
 | [Microcontroller Laboratory](https://www.instagram.com/mcl_laboratory/) | [Microcontroller Applications and Interfaces](https://ricaldocs.github.io/open-course/#microcontroller-applications-and-interfaces) |
 | CellCom Laboratory | [Cellular Communication](https://ricaldocs.github.io/open-course/#cellular-communication) |
 | Communication System Laboratory | [Communication System](https://ricaldocs.github.io/open-course/#communication-system) |
-| Optical Communication System Laboratory | [Optical Communication Systems](https://ricaldocs.github.io/open-course/#optical-communication-systems) |
+| OCS Laboratory | [Optical Communication Systems](https://ricaldocs.github.io/open-course/#optical-communication-systems) |
+| Lecturer and teaching assistant | [Information Signal Processing](https://ricaldocs.github.io/open-course/##signal-processing) |
 
 | Others                       | Course           | 
 | :--------------------------- | :--------------- |
 | Cybersecurity                | [NSA NCCP Course by CLARK](https://ricaldocs.github.io/open-course/#nsa-nccp-course) |
 
-## Algorithms & Programming
+---
+## List (A-Z)
+
+### Algorithms & Programming
 ---
 
 1. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-1.pdf" target="_blank">Dasar Python</a><br>
@@ -37,7 +44,7 @@ order: 5
 7. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-7.pdf" target="_blank">Machine Learning</a><br>
 8. <a href="/assets/moduls/studio_algoritma_dan_pemrograman/modul-8.pdf" target="_blank">MySQL</a>
 
-## Cellular Communication
+### Cellular Communication
 1. <a href="/assets/moduls/cellcom/modul-1.pdf" target="_blank">PENGENALAN PERANGKAT KOMUNIKASI SELULER</a><br>
 2. <a href="/assets/moduls/cellcom/modul-2.pdf" target="_blank">COVERAGE PLANNING</a><br>
 3. <a href="/assets/moduls/cellcom/modul-3.pdf" target="_blank">CAPACITY PLANNING</a><br>
@@ -47,7 +54,7 @@ order: 5
 7. <a href="/assets/moduls/cellcom/modul-7.pdf" target="_blank">WALK TEST</a><br>
 8. <a href="/assets/moduls/cellcom/modul-8.pdf" target="_blank">DRIVE TEST</a><br>
 
-## Cloud Computing
+### Cloud Computing
 ---
 
 1. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Konsep Cloud</a><br>
@@ -59,7 +66,7 @@ order: 5
 7. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-7.pdf" target="_blank">Docker Compose</a><br>
 8. <a href="/assets/moduls/cloud_computing/modul-praktikum/modul-8.pdf" target="_blank">Migration Data</a>
 
-## Communication System
+### Communication System
 ---
 
 1. <a href="/assets/moduls/communication_system/modul-praktikum/modul-1.pdf" target="_blank">Amplitude Modulation (AM)</a><br>
@@ -70,7 +77,7 @@ order: 5
 6. <a href="/assets/moduls/communication_system/modul-praktikum/modul-6.pdf" target="_blank">Binary Phase Shift Keying (BPSK)</a><br>
 7. <a href="/assets/moduls/communication_system/modul-praktikum/modul-7.pdf" target="_blank">Quadrature Phase Shift Keying (QPSK)</a>
 
-## Computer Network
+### Computer Network
 ---
 
 1. <a href="/assets/moduls/computer_network/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Perangkat Jaringan dan Cabling</a><br>
@@ -84,7 +91,7 @@ order: 5
 9. <a href="/assets/moduls/computer_network/modul-praktikum/modul-9.pdf" target="_blank">DNS Server</a><br>
 10. <a href="/assets/moduls/computer_network/modul-praktikum/modul-10.pdf" target="_blank">QOS (Quality Of Service)</a>
 
-## Electronics Workshop
+### Electronics Workshop
 ---
 
 1. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-1.pdf" target="_blank">Instalasi dan Pengenalan EasyEDA</a><br>
@@ -97,7 +104,7 @@ order: 5
 8. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-8.pdf" target="_blank">Teknik Solder Konvensional & Pengukuran (Komponen Jumper) dan Tes Continuity</a><br>
 9. <a href="/assets/moduls/electronics_workshop/modul-praktikum/modul-9.pdf" target="_blank">Teknik Solder Uap (Soldering & Desoldering)</a>
 
-## Microcontroller Applications and Interfaces
+### Microcontroller Applications and Interfaces
 ---
 
 1. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Editor dan Diagram Alir Pemrograman (Arduino & Thonny IDE) Mikrokontroler</a><br>
@@ -114,7 +121,7 @@ order: 5
 12. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-12.pdf" target="_blank">Komunikasi Nirkabel dengan Aplikasi Web Server (Blynk)</a><br>
 13. <a href="/assets/moduls/microcontroller_applications_and_interfaces/modul-praktikum/modul-13.pdf" target="_blank">Aplikasi Mikrokontroler dengan Kecerdasan Buatan (ESP32-S3-CAM WROOM)</a>
 
-## Network Security
+### Network Security
 ---
 1. <a href="/assets/moduls/network_security/modul-1.pdf" target="_blank">PENGENALAN CYBER SECURITY DAN SISTEM OPERASI LINUX</a><br>
 2. [SOCIAL ENGINEERING](https://ricaldocs.github.io/posts/social-engineering/)
@@ -128,7 +135,7 @@ order: 5
 10. <a href="/assets/moduls/network_security/modul-9.pdf" target="_blank">VPN DAN FIREWALL</a><br>
 11. <a href="/assets/moduls/network_security/modul-10.pdf" target="_blank">DIGITAL FORENSIK</a><br>
 
-## NSA NCCP Course
+### NSA NCCP Course
 ---
 
 Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
@@ -137,7 +144,7 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 3. <a href="https://drive.google.com/drive/folders/15jTTZDuZ2bqSNrg4mmkkBzl_blX7GG6I?usp=sharing" target="_blank">Computer Security</a><br>
 4. <a href="https://drive.google.com/drive/folders/1P-tDVcGjEsWEaMg9ZCT193V-A8OurLip?usp=sharing" target="_blank">Machine Learning for Cybersecurity</a><br>
 
-## Optical Communication Systems
+### Optical Communication Systems
 ---
 
 1. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-1.pdf" target="_blank">Pengenalan Sistem Komunikasi Optik</a><br>
@@ -150,7 +157,19 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 8. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-8.pdf" target="_blank">Perancangan FTTH Menggunakan Google Earth</a><br>
 9. <a href="/assets/moduls/optical_communication_systems/modul-praktikum/modul-9.pdf" target="_blank">Pengukuran Redaman Perangkat Sistem Komunikasi Optik</a>
 
-## Telecommunication Network
+### Signal Processing
+---
+
+1. <a href="/assets/moduls/signal-processing/modul-1.pdf" target="_blank">PENGENALAN ANALOG TO DIGITAL CONVERTION</a><br>
+2. <a href="/assets/moduls/signal-processing/modul-2.pdf" target="_blank">SINYAL OPERASI</a><br>
+3. <a href="/assets/moduls/signal-processing/modul-3.pdf" target="_blank">TRANSFORMASI FOURIER</a><br>
+4. <a href="/assets/moduls/signal-processing/modul-4.pdf" target="_blank">SINYAL GENERATOR</a><br>
+5. <a href="/assets/moduls/signal-processing/modul-5.pdf" target="_blank">IMAGE PROCESSING</a><br>
+6. <a href="/assets/moduls/signal-processing/modul-6.pdf" target="_blank">FACE DETECTION DAN FACE RECOGNITION</a><br>
+7. <a href="/assets/moduls/signal-processing/modul-7.pdf" target="_blank">IMAGE PROCESSING LANJUTAN</a><br>
+8. <a href="/assets/moduls/signal-processing/modul-8.pdf" target="_blank">ANOTASI ROBOFLOW</a>
+
+### Telecommunication Network
 ---
 1. <a href="/assets/moduls/telecommunication_network/modul-1.pdf" target="_blank">SIP VoIP Menggunakan Asterisk</a><br>
 2. <a href="/assets/moduls/telecommunication_network/modul-2.pdf" target="_blank">Simulasi NGN/Softswitch menggunakan Trixbox</a><br>
@@ -161,7 +180,7 @@ Mencakup file laboratorium, tautan, dan panduan langkah-demi-langkah.
 8. <a href="/assets/moduls/telecommunication_network/modul-8.pdf" target="_blank">MONITORING MIKROTIK MENGGUNAKAN GRAFANA</a><br>
 9. <a href="/assets/moduls/telecommunication_network/modul-9.pdf" target="_blank">MONITORING JARINGAN MENGGUNAKAN WIRESHARK</a><br>
 
-## Web Design
+### Web Design
 ---
 
 1. <a href="/assets/moduls/web_design/modul-1.pdf" target="_blank">Pengenalan Aplikasi Berbasis Web dan Teks Editor</a><br>

@@ -20,6 +20,11 @@ order: 4
 - **Sleuth** - Memperbaiki tautan yang rusak dalam konten. Ia melakukan pemantauan secara berkala untuk memastikan semua tautan berfungsi dengan baik dan memperbarui referensi yang tidak lagi aktif, sehingga meningkatkan pengalaman pengguna dan integritas informasi.
 - [Gineng B. Pamungkas](https://astarajingga.github.io/) - Melakukan analisis dan pemecahan masalah terkait dokumentasi [Membangun VoIP Server](https://ricaldocs.github.io/posts/membangun-voip-server/) dan [WeeBeeTalk](https://ricaldocs.github.io/posts/weebeetalk/).
 
+## Komunitas dan Organisasi
+- [Cobra & Warriors Community](https://cobraandwarriors.github.io/)
+- [HMDT Tel-U](https://infohmdt.github.io/)
+
+## Penulis
 Berikut adalah daftar nama pengembang yang terlibat dalam pengembangan modul praktikum [Web Design](https://ricaldocs.github.io/open-course/#web-design).
 
 1. [Risnanda Candra Abdurrozaq](https://www.linkedin.com/in/risnandacandraabdurrozaq/)

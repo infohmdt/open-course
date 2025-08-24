@@ -1,7 +1,7 @@
 ---
 title: Privacy Is Not A Crime
 description: Hak fundamental pengguna teknologi dalam melindungi informasi pribadi.
-categories: [Cybersecurity, Privacy]
+categories: [Cybersecurity, Privacy, Articles]
 tags: [cybersecurity, privacy, open source]
 author: rical
 pin: true
